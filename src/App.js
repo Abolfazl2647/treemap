@@ -1,12 +1,12 @@
 import "./App.css";
 // import TreeMap from "./treemap/verone";
-import Canvas from "./treemap/canvas";
+import Treemap from "./treemap";
 
 function App() {
   return (
     <>
       {/* <TreeMap /> */}
-      <Canvas />
+      <Treemap />
     </>
   );
 }
