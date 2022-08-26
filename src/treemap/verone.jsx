@@ -44,7 +44,7 @@ export default function TreeMap() {
         [0, 0],
         [width, height],
       ])
-      .on("zoom", zoomed);
+      .on("end", zoomed);
 
     // const color = d3
     //   .scaleOrdinal()
@@ -135,7 +135,7 @@ export default function TreeMap() {
     tile
       .append("span")
       .attr("class", "tile-name")
-      .text((node) => node.data.name);
+      .text((node) => `${node.data.name}`);
 
     tile
       .append("span")

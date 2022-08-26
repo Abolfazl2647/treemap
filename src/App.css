@@ -8,11 +8,22 @@ html,body, #root {
   padding: 0;
 }
 
-#treemap {
+#treemap, #treemap-canvas {
+  top:0px;
+  left:0px;
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
+  position: absolute;
+}
+
+#treemap {
+  
+  z-index: 20;
+}
+#treemap-canvas {
+  z-index: 15;
 }
 
 .treemap-container {
