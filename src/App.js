@@ -1,14 +1,8 @@
 import "./App.css";
-// import TreeMap from "./treemap/verone";
-import Treemap from "./treemap";
+import Canvas from "./treemap";
 
 function App() {
-  return (
-    <>
-      {/* <TreeMap /> */}
-      <Treemap />
-    </>
-  );
+  return <Canvas />;
 }
 
 export default App;

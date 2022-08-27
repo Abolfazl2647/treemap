@@ -20,7 +20,7 @@ export default function TreeMap() {
     const treemap = d3.treemap().size([width, height]).padding(2).round(false);
     treemap(root);
 
-    const parent = root.descendants().filter((item) => item.depth === 1);
+    // const parent = root.descendants().filter((item) => item.depth === 1);
     const leaves = root.leaves();
 
     // =========================================  create Containers
@@ -80,37 +80,14 @@ export default function TreeMap() {
         context.fill();
         context.clip(); // Generate the Clip Path
         context.restore(); // Restore so you can continue drawing
-
-        // context.font = "10px sans-serif";
-        // const textData = leaf.data.name.split(/(?=[A-Z][^A-Z])/g);
-
-        // context.globalAlpha = 1;
-        // textData.forEach((d, i, nodes) => {
-        //   let offsetY = 12; // Some simple logic to set the y of the text
-        //   if (i > 0) {
-        //     offsetY += i * 12;
-        //   }
-
-        //   context.fillStyle = "black";
-        //   context.fillText(d, leaf.x0, leaf.y0 + offsetY);
-        // });
       });
     };
 
     // draw text on top of canvas
     function drawTexts(transform = { x: 1, y: 1, k: 1 }) {
-      // empty the layer
-
-      // const scrollX = window.pageXOffset;
-      // const scrollY = window.pageYOffset;
-      // console.log("scrollX", scrollX);
-      // console.log("scrollY", scrollY);
-
       const filteredLeaves = leaves.filter((item, i) => {
         const widthoftile = transform.k * (item.x1 - item.x0);
-        // if (item.data.name === "سپاس") {
-        // console.log("width", widthoftile, transform.k);
-        // }
+
         return widthoftile > 50 && checkBoundaries(item, transform);
       });
 
