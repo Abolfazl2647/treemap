@@ -34,21 +34,22 @@ export default function TreeMap() {
         [width, height],
       ]);
 
-    const canvas = d3
-      .select("#treemap")
+    const map = d3.select("#treemap");
+
+    const canvas = map
       .append("canvas")
       .attr("class", "tile-layer")
       .attr("width", width)
       .attr("height", height);
 
-    const svg = d3
-      .select("div#treemap")
+    const svg = map
       .append("div")
       .attr("class", "text-layer")
-      .attr("style", `position: relative;width:${width}px;height:${height}px;`)
+      .attr("style", `width:${width}px;height:${height}px;`)
       .call(zoom);
 
     const context = canvas.node().getContext("2d");
+
     const div = svg.append("div").attr("class", "treemap-container");
 
     // =========================================  create Helpers
@@ -66,7 +67,7 @@ export default function TreeMap() {
     };
 
     // draw tiles for canvas
-    const drawLeaves = () => {
+    function drawLeaves() {
       leaves.forEach((leaf) => {
         context.save(); // For clipping the text
         context.globalAlpha = 0.7;
@@ -82,7 +83,7 @@ export default function TreeMap() {
         context.clip(); // Generate the Clip Path
         context.restore(); // Restore so you can continue drawing
       });
-    };
+    }
 
     // draw text on top of canvas
     function drawTexts(transform = { x: 1, y: 1, k: 1 }) {
@@ -115,17 +116,21 @@ export default function TreeMap() {
         .text((node) => node.data.name);
     }
 
-    drawLeaves();
-    drawTexts();
-
-    // ======================================  Zoom start
-    function zooming({ transform }) {
+    function updateCanvas(transform) {
       context.save();
       context.clearRect(0, 0, width, height);
       context.translate(transform.x, transform.y);
       context.scale(transform.k, transform.k);
       drawLeaves();
       context.restore();
+    }
+
+    drawLeaves();
+    drawTexts();
+
+    // ======================================  Zoom start
+    function zooming({ transform }) {
+      updateCanvas(transform);
       // we add text layer transform here beacuse we want to show text nicly in zooming
       d3.select("div.treemap-container").attr(
         "style",
