@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const convertDataForTreeMap = (object) => {
+export const convertDataForTreeMap = (object) => {
   //   console.log("object in", object);
   const array = object.sectors;
 

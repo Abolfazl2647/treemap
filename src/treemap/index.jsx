@@ -1,11 +1,12 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import * as d3 from "d3";
-import useMarketMap from "../hooks/useMarketMap";
+import json from "../hooks/data.json";
+import { convertDataForTreeMap } from "../hooks/useMarketMap";
+import "./style.css";
+// import useMarketMap from "../hooks/useMarketMap";
+const data = convertDataForTreeMap(json);
 
 export default function TreeMap() {
-  const [data] = useMarketMap();
-  const treemapref = useRef();
-
   useEffect(() => {
     if (!data) return;
 
@@ -143,7 +144,7 @@ export default function TreeMap() {
     // --------------------------------------  Zoom end
 
     //
-  }, [data]);
+  }, []);
 
-  return <div id="treemap" ref={treemapref} />;
+  return <div id="treemap" />;
 }
