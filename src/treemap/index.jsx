@@ -9,7 +9,7 @@ const data = convertDataForTreeMap(json);
 const createTable = (data) => {
   const width = window.innerWidth;
   const height = window.innerHeight;
-  const padding = 2;
+  const padding = 1;
 
   // =========================================  create Heirarchy
   const root = d3
@@ -36,14 +36,6 @@ const createTable = (data) => {
       [width, height],
     ]);
 
-  const textZoom = d3
-    .zoom()
-    .scaleExtent([1 / 6, 150])
-    .translateExtent([
-      [0, 0],
-      [width, height],
-    ]);
-
   const map = d3.select("#treemap").call(mainZoom);
 
   const canvas = map
@@ -59,28 +51,9 @@ const createTable = (data) => {
     .attr("class", "textLayer")
     .attr("style", `width:${width}px;height:${height}px;`);
 
-  // const render = map
-  //   .append("div")
-  //   .attr("class", "render")
-  //   .attr("style", `width:${width}px;height:${height}px;`);
-
   // ========================================= Create Helpers
 
-  const isElementInViewport = (el) => {
-    var rect = el.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <=
-        (window.innerHeight ||
-          document.documentElement.clientHeight) /* or $(window).height() */ &&
-      rect.right <=
-        (window.innerWidth ||
-          document.documentElement.clientWidth) /* or $(window).width() */
-    );
-  };
-
-  const checkBoundaries = (leaf, transfrom) => {
+  const isElementInViewport = (leaf, transfrom) => {
     const { k, x, y } = transfrom;
     const right = leaf.x1 * k;
     const bottom = leaf.y1 * k;
@@ -97,6 +70,7 @@ const createTable = (data) => {
     return Ydirection && Xdirection;
   };
 
+  // draw tiles
   const drawLeaves = () => {
     leaves.forEach((leaf) => {
       context.save(); // For clipping the text
@@ -128,18 +102,15 @@ const createTable = (data) => {
   function drawTexts(transform = { x: 1, y: 1, k: 1 }) {
     const filteredLeaves = leaves.filter((item, i) => {
       const widthoftile = transform.k * (item.x1 - item.x0);
-      const inView = checkBoundaries(item, transform);
-      // if (item.data.name === "غنوش") {
-      //   console.log("inview", inView);
-      // }
+      const inView = isElementInViewport(item, transform);
+
       return widthoftile > 50 && inView;
     });
 
     // empty the layer
-
     d3.select("div.textLayer").selectAll("div").remove();
-    // draw new one
 
+    // draw new one
     const tile = textLayer
       .selectAll("div.tile")
       .data(filteredLeaves)
@@ -158,6 +129,7 @@ const createTable = (data) => {
       .text((node) => node.data.name);
   }
 
+  // zoom textlayer
   const updateChild = (transform) => {
     textLayer.attr(
       "style",
@@ -181,7 +153,6 @@ const createTable = (data) => {
     drawTexts(transform);
   };
 
-  textZoom.on("zoom", null);
   mainZoom.on("end", mainZoomEnd);
   mainZoom.on("zoom", mainZooming);
 };
