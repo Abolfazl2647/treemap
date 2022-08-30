@@ -7,8 +7,6 @@ import "./style.css";
 const data = convertDataForTreeMap(json);
 
 const createTable = (data) => {
-  //   const margin = { top: 20, right: 20, bottom: 20, left: 20 };
-
   const width = window.innerWidth;
   const height = window.innerHeight;
   const padding = 2;
@@ -18,6 +16,7 @@ const createTable = (data) => {
     .hierarchy(data, (node) => node.children)
     .sum((node) => node.totalValue)
     .sort((a, b) => b.totalValue - a.totalValue);
+
   const treemap = d3
     .treemap()
     .size([width, height])
@@ -27,9 +26,9 @@ const createTable = (data) => {
 
   // const parent = root.descendants().filter((item) => item.depth === 1);
   const leaves = root.leaves();
-
-  // =========================================  create Containers
-  const zoom = d3
+  // ==================================================================================
+  //========================================= Create Containers
+  const mainZoom = d3
     .zoom()
     .scaleExtent([1, 150])
     .translateExtent([
@@ -37,7 +36,7 @@ const createTable = (data) => {
       [width, height],
     ]);
 
-  const renderZoom = d3
+  const textZoom = d3
     .zoom()
     .scaleExtent([1, 150])
     .translateExtent([
@@ -45,7 +44,7 @@ const createTable = (data) => {
       [width, height],
     ]);
 
-  const map = d3.select("#treemap");
+  const map = d3.select("#treemap").call(mainZoom);
 
   const canvas = map
     .append("canvas")
@@ -53,20 +52,48 @@ const createTable = (data) => {
     .attr("width", width)
     .attr("height", height);
 
+  const context = canvas.node().getContext("2d");
+
+  const textLayer = map
+    .append("div")
+    .attr("class", "textLayer")
+    .attr("style", `width:${width}px;height:${height}px;`)
+    .call(textZoom);
+
   const render = map
     .append("div")
     .attr("class", "render")
     .attr("style", `width:${width}px;height:${height}px;`);
 
-  const amir = render.append("div").attr("class", "amir");
+  // ========================================= Create Helpers
 
-  //////////////////////////////////////////////////// Drawing
-  map.call(zoom, d3.zoomIdentity);
-  //   render.call(renderZoom, d3.zoomIdentity);
+  const isElementInViewport = (el) => {
+    var rect = el.getBoundingClientRect();
 
-  const context = canvas.node().getContext("2d");
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight ||
+          document.documentElement.clientHeight) /* or $(window).height() */ &&
+      rect.right <=
+        (window.innerWidth ||
+          document.documentElement.clientWidth) /* or $(window).width() */
+    );
+  };
 
-  // draw tiles for canvas
+  const checkBoundaries = (leaf, transfrom) => {
+    const { k, x, y } = transfrom;
+    const left = leaf.x1 * k;
+    const top = leaf.y1 * k;
+
+    if (leaf.data.name === "غنوش") {
+      console.log("left", left);
+      console.log();
+    }
+    return left + x > 0 && top + y > 0;
+  };
+
   const drawLeaves = () => {
     leaves.forEach((leaf) => {
       context.save(); // For clipping the text
@@ -94,49 +121,77 @@ const createTable = (data) => {
     context.restore();
   };
 
-  //   const updateAmir = (transform) => {
-  //     render.attr(
-  //       "style",
-  //       `width:${width}px;height:${height}px;transform: translate(${transform.x}px, ${transform.y}px) scale(${transform.k})`
-  //     );
-  //   };
+  //getBoundingClientRect
+  function drawTexts(transform = { x: 1, y: 1, k: 1 }) {
+    const filteredLeaves = leaves.filter((item, i) => {
+      const widthoftile = transform.k * (item.x1 - item.x0);
+      const inView = checkBoundaries(item, transform);
+      if (item.data.name === "دارا يكم") {
+        console.log("inview", inView);
+      }
+      return widthoftile > 50 && inView;
+    });
 
-  // make canvas drawing
-  drawLeaves();
+    // empty the layer
 
-  //   const arash = { x: 10, y: 10, k: 5 };
-  //   zoom.translateTo(map, arash.x, arash.y);
-  //   zoom.scaleTo(map, arash.k);
-  //   updateCanvas(arash);
+    d3.select("div.textLayer").selectAll("div").remove();
+    // draw new one
 
-  const zooming = ({ transform }) => {
-    map.attr("data-zoom", transform.k);
-    updateCanvas(transform);
-    renderZoom.translateTo(render, transform.x, transform.y);
-    renderZoom.scaleTo(render, transform.k);
-  };
+    const tile = textLayer
+      .selectAll("div.tile")
+      .data(filteredLeaves)
+      .enter()
+      .append("div")
+      .attr("class", "tile")
+      .attr("style", (d) => {
+        return `left: ${d.x0}px;top:${d.y0}px;width:${d.x1 - d.x0}px;height:${
+          d.y1 - d.y0
+        }px;font-size: ${(d.x1 - d.x0) / 6}px`;
+      });
 
-  const zoomend = ({ transform }) => {
-    render.call(renderZoom.transform, d3.zoomIdentity);
-    updateCanvas(transform);
-    amir.attr(
-      "style",
-      `transform: translate(${transform.x}px, ${transform.y}px) scale(${transform.k})`
-    );
-  };
+    tile
+      .append("span")
+      .attr("class", "tile-name")
+      .text((node) => node.data.name);
+  }
 
-  const renderZooming = ({ transform }) => {
-    render.attr(
+  const updateChild = (transform) => {
+    textLayer.attr(
       "style",
       `width:${width}px;height:${height}px;transform: translate(${transform.x}px, ${transform.y}px) scale(${transform.k})`
     );
   };
 
-  renderZoom.on("zoom", renderZooming);
-  zoom.on("zoom", zooming);
-  zoom.on("end", zoomend);
+  // ========================================= Drawing
+  drawLeaves();
+  drawTexts();
 
-  ///////////////////////////////////////////////////// ZOOM
+  // ========================================= Zooming
+
+  const mainZooming = ({ transform }) => {
+    map.attr("data-zoom", transform.k);
+    textZoom.transform(textLayer, transform);
+    updateCanvas(transform);
+  };
+
+  const mainZoomEnd = ({ transform }) => {
+    updateCanvas(transform);
+  };
+
+  const textZooming = ({ transform }) => {
+    updateCanvas(transform);
+    updateChild(transform);
+  };
+
+  const textZoomEnd = ({ transform }) => {
+    drawTexts(transform);
+    textZoom.call(textLayer.transform, d3.zoomIdentity);
+  };
+
+  textZoom.on("zoom", textZooming);
+  textZoom.on("end", textZoomEnd);
+  mainZoom.on("end", mainZoomEnd);
+  mainZoom.on("zoom", mainZooming);
 };
 
 export default function TreeMap() {
