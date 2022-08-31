@@ -13,7 +13,7 @@ html,body, #root {
   height: 100%;
   overflow: hidden;
   position: relative;
-  /* background-color: black; */
+  background-color: black;
   transform-origin: 0 0 0;
 }
 
@@ -39,7 +39,7 @@ html,body, #root {
 }
 
 .sector {
-  z-index: 2;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -48,13 +48,21 @@ html,body, #root {
   text-rendering: optimizeLegibility;
   color:white;
   text-shadow: 0.015em 0.015em 0 rgb(50 49 54 / 28%);
+  border: 2px solid black;
+  box-sizing: border-box;
+  background: transparent;
+  overflow: hidden;
 }
+.sector:hover {
+  border-color: #ffd84c;
+}
+.sector:hover .sector-name { background-color: #ffd84c; color:black}
+
 .sector-name {
   display: inline-flex;
   color: white;
   line-height: 1.1em;
   background-color: black;
-  overflow: hidden;
   max-height: 13px;
   max-height: 15px;
   padding: 0 1em;
@@ -63,10 +71,9 @@ html,body, #root {
   direction: rtl;
   text-align: right;
 }
-.sector-name:hover { background-color: yellow; color:black}
 
-.tile {
-  z-index: 3;
+.tile {overflow: hidden;
+  z-index: 2;
   display: flex;
   transition: all ease .5s;
   flex-direction: column;

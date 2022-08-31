@@ -25,30 +25,29 @@ const createTable = (data) => {
     "#9d2f29",
     "#ba4a45",
     "#de7875",
-    "#ababab",
     "#333236",
-    "#dcdcdc",
     "#8cbf84",
     "#5c8456",
     "#315c32",
   ];
 
-  const color = d3.scaleOrdinal(colorRange);
-
-  console.log("color", color(5000));
+  const colorScale = d3
+    .scaleOrdinal()
+    .domain([-3, -2, -1, 0, 1, 2, 3])
+    .range(colorRange);
 
   // =========================================  create Heirarchy
   const root = d3
     .hierarchy(data, (node) => node.children)
-    .sum((node) => node.totalVolume)
-    .sort((a, b) => b.totalVolume - a.totalVolume);
+    .sum((node) => node.totalValue)
+    .sort((a, b) => b.totalValue - a.totalValue);
 
   const treemap = d3
     .treemap()
     .size([width, height])
-    .padding(padding)
-    .paddingTop(15)
-    .round(false);
+    .padding(1)
+    .paddingOuter(2)
+    .round(true);
   treemap(root);
 
   const parent = root.descendants().filter((item) => item.depth === 1);
@@ -97,6 +96,8 @@ const createTable = (data) => {
   // draw tiles
   const drawLeaves = () => {
     leaves.forEach((leaf) => {
+      const color = (leaf.data.priceChange * 100) / leaf.data.lastPrice;
+
       context.save(); // For clipping the text
       context.beginPath();
       context.rect(
@@ -105,7 +106,7 @@ const createTable = (data) => {
         leaf.x1 - leaf.x0, // width
         leaf.y1 - leaf.y0 // height
       );
-      context.fillStyle = leaf.data.priceChange > 0 ? "#7ec17e" : "#ed7171";
+      context.fillStyle = colorScale(color);
       context.fill();
       context.clip(); // Generate the Clip Path
       context.restore(); // Restore so you can continue drawing
