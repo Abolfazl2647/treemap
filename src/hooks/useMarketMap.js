@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
 export const convertDataForTreeMap = (object) => {
-  //   console.log("object in", object);
   const array = object.sectors;
 
   const newArray = array
@@ -10,7 +9,7 @@ export const convertDataForTreeMap = (object) => {
         code: item.code,
         name: item.name,
         value: item.instruments.reduce((prev, currnet) => {
-          return prev + currnet.tradeSummary.totalValue;
+          return prev + currnet.tradeSummary.totalVolume;
         }, 0),
         children: item.instruments
           .map((elem) => {
@@ -21,7 +20,7 @@ export const convertDataForTreeMap = (object) => {
               ...elem.tradeSummary,
             };
           })
-          .sort((a, b) => b.totalValue - a.totalValue),
+          .sort((a, b) => b.totalVolume - a.totalVolume),
       };
     })
     .sort((a, b) => b.value - a.value);
