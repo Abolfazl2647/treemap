@@ -24,7 +24,7 @@ const createTable = (data) => {
     "#9d2f29",
     "#ba4a45",
     "#de7875",
-    "#333236",
+    "#ababab",
     "#8cbf84",
     "#5c8456",
     "#315c32",
@@ -179,7 +179,10 @@ const createTable = (data) => {
         console.log(node.data.name, node.scale);
         return `${node.data.name}`;
       })
-      .attr("style", (d) => `font-size: ${d.scale * 10}px`);
+      .attr(
+        "style",
+        (d) => `font-size: ${Math.min(d.scale * 10) / transform.k}px`
+      );
 
     // ---------------- tile
     const tile = textLayer
@@ -208,7 +211,7 @@ const createTable = (data) => {
       .attr("style", (d) => {
         const nodeWidth = d.x1 - d.x0;
         const nodeHeight = d.y1 - d.y0;
-        return `font-size:${Math.min(nodeWidth, nodeHeight) / 5}px;`;
+        return `font-size:${Math.min(nodeWidth, nodeHeight) / 8}px;`;
       })
       .text(
         (node) =>

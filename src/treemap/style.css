@@ -47,7 +47,6 @@ html,body, #root {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   color:white;
-  text-shadow: 0.015em 0.015em 0 rgb(50 49 54 / 28%);
   border: 2px solid black;
   box-sizing: border-box;
   background: transparent;
@@ -74,6 +73,7 @@ html,body, #root {
   text-align: right;
   white-space: nowrap;
   text-overflow: ellipsis;
+  text-shadow: 0.015em 0.015em 0 rgb(50 49 54 / 28%);
 }
 
 .tile {
@@ -87,7 +87,6 @@ html,body, #root {
   will-change: transfrom;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  text-shadow: 0.015em 0.015em 0 rgb(50 49 54 / 28%);
   color:white;
 }
 
@@ -98,4 +97,9 @@ html,body, #root {
   will-change: transfrom;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  text-shadow: 0.015em 0.015em 0 rgb(50 49 54 / 28%);
 }
+
+.tile-change {
+  direction: ltr;
+ }
