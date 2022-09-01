@@ -176,13 +176,12 @@ const createTable = (data) => {
       .each(getSize)
       .attr("class", "sector-name")
       .text((node) => {
-        console.log(node.data.name, node.scale);
         return `${node.data.name}`;
       })
-      .attr(
-        "style",
-        (d) => `font-size: ${Math.min(d.scale * 10) / transform.k}px`
-      );
+      .attr("style", (d) => {
+        const fontSize = Math.min(d.scale * 10) / transform.k;
+        return `font-size: ${fontSize}px;line-height:${fontSize}px`;
+      });
 
     // ---------------- tile
     const tile = textLayer
