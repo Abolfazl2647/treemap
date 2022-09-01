@@ -9,7 +9,6 @@ const data = convertDataForTreeMap(json);
 const createTable = (data) => {
   const width = window.innerWidth;
   const height = window.innerHeight;
-  const padding = 0.5;
 
   // scales
   const mainZoom = d3
@@ -70,6 +69,23 @@ const createTable = (data) => {
 
   // ========================================= Create Helpers
 
+  const checknumbers = (n) => {
+    if (n === 0) return 0;
+    if (n > 0 && n <= 1) return 1;
+    if (n > 1 && n <= 2) return 2;
+    if (n > 2 && n <= 3) return 3;
+    if (n > 3) return 2;
+  };
+
+  function roundTo(n) {
+    if (n >= 0) {
+      return checknumbers(n);
+    } else {
+      const k = n * -1;
+      return checknumbers(k) * -1;
+    }
+  }
+
   const dementionStyle = (d) => {
     const width = d.x1 - d.x0;
     const height = d.y1 - d.y0;
@@ -78,13 +94,13 @@ const createTable = (data) => {
 
   const isElementInViewport = (leaf, transfrom) => {
     const { k, x, y } = transfrom;
+    const leafWidth = (leaf.x1 - leaf.x0) * k;
     const right = leaf.x1 * k;
     const bottom = leaf.y1 * k;
     const top = leaf.y0 * k;
 
     const Xdirection =
-      right <
-        Math.abs(x) + textLayer.node().clientWidth + (leaf.x1 - leaf.x0) * k &&
+      right < Math.abs(x) + textLayer.node().clientWidth + leafWidth &&
       right + x > 0;
 
     const Ydirection =
@@ -96,7 +112,8 @@ const createTable = (data) => {
   // draw tiles
   const drawLeaves = () => {
     leaves.forEach((leaf) => {
-      const color = (leaf.data.priceChange * 100) / leaf.data.lastPrice;
+      const change = (leaf.data.priceChange * 100) / leaf.data.lastPrice;
+      const color = roundTo(change, 2);
 
       context.save(); // For clipping the text
       context.beginPath();
@@ -123,6 +140,14 @@ const createTable = (data) => {
     context.restore();
   };
 
+  function getSize(d) {
+    var bbox = this.getBoundingClientRect(),
+      cbbox = this.parentNode.getBoundingClientRect(),
+      scale = Math.min(cbbox.width / bbox.width, cbbox.height / bbox.height);
+    console.log(d.data.name, cbbox.width / bbox.width);
+    return (d.scale = scale);
+  }
+
   //getBoundingClientRect
   function drawTexts(transform = { x: 1, y: 1, k: 1 }) {
     const filteredLeaves = leaves.filter((item, i) => {
@@ -134,8 +159,9 @@ const createTable = (data) => {
     // empty the layer
     d3.select("div.textLayer").selectAll("div").remove();
 
+    // ------------- sector tile
     const sector = textLayer
-      .selectAll("div.tile")
+      .selectAll("div.sector")
       .data(parent)
       .enter()
       .append("div")
@@ -144,46 +170,50 @@ const createTable = (data) => {
         return `${dementionStyle(d)};`;
       });
 
+    // sectorname
     sector
       .append("span")
+      .each(getSize)
       .attr("class", "sector-name")
-      .attr("style", (node) => {
-        // const fontsize = 10 / transform.k;
-        return `font-size: 1em`;
-      })
       .text((node) => {
+        console.log(node.data.name, node.scale);
         return `${node.data.name}`;
-      });
+      })
+      .attr("style", (d) => `font-size: ${d.scale * 10}px`);
 
-    // draw new one
+    // ---------------- tile
     const tile = textLayer
       .selectAll("div.tile")
       .data(filteredLeaves)
       .enter()
       .append("div")
       .attr("class", "tile")
-      .attr("style", (d) => {
-        const width = (d.x1 - d.x0) / transform.k;
-        // const height = (fy * (d.y1 - d.y0)) / transform.k;
-        // const fontsize = Math.max(
-        //   Math.min(
-        //     width / 5,
-        //     height / 2,
-        //     Math.sqrt(width * width + height * height) / 10
-        //   ),
-        //   9
-        // );
-        return `${dementionStyle(d)};font-size: ${width / 2}px`;
+      .attr("style", (node) => {
+        return `${dementionStyle(node)};`;
       });
 
     tile
       .append("span")
       .attr("class", "tile-name")
-      .text((node) => {
-        // const { lastClosePrice, closePrice } = node.data;
-        // const change = Math.round(lastClosePrice / closePrice);
-        return `${node.data.name}`;
+      .text((node) => node.data.name)
+      .attr("style", (d) => {
+        const nodeWidth = d.x1 - d.x0;
+        const nodeHeight = d.y1 - d.y0;
+        return `font-size:${Math.min(nodeWidth, nodeHeight) / 5}px;`;
       });
+
+    tile
+      .append("span")
+      .attr("class", "tile-change")
+      .attr("style", (d) => {
+        const nodeWidth = d.x1 - d.x0;
+        const nodeHeight = d.y1 - d.y0;
+        return `font-size:${Math.min(nodeWidth, nodeHeight) / 5}px;`;
+      })
+      .text(
+        (node) =>
+          `${((node.data.priceChange * 100) / node.data.lastPrice).toFixed(2)}%`
+      );
   }
 
   // zoom textlayer

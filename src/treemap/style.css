@@ -41,8 +41,8 @@ html,body, #root {
 .sector {
   z-index: 3;
   display: flex;
-  flex-direction: column;
   position: absolute;
+  flex-direction: column;
   will-change: transfrom;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -52,6 +52,7 @@ html,body, #root {
   box-sizing: border-box;
   background: transparent;
   overflow: hidden;
+  font-size: 1rem;
 }
 .sector:hover {
   border-color: #ffd84c;
@@ -59,36 +60,42 @@ html,body, #root {
 .sector:hover .sector-name { background-color: #ffd84c; color:black}
 
 .sector-name {
+  align-items: center;
   display: inline-flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
   color: white;
-  line-height: 1.1em;
   background-color: black;
-  max-height: 13px;
-  max-height: 15px;
-  padding: 0 1em;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  width: 100%;
+  max-height: 1em;
+  max-width: 100%;
   direction: rtl;
+  overflow: hidden;
   text-align: right;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
-.tile {overflow: hidden;
+.tile {
   z-index: 2;
   display: flex;
-  transition: all ease .5s;
-  flex-direction: column;
+  overflow: hidden;
   position: absolute;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   will-change: transfrom;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color:white;
   text-shadow: 0.015em 0.015em 0 rgb(50 49 54 / 28%);
+  color:white;
 }
 
-.tile-name {
+.tile-name, 
+.tile-change {
   direction: rtl;
-  text-align: right;
-  font-size: .5em;
+  text-align: center;
+  will-change: transfrom;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }

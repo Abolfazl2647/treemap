@@ -31,7 +31,6 @@ export const convertDataForTreeMap = (object) => {
     children: newArray,
   };
 
-  //   console.log("object out", outObj);
   return outObj;
 };
 
