@@ -52,6 +52,8 @@ class TreeMap {
     this.canvas = null;
     this.context = null;
     this.textLayer = null;
+    this.transform = d3.zoomIdentity;
+    this.target = null;
 
     this.mainZoom = d3
       .zoom()
@@ -94,6 +96,7 @@ class TreeMap {
     });
 
     this.mainZoom.on("zoom", ({ transform }) => {
+      this.transform = transform;
       this.map.attr("data-zoom", transform.k);
       this.updateCanvas(transform);
       this.updateTextLayer(transform);
@@ -114,10 +117,6 @@ class TreeMap {
       .round(true);
 
     this.root = treemap(this.root);
-  }
-
-  getRoot() {
-    return this.root;
   }
 
   // canvas drawing

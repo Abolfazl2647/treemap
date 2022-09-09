@@ -1,6 +1,6 @@
-import Treemap from "./treemap";
+import { useMemo, useState } from "react";
+import Treepmap from "./treemap";
 import jsonData from "./hooks/data.json";
-import { useState } from "react";
 
 export const convertDataForTreeMap = (object) => {
   const array = object.sectors;
@@ -37,14 +37,20 @@ export const convertDataForTreeMap = (object) => {
 };
 
 function App() {
-  const [tile, setData] = useState(null);
+  const [tile, setTile] = useState(null);
 
-  const handleHover = (info) => setData(info);
+  const Data = useMemo(() => {
+    return convertDataForTreeMap(jsonData);
+  }, []);
 
-  console.log("tile", tile);
+  const handleChange = (data) => {
+    setTile(data);
+  };
 
   return (
-    <Treemap data={convertDataForTreeMap(jsonData)} onHover={handleHover} />
+    <div className="App">
+      <Treepmap data={Data} onChange={handleChange} />
+    </div>
   );
 }
 
