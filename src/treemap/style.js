@@ -42,7 +42,7 @@ export const TextLayer = styled.div`
   overflow: hidden;
   position: absolute;
   ${({ transform }) => {
-    return `transform: translate(${transform.x}px, ${transform.y}px) scale(${transform.k})`;
+    return `transform: translate3d(${transform.x}px, ${transform.y}px, 0px) scale(${transform.k})`;
   }}
 `;
 
@@ -52,7 +52,8 @@ export const Sector = memo(styled.div`
   position: absolute;
   width: ${({ sector }) => sector.x1 - sector.x0}px;
   height: ${({ sector }) => sector.y1 - sector.y0}px;
-  transform: ${({ sector }) => `translate(${sector.x0}px, ${sector.y0}px)`};
+  transform: ${({ sector }) =>
+    `translate3d(${sector.x0}px, ${sector.y0}px, 0px)`};
   border: 2px solid black;
   box-sizing: border-box;
 
@@ -105,7 +106,7 @@ export const Tile = memo(styled.div`
   height: ${({ tile }) => tile.y1 - tile.y0}px;
   text-shadow: rgba(50, 49, 54, 0.28) 0.015em 0.015em 0px;
   transform: ${({ tile, sector }) =>
-    `translate(${tile.x0 - sector.x0}px, ${tile.y0 - sector.y0}px)`};
+    `translate3d(${tile.x0 - sector.x0}px, ${tile.y0 - sector.y0}px, 0px)`};
 
   .tile-name {
     color: white;
