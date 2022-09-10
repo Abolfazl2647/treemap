@@ -1,0 +1,5930 @@
+{
+  "title": "Bourse",
+  "type": 1,
+  "sectors": [
+    {
+      "name": "زراعت و خدمات وابسته",
+      "code": "01",
+      "instruments": [
+        {
+          "refId": "IRO1MAGS0001",
+          "name": "زمگسا",
+          "detailName": "كشاورزي‌ ودامپروي‌ مگسال‌",
+          "tradeSummary": {
+            "closePrice": 25000,
+            "lastPrice": 25160,
+            "totalCount": 1508,
+            "totalVolume": 6151574,
+            "totalValue": 153801267520,
+            "priceChange": 1190,
+            "lastClosePrice": 23970
+          }
+        },
+        {
+          "refId": "IRO1SMRG0001",
+          "name": "سيمرغ",
+          "detailName": "سيمرغ",
+          "tradeSummary": {
+            "closePrice": 21600,
+            "lastPrice": 21450,
+            "totalCount": 557,
+            "totalVolume": 1416774,
+            "totalValue": 30608725460,
+            "priceChange": -550,
+            "lastClosePrice": 22000
+          }
+        },
+        {
+          "refId": "IRO1SPID0001",
+          "name": "سپيد",
+          "detailName": "سپيد ماكيان",
+          "tradeSummary": {
+            "closePrice": 18930,
+            "lastPrice": 19000,
+            "totalCount": 973,
+            "totalVolume": 2039411,
+            "totalValue": 38614591120,
+            "priceChange": -150,
+            "lastClosePrice": 19150
+          }
+        },
+        {
+          "refId": "IRO1KOSR0001",
+          "name": "زكوثر",
+          "detailName": "سرمايه گذاري كشاورزي كوثر",
+          "tradeSummary": {
+            "closePrice": 12770,
+            "lastPrice": 12840,
+            "totalCount": 454,
+            "totalVolume": 1932154,
+            "totalValue": 24672233870,
+            "priceChange": -380,
+            "lastClosePrice": 13220
+          }
+        },
+        {
+          "refId": "IRO1ZPRS0001",
+          "name": "زپارس",
+          "detailName": "ملي كشت و صنعت و دامپروري پارس",
+          "tradeSummary": {
+            "closePrice": 42100,
+            "lastPrice": 42170,
+            "totalCount": 152,
+            "totalVolume": 586660,
+            "totalValue": 24699066710,
+            "priceChange": 150,
+            "lastClosePrice": 42020
+          }
+        },
+        {
+          "refId": "IRO1SPID0004",
+          "name": "سپيد4",
+          "detailName": "سپيد ماكيان",
+          "tradeSummary": {
+            "closePrice": 18930,
+            "lastPrice": 18930,
+            "totalCount": 3,
+            "totalVolume": 201000000,
+            "totalValue": 3804930000000,
+            "priceChange": -220,
+            "lastClosePrice": 19150
+          }
+        }
+      ]
+    },
+    {
+      "name": "استخراج زغال سنگ",
+      "code": "10",
+      "instruments": [
+        {
+          "refId": "IRO1TBAS0001",
+          "name": "كطبس",
+          "detailName": "ذغال‌سنگ‌ نگين‌ ط‌بس‌",
+          "tradeSummary": {
+            "closePrice": 17610,
+            "lastPrice": 17700,
+            "totalCount": 131,
+            "totalVolume": 316155,
+            "totalValue": 5561443940,
+            "priceChange": 80,
+            "lastClosePrice": 17620
+          }
+        }
+      ]
+    },
+    {
+      "name": "استخراج نفت گاز و خدمات جنبي جز اکتشاف",
+      "code": "11",
+      "instruments": [
+        {
+          "refId": "IRO1HSHM0001",
+          "name": "حفاري",
+          "detailName": "حفاري شمال",
+          "tradeSummary": {
+            "closePrice": 3791,
+            "lastPrice": 3818,
+            "totalCount": 513,
+            "totalVolume": 6127642,
+            "totalValue": 23226881071,
+            "priceChange": -72,
+            "lastClosePrice": 3890
+          }
+        }
+      ]
+    },
+    {
+      "name": "استخراج کانه هاي فلزي",
+      "code": "13",
+      "instruments": [
+        {
+          "refId": "IRO1OPAL0001",
+          "name": "اپال",
+          "detailName": "فرآوري معدني اپال كاني پارس",
+          "tradeSummary": {
+            "closePrice": 18930,
+            "lastPrice": 18610,
+            "totalCount": 445,
+            "totalVolume": 426084,
+            "totalValue": 7957561060,
+            "priceChange": -340,
+            "lastClosePrice": 18950
+          }
+        },
+        {
+          "refId": "IRO1MADN0001",
+          "name": "ومعادن",
+          "detailName": "توسعه‌معادن‌وفلزات‌",
+          "tradeSummary": {
+            "closePrice": 4912,
+            "lastPrice": 4834,
+            "totalCount": 720,
+            "totalVolume": 4858004,
+            "totalValue": 23579444380,
+            "priceChange": -93,
+            "lastClosePrice": 4927
+          }
+        },
+        {
+          "refId": "IRO1BAFG0001",
+          "name": "كبافق",
+          "detailName": "معادن‌ بافق‌",
+          "tradeSummary": {
+            "closePrice": 28640,
+            "lastPrice": 28840,
+            "totalCount": 515,
+            "totalVolume": 884706,
+            "totalValue": 25335082350,
+            "priceChange": 1370,
+            "lastClosePrice": 27470
+          }
+        },
+        {
+          "refId": "IRO1ROOI0001",
+          "name": "كروي",
+          "detailName": "توسعه‌ معادن‌ روي‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 20810,
+            "lastPrice": 20600,
+            "totalCount": 364,
+            "totalVolume": 751004,
+            "totalValue": 15580134470,
+            "priceChange": -430,
+            "lastClosePrice": 21030
+          }
+        },
+        {
+          "refId": "IRO1MNGZ0001",
+          "name": "كمنگنز",
+          "detailName": "معادن‌منگنزايران‌",
+          "tradeSummary": {
+            "closePrice": 11960,
+            "lastPrice": 11950,
+            "totalCount": 615,
+            "totalVolume": 3141308,
+            "totalValue": 37575724450,
+            "priceChange": -320,
+            "lastClosePrice": 12270
+          }
+        },
+        {
+          "refId": "IRO1KNRZ0001",
+          "name": "كنور",
+          "detailName": "توسعه معدني و صنعتي صبانور",
+          "tradeSummary": {
+            "closePrice": 16550,
+            "lastPrice": 16480,
+            "totalCount": 1414,
+            "totalVolume": 13827693,
+            "totalValue": 228894119240,
+            "priceChange": 640,
+            "lastClosePrice": 15840
+          }
+        },
+        {
+          "refId": "IRO1CHML0001",
+          "name": "كچاد",
+          "detailName": "معدني‌وصنعتي‌چادرملو",
+          "tradeSummary": {
+            "closePrice": 12390,
+            "lastPrice": 12330,
+            "totalCount": 2134,
+            "totalVolume": 9189245,
+            "totalValue": 113949976660,
+            "priceChange": 10,
+            "lastClosePrice": 12320
+          }
+        },
+        {
+          "refId": "IRO1GOLG0001",
+          "name": "كگل",
+          "detailName": "معدني و صنعتي گل گهر",
+          "tradeSummary": {
+            "closePrice": 10470,
+            "lastPrice": 10450,
+            "totalCount": 770,
+            "totalVolume": 2758189,
+            "totalValue": 28859390350,
+            "priceChange": -20,
+            "lastClosePrice": 10470
+          }
+        },
+        {
+          "refId": "IRO1BAMA0001",
+          "name": "كاما",
+          "detailName": "باما",
+          "tradeSummary": {
+            "closePrice": 5440,
+            "lastPrice": 5490,
+            "totalCount": 2489,
+            "totalVolume": 24385671,
+            "totalValue": 132716039630,
+            "priceChange": 90,
+            "lastClosePrice": 5400
+          }
+        },
+        {
+          "refId": "IRO1SADR0001",
+          "name": "تاصيكو",
+          "detailName": "سرمايه گذاري صدرتامين",
+          "tradeSummary": {
+            "closePrice": 9070,
+            "lastPrice": 9090,
+            "totalCount": 299,
+            "totalVolume": 3913237,
+            "totalValue": 35495834500,
+            "priceChange": 20,
+            "lastClosePrice": 9070
+          }
+        }
+      ]
+    },
+    {
+      "name": "استخراج ساير معادن",
+      "code": "14",
+      "instruments": [
+        {
+          "refId": "IRO1TAMI0001",
+          "name": "كماسه",
+          "detailName": "تامين‌ ماسه‌ ريخته‌گري‌",
+          "tradeSummary": {
+            "closePrice": 3053,
+            "lastPrice": 3034,
+            "totalCount": 740,
+            "totalVolume": 11939382,
+            "totalValue": 36452771621,
+            "priceChange": -159,
+            "lastClosePrice": 3193
+          }
+        }
+      ]
+    },
+    {
+      "name": "منسوجات",
+      "code": "17",
+      "instruments": [
+        {
+          "refId": "IRO1MRIN0001",
+          "name": "نمرينو",
+          "detailName": "ايران‌ مرينوس‌",
+          "tradeSummary": {
+            "closePrice": 71020,
+            "lastPrice": 70400,
+            "totalCount": 89,
+            "totalVolume": 21409,
+            "totalValue": 1504536400,
+            "priceChange": -700,
+            "lastClosePrice": 71100
+          }
+        }
+      ]
+    },
+    {
+      "name": "دباغي، پرداخت چرم و ساخت انواع پاپوش",
+      "code": "19",
+      "instruments": [
+        {
+          "refId": "IRO1GMEL0001",
+          "name": "وملي",
+          "detailName": "گروه‌ صنعتي‌ ملي‌ (هلدينگ‌",
+          "tradeSummary": {
+            "closePrice": 119850,
+            "lastPrice": 120290,
+            "totalCount": 513,
+            "totalVolume": 206314,
+            "totalValue": 24727125260,
+            "priceChange": -750,
+            "lastClosePrice": 121040
+          }
+        }
+      ]
+    },
+    {
+      "name": "محصولات چوبي",
+      "code": "20",
+      "instruments": [
+        {
+          "refId": "IRO1FIBR0001",
+          "name": "چفيبر",
+          "detailName": "فيبر ايران‌",
+          "tradeSummary": {
+            "closePrice": 5400,
+            "lastPrice": 5410,
+            "totalCount": 280,
+            "totalVolume": 1491877,
+            "totalValue": 8000502590,
+            "priceChange": -30,
+            "lastClosePrice": 5440
+          }
+        }
+      ]
+    },
+    {
+      "name": "محصولات كاغذي",
+      "code": "21",
+      "instruments": [
+        {
+          "refId": "IRO1KRTI0001",
+          "name": "چكارن",
+          "detailName": "كارتن‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 2265,
+            "lastPrice": 2275,
+            "totalCount": 337,
+            "totalVolume": 6630390,
+            "totalValue": 15016259487,
+            "priceChange": -56,
+            "lastClosePrice": 2331
+          }
+        },
+        {
+          "refId": "IRO1KSKA0001",
+          "name": "چكاوه",
+          "detailName": "صنايع‌كاغذسازي‌كاوه‌",
+          "tradeSummary": {
+            "closePrice": 6880,
+            "lastPrice": 6940,
+            "totalCount": 685,
+            "totalVolume": 4953205,
+            "totalValue": 34068118070,
+            "priceChange": 330,
+            "lastClosePrice": 6610
+          }
+        },
+        {
+          "refId": "IRO1KAPA0011",
+          "name": "چكاپا",
+          "detailName": "گروه صنايع كاغذ پارس",
+          "tradeSummary": {
+            "closePrice": 2709,
+            "lastPrice": 2695,
+            "totalCount": 1083,
+            "totalVolume": 16980514,
+            "totalValue": 45992812322,
+            "priceChange": -97,
+            "lastClosePrice": 2792
+          }
+        }
+      ]
+    },
+    {
+      "name": "انتشار، چاپ و تکثير",
+      "code": "22",
+      "instruments": [
+        {
+          "refId": "IRO1OFST0001",
+          "name": "چافست",
+          "detailName": "افست‌",
+          "tradeSummary": {
+            "closePrice": 5281,
+            "lastPrice": 5250,
+            "totalCount": 969,
+            "totalVolume": 10657021,
+            "totalValue": 56275747559,
+            "priceChange": 168,
+            "lastClosePrice": 5082
+          }
+        }
+      ]
+    },
+    {
+      "name": "فراورده هاي نفتي، كك و سوخت هسته اي",
+      "code": "23",
+      "instruments": [
+        {
+          "refId": "IRO1NBEH0001",
+          "name": "شبهرن",
+          "detailName": "نفت‌ بهران‌",
+          "tradeSummary": {
+            "closePrice": 13480,
+            "lastPrice": 13530,
+            "totalCount": 392,
+            "totalVolume": 2577951,
+            "totalValue": 34986723950,
+            "priceChange": 150,
+            "lastClosePrice": 13380
+          }
+        },
+        {
+          "refId": "IRO1NAFT0001",
+          "name": "ونفت",
+          "detailName": "سرمايه‌گذاري‌ صنعت‌ نفت‌",
+          "tradeSummary": {
+            "closePrice": 3373,
+            "lastPrice": 3320,
+            "totalCount": 211,
+            "totalVolume": 1054348,
+            "totalValue": 3493019157,
+            "priceChange": -71,
+            "lastClosePrice": 3391
+          }
+        },
+        {
+          "refId": "IRO1PTEH0001",
+          "name": "شتران",
+          "detailName": "پالايش نفت تهران",
+          "tradeSummary": {
+            "closePrice": 5020,
+            "lastPrice": 5050,
+            "totalCount": 3089,
+            "totalVolume": 42122908,
+            "totalValue": 211531391310,
+            "priceChange": -70,
+            "lastClosePrice": 5120
+          }
+        },
+        {
+          "refId": "IRO1NPRS0001",
+          "name": "شنفت",
+          "detailName": "نفت‌ پارس‌",
+          "tradeSummary": {
+            "closePrice": 7110,
+            "lastPrice": 7060,
+            "totalCount": 197,
+            "totalVolume": 826549,
+            "totalValue": 5884828530,
+            "priceChange": -50,
+            "lastClosePrice": 7110
+          }
+        },
+        {
+          "refId": "IRO1PNTB0001",
+          "name": "شبريز",
+          "detailName": "پالايش نفت تبريز",
+          "tradeSummary": {
+            "closePrice": 15550,
+            "lastPrice": 15350,
+            "totalCount": 745,
+            "totalVolume": 1845109,
+            "totalValue": 28324542290,
+            "priceChange": -260,
+            "lastClosePrice": 15610
+          }
+        },
+        {
+          "refId": "IRO1PNES0001",
+          "name": "شپنا",
+          "detailName": "پالايش نفت اصفهان",
+          "tradeSummary": {
+            "closePrice": 6100,
+            "lastPrice": 6150,
+            "totalCount": 4786,
+            "totalVolume": 62325672,
+            "totalValue": 380338165790,
+            "priceChange": -70,
+            "lastClosePrice": 6220
+          }
+        },
+        {
+          "refId": "IRO1SEPP0001",
+          "name": "شسپا",
+          "detailName": "نفت سپاهان",
+          "tradeSummary": {
+            "closePrice": 3016,
+            "lastPrice": 3014,
+            "totalCount": 990,
+            "totalVolume": 19707321,
+            "totalValue": 59279254342,
+            "priceChange": -59,
+            "lastClosePrice": 3073
+          }
+        },
+        {
+          "refId": "IRO1PNBA0001",
+          "name": "شبندر",
+          "detailName": "پالايش نفت بندرعباس",
+          "tradeSummary": {
+            "closePrice": 7570,
+            "lastPrice": 7660,
+            "totalCount": 4088,
+            "totalVolume": 46195721,
+            "totalValue": 349871360290,
+            "priceChange": 50,
+            "lastClosePrice": 7610
+          }
+        }
+      ]
+    },
+    {
+      "name": "لاستيك و پلاستيك",
+      "code": "25",
+      "instruments": [
+        {
+          "refId": "IRO1TAIR0001",
+          "name": "پتاير",
+          "detailName": "ايران‌ تاير",
+          "tradeSummary": {
+            "closePrice": 1219,
+            "lastPrice": 1216,
+            "totalCount": 487,
+            "totalVolume": 12818065,
+            "totalValue": 15619270566,
+            "priceChange": -23,
+            "lastClosePrice": 1239
+          }
+        },
+        {
+          "refId": "IRO1SHND0001",
+          "name": "پسهند",
+          "detailName": "صنايع‌ لاستيكي‌  سهند",
+          "tradeSummary": {
+            "closePrice": 33570,
+            "lastPrice": 33800,
+            "totalCount": 98,
+            "totalVolume": 365465,
+            "totalValue": 12281810830,
+            "priceChange": 360,
+            "lastClosePrice": 33440
+          }
+        },
+        {
+          "refId": "IRO1KVRZ0001",
+          "name": "پكوير",
+          "detailName": "كوير تاير",
+          "tradeSummary": {
+            "closePrice": 4183,
+            "lastPrice": 4125,
+            "totalCount": 360,
+            "totalVolume": 3042056,
+            "totalValue": 12673119728,
+            "priceChange": -167,
+            "lastClosePrice": 4292
+          }
+        },
+        {
+          "refId": "IRO1PLKK0001",
+          "name": "پلاسك",
+          "detailName": "پلاسكوكار",
+          "tradeSummary": {
+            "closePrice": 3039,
+            "lastPrice": 3010,
+            "totalCount": 189,
+            "totalVolume": 2474482,
+            "totalValue": 7530430228,
+            "priceChange": -26,
+            "lastClosePrice": 3036
+          }
+        },
+        {
+          "refId": "IRO1YASA0001",
+          "name": "پاسا",
+          "detailName": "ايران‌ياساتايرورابر",
+          "tradeSummary": {
+            "closePrice": 12750,
+            "lastPrice": 12900,
+            "totalCount": 158,
+            "totalVolume": 419695,
+            "totalValue": 5354330540,
+            "priceChange": 150,
+            "lastClosePrice": 12750
+          }
+        },
+        {
+          "refId": "IRO1DRKH0001",
+          "name": "پدرخش",
+          "detailName": "درخشان‌ تهران‌",
+          "tradeSummary": {
+            "closePrice": 6670,
+            "lastPrice": 6580,
+            "totalCount": 988,
+            "totalVolume": 5947379,
+            "totalValue": 39677302330,
+            "priceChange": -20,
+            "lastClosePrice": 6600
+          }
+        },
+        {
+          "refId": "IRO1BARZ0001",
+          "name": "پكرمان",
+          "detailName": "گروه‌ صنعتي‌ بارز",
+          "tradeSummary": {
+            "closePrice": 14790,
+            "lastPrice": 14660,
+            "totalCount": 268,
+            "totalVolume": 655059,
+            "totalValue": 9650369030,
+            "priceChange": -240,
+            "lastClosePrice": 14900
+          }
+        }
+      ]
+    },
+    {
+      "name": "فلزات اساسي",
+      "code": "27",
+      "instruments": [
+        {
+          "refId": "IRO1BAHN0001",
+          "name": "فباهنر",
+          "detailName": "مس‌ شهيدباهنر",
+          "tradeSummary": {
+            "closePrice": 24640,
+            "lastPrice": 24510,
+            "totalCount": 377,
+            "totalVolume": 616542,
+            "totalValue": 15099033420,
+            "priceChange": -350,
+            "lastClosePrice": 24860
+          }
+        },
+        {
+          "refId": "IRO1MDKO0001",
+          "name": "ميدكو",
+          "detailName": "توسعه معادن وص.معدني خاورميانه",
+          "tradeSummary": {
+            "closePrice": 17670,
+            "lastPrice": 17670,
+            "totalCount": 304,
+            "totalVolume": 4636074,
+            "totalValue": 81903398360,
+            "priceChange": 0,
+            "lastClosePrice": 17670
+          }
+        },
+        {
+          "refId": "IRO1FOLD0001",
+          "name": "فولاد",
+          "detailName": "فولاد مباركه اصفهان",
+          "tradeSummary": {
+            "closePrice": 5270,
+            "lastPrice": 5260,
+            "totalCount": 4191,
+            "totalVolume": 49398850,
+            "totalValue": 260408946750,
+            "priceChange": -70,
+            "lastClosePrice": 5330
+          }
+        },
+        {
+          "refId": "IRO1LMIR0001",
+          "name": "فلوله",
+          "detailName": "لوله‌وماشين‌سازي‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 1712,
+            "lastPrice": 1698,
+            "totalCount": 2723,
+            "totalVolume": 74037574,
+            "totalValue": 126787882808,
+            "priceChange": -89,
+            "lastClosePrice": 1787
+          }
+        },
+        {
+          "refId": "IRO1NGFO0001",
+          "name": "فنورد",
+          "detailName": "نوردوقطعات‌ فولادي‌",
+          "tradeSummary": {
+            "closePrice": 19500,
+            "lastPrice": 19500,
+            "totalCount": 1848,
+            "totalVolume": 6047283,
+            "totalValue": 117944760560,
+            "priceChange": -920,
+            "lastClosePrice": 20420
+          }
+        },
+        {
+          "refId": "IRO1SPTA0001",
+          "name": "فپنتا",
+          "detailName": "سپنتا",
+          "tradeSummary": {
+            "closePrice": 467300,
+            "lastPrice": 472850,
+            "totalCount": 573,
+            "totalVolume": 44245,
+            "totalValue": 20675602230,
+            "priceChange": -7250,
+            "lastClosePrice": 480100
+          }
+        },
+        {
+          "refId": "IRO1NALM0001",
+          "name": "فنوال",
+          "detailName": "نورد آلومينيوم‌",
+          "tradeSummary": {
+            "closePrice": 25890,
+            "lastPrice": 26000,
+            "totalCount": 165,
+            "totalVolume": 250692,
+            "totalValue": 6436422020,
+            "priceChange": -60,
+            "lastClosePrice": 26060
+          }
+        },
+        {
+          "refId": "IRB6AD000542",
+          "name": "صغدير5042",
+          "detailName": "صكوك مرابحه غدير504-3ماهه18%",
+          "tradeSummary": {
+            "closePrice": 1000000,
+            "lastPrice": 1000000,
+            "totalCount": 1,
+            "totalVolume": 1000000,
+            "totalValue": 1000000000000,
+            "priceChange": 0,
+            "lastClosePrice": 1000000
+          }
+        },
+        {
+          "refId": "IRO1ALIR0001",
+          "name": "فايرا",
+          "detailName": "آلومينيوم‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 18210,
+            "lastPrice": 18030,
+            "totalCount": 115,
+            "totalVolume": 167895,
+            "totalValue": 3030941770,
+            "priceChange": -190,
+            "lastClosePrice": 18220
+          }
+        },
+        {
+          "refId": "IRO1TOKA0001",
+          "name": "وتوكا",
+          "detailName": "سرمايه‌گذاري‌توكافولاد(هلدينگ",
+          "tradeSummary": {
+            "closePrice": 8720,
+            "lastPrice": 8850,
+            "totalCount": 1219,
+            "totalVolume": 6663763,
+            "totalValue": 58085037600,
+            "priceChange": 500,
+            "lastClosePrice": 8350
+          }
+        },
+        {
+          "refId": "IRO1KVIR0001",
+          "name": "كوير",
+          "detailName": "توليدي فولاد سپيد فراب كوير",
+          "tradeSummary": {
+            "closePrice": 4190,
+            "lastPrice": 4216,
+            "totalCount": 860,
+            "totalVolume": 10427765,
+            "totalValue": 43694498463,
+            "priceChange": 200,
+            "lastClosePrice": 4016
+          }
+        },
+        {
+          "refId": "IRO1FKAS0001",
+          "name": "فخاس",
+          "detailName": "فولاد خراسان",
+          "tradeSummary": {
+            "closePrice": 18370,
+            "lastPrice": 18570,
+            "totalCount": 553,
+            "totalVolume": 895155,
+            "totalValue": 16581136050,
+            "priceChange": 230,
+            "lastClosePrice": 18340
+          }
+        },
+        {
+          "refId": "IRO1FAIR0001",
+          "name": "فولاژ",
+          "detailName": "فولاد آلياژي ايران",
+          "tradeSummary": {
+            "closePrice": 7150,
+            "lastPrice": 7130,
+            "totalCount": 96,
+            "totalVolume": 370800,
+            "totalValue": 2627082270,
+            "priceChange": -20,
+            "lastClosePrice": 7150
+          }
+        },
+        {
+          "refId": "IRO1FSBZ0001",
+          "name": "فسبزوار",
+          "detailName": "پارس فولاد سبزوار",
+          "tradeSummary": {
+            "closePrice": 26030,
+            "lastPrice": 25670,
+            "totalCount": 812,
+            "totalVolume": 448599,
+            "totalValue": 11662804850,
+            "priceChange": -370,
+            "lastClosePrice": 26040
+          }
+        },
+        {
+          "refId": "IRO1FSAZ0001",
+          "name": "فسازان",
+          "detailName": "غلتك سازان سپاهان",
+          "tradeSummary": {
+            "closePrice": 3322,
+            "lastPrice": 3313,
+            "totalCount": 391,
+            "totalVolume": 6545393,
+            "totalValue": 21740962337,
+            "priceChange": -109,
+            "lastClosePrice": 3422
+          }
+        },
+        {
+          "refId": "IRO1MSMI0001",
+          "name": "فملي",
+          "detailName": "ملي‌ صنايع‌ مس‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 5390,
+            "lastPrice": 5400,
+            "totalCount": 2449,
+            "totalVolume": 25668960,
+            "totalValue": 138412339100,
+            "priceChange": -60,
+            "lastClosePrice": 5460
+          }
+        },
+        {
+          "refId": "IRO1FAJR0001",
+          "name": "فجر",
+          "detailName": "فولاد اميركبيركاشان",
+          "tradeSummary": {
+            "closePrice": 12150,
+            "lastPrice": 12160,
+            "totalCount": 352,
+            "totalVolume": 1732540,
+            "totalValue": 21057225420,
+            "priceChange": -110,
+            "lastClosePrice": 12270
+          }
+        },
+        {
+          "refId": "IRO1FRIS0001",
+          "name": "فروس",
+          "detailName": "فروسيليس‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 5400,
+            "lastPrice": 5380,
+            "totalCount": 208,
+            "totalVolume": 1835835,
+            "totalValue": 9847703160,
+            "priceChange": -110,
+            "lastClosePrice": 5490
+          }
+        },
+        {
+          "refId": "IRO1KVEH0001",
+          "name": "كاوه",
+          "detailName": "فولاد كاوه جنوب كيش",
+          "tradeSummary": {
+            "closePrice": 5320,
+            "lastPrice": 5310,
+            "totalCount": 312,
+            "totalVolume": 3914098,
+            "totalValue": 20695204850,
+            "priceChange": -20,
+            "lastClosePrice": 5330
+          }
+        },
+        {
+          "refId": "IRO1ALMR0001",
+          "name": "فمراد",
+          "detailName": "آلومراد",
+          "tradeSummary": {
+            "closePrice": 32010,
+            "lastPrice": 31630,
+            "totalCount": 3061,
+            "totalVolume": 7146809,
+            "totalValue": 228788368430,
+            "priceChange": 620,
+            "lastClosePrice": 31010
+          }
+        },
+        {
+          "refId": "IRO1FRVR0001",
+          "name": "فرآور",
+          "detailName": "فرآوري‌موادمعدني‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 25000,
+            "lastPrice": 25230,
+            "totalCount": 426,
+            "totalVolume": 1157637,
+            "totalValue": 28944740820,
+            "priceChange": 320,
+            "lastClosePrice": 24910
+          }
+        },
+        {
+          "refId": "IRO1ZOBI0001",
+          "name": "ذوب",
+          "detailName": "ذوب آهن اصفهان",
+          "tradeSummary": {
+            "closePrice": 2774,
+            "lastPrice": 2795,
+            "totalCount": 1961,
+            "totalVolume": 46681808,
+            "totalValue": 129483432594,
+            "priceChange": -6,
+            "lastClosePrice": 2801
+          }
+        },
+        {
+          "refId": "IRO1KSIM0001",
+          "name": "فاسمين",
+          "detailName": "كالسيمين‌",
+          "tradeSummary": {
+            "closePrice": 18520,
+            "lastPrice": 18670,
+            "totalCount": 457,
+            "totalVolume": 2133646,
+            "totalValue": 39500753490,
+            "priceChange": 70,
+            "lastClosePrice": 18600
+          }
+        },
+        {
+          "refId": "IRO1KVEH0002",
+          "name": "كاوه2",
+          "detailName": "فولاد كاوه جنوب كيش",
+          "tradeSummary": {
+            "closePrice": 5310,
+            "lastPrice": 5310,
+            "totalCount": 1,
+            "totalVolume": 10000000,
+            "totalValue": 53100000000,
+            "priceChange": -20,
+            "lastClosePrice": 5330
+          }
+        },
+        {
+          "refId": "IRO1SORB0001",
+          "name": "فسرب",
+          "detailName": "ملي‌ سرب‌وروي‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 1387,
+            "lastPrice": 1409,
+            "totalCount": 1098,
+            "totalVolume": 25015465,
+            "totalValue": 34707530038,
+            "priceChange": 12,
+            "lastClosePrice": 1397
+          }
+        },
+        {
+          "refId": "IRO1SEPA0001",
+          "name": "فسپا",
+          "detailName": "گروه‌صنعتي‌سپاهان‌",
+          "tradeSummary": {
+            "closePrice": 12600,
+            "lastPrice": 12480,
+            "totalCount": 326,
+            "totalVolume": 1144767,
+            "totalValue": 14419618910,
+            "priceChange": -240,
+            "lastClosePrice": 12720
+          }
+        }
+      ]
+    },
+    {
+      "name": "ساخت محصولات فلزي",
+      "code": "28",
+      "instruments": [
+        {
+          "refId": "IRO1LAMI0001",
+          "name": "فلامي",
+          "detailName": "لاميران‌",
+          "tradeSummary": {
+            "closePrice": 16830,
+            "lastPrice": 16800,
+            "totalCount": 168,
+            "totalVolume": 399681,
+            "totalValue": 6718280600,
+            "priceChange": -50,
+            "lastClosePrice": 16850
+          }
+        },
+        {
+          "refId": "IRO1JAMD0001",
+          "name": "فجام",
+          "detailName": "جام‌دارو",
+          "tradeSummary": {
+            "closePrice": 5020,
+            "lastPrice": 4900,
+            "totalCount": 244,
+            "totalVolume": 1311782,
+            "totalValue": 6541555310,
+            "priceChange": -140,
+            "lastClosePrice": 5040
+          }
+        },
+        {
+          "refId": "IRO1MARK0001",
+          "name": "فاراك",
+          "detailName": "ماشين‌ سازي‌ اراك‌",
+          "tradeSummary": {
+            "closePrice": 1340,
+            "lastPrice": 1351,
+            "totalCount": 1388,
+            "totalVolume": 64312898,
+            "totalValue": 86159877391,
+            "priceChange": -43,
+            "lastClosePrice": 1394
+          }
+        },
+        {
+          "refId": "IRO1AZAB0001",
+          "name": "فاذر",
+          "detailName": "صنايع‌ آذرآب‌",
+          "tradeSummary": {
+            "closePrice": 1059,
+            "lastPrice": 1066,
+            "totalCount": 1066,
+            "totalVolume": 50773606,
+            "totalValue": 53785571924,
+            "priceChange": -19,
+            "lastClosePrice": 1085
+          }
+        },
+        {
+          "refId": "IRO1CHDN0001",
+          "name": "چدن",
+          "detailName": "توليدي چدن سازان",
+          "tradeSummary": {
+            "closePrice": 1916,
+            "lastPrice": 1891,
+            "totalCount": 338,
+            "totalVolume": 6070416,
+            "totalValue": 11565746040,
+            "priceChange": -62,
+            "lastClosePrice": 1953
+          }
+        },
+        {
+          "refId": "IRO1SAMA0001",
+          "name": "فاما",
+          "detailName": "صنعتي‌ آما",
+          "tradeSummary": {
+            "closePrice": 6960,
+            "lastPrice": 6830,
+            "totalCount": 178,
+            "totalVolume": 611391,
+            "totalValue": 4181989250,
+            "priceChange": -180,
+            "lastClosePrice": 7010
+          }
+        }
+      ]
+    },
+    {
+      "name": "ماشين آلات و تجهيزات",
+      "code": "29",
+      "instruments": [
+        {
+          "refId": "IRO1GSKE0001",
+          "name": "تكشا",
+          "detailName": "گسترش‌صنايع‌وخدمات‌كشاورزي‌",
+          "tradeSummary": {
+            "closePrice": 24670,
+            "lastPrice": 24360,
+            "totalCount": 300,
+            "totalVolume": 438831,
+            "totalValue": 10770557670,
+            "priceChange": -630,
+            "lastClosePrice": 24990
+          }
+        },
+        {
+          "refId": "IRO1ASAL0001",
+          "name": "لابسا",
+          "detailName": "آبسال‌",
+          "tradeSummary": {
+            "closePrice": 6280,
+            "lastPrice": 6270,
+            "totalCount": 152,
+            "totalVolume": 1121278,
+            "totalValue": 6948509140,
+            "priceChange": -80,
+            "lastClosePrice": 6350
+          }
+        },
+        {
+          "refId": "IRO1KHAZ0001",
+          "name": "لخزر",
+          "detailName": "پارس‌ خزر",
+          "tradeSummary": {
+            "closePrice": 111390,
+            "lastPrice": 111200,
+            "totalCount": 80,
+            "totalVolume": 18451,
+            "totalValue": 2057649350,
+            "priceChange": -170,
+            "lastClosePrice": 111370
+          }
+        },
+        {
+          "refId": "IRO1TRIR0001",
+          "name": "تايرا",
+          "detailName": "تراكتورسازي‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 19240,
+            "lastPrice": 19250,
+            "totalCount": 476,
+            "totalVolume": 1778834,
+            "totalValue": 34233308480,
+            "priceChange": -410,
+            "lastClosePrice": 19660
+          }
+        },
+        {
+          "refId": "IRO1PIRN0001",
+          "name": "تپمپي",
+          "detailName": "پمپ‌ سازي‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 18220,
+            "lastPrice": 18000,
+            "totalCount": 204,
+            "totalVolume": 519739,
+            "totalValue": 9445638190,
+            "priceChange": -300,
+            "lastClosePrice": 18300
+          }
+        },
+        {
+          "refId": "IRO1BOTA0001",
+          "name": "لبوتان",
+          "detailName": "گروه‌صنعتي‌بوتان‌",
+          "tradeSummary": {
+            "closePrice": 11290,
+            "lastPrice": 11170,
+            "totalCount": 506,
+            "totalVolume": 1282000,
+            "totalValue": 14476962020,
+            "priceChange": 40,
+            "lastClosePrice": 11130
+          }
+        },
+        {
+          "refId": "IRO1COMB0001",
+          "name": "تكمبا",
+          "detailName": "كمباين‌ سازي‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 4682,
+            "lastPrice": 4668,
+            "totalCount": 309,
+            "totalVolume": 2218421,
+            "totalValue": 10359944604,
+            "priceChange": -40,
+            "lastClosePrice": 4708
+          }
+        },
+        {
+          "refId": "IRO1SRMA0001",
+          "name": "لسرما",
+          "detailName": "سرما آفرين‌",
+          "tradeSummary": {
+            "closePrice": 26170,
+            "lastPrice": 26410,
+            "totalCount": 281,
+            "totalVolume": 659804,
+            "totalValue": 17264642890,
+            "priceChange": 270,
+            "lastClosePrice": 26140
+          }
+        },
+        {
+          "refId": "IRO1TSHE0001",
+          "name": "وتوشه",
+          "detailName": "سرمايه‌ گذاري‌ پارس‌ توشه‌",
+          "tradeSummary": {
+            "closePrice": 5310,
+            "lastPrice": 5380,
+            "totalCount": 93,
+            "totalVolume": 1274117,
+            "totalValue": 6779797690,
+            "priceChange": 80,
+            "lastClosePrice": 5300
+          }
+        },
+        {
+          "refId": "IRO1TKNO0001",
+          "name": "تكنو",
+          "detailName": "تكنوتار",
+          "tradeSummary": {
+            "closePrice": 7820,
+            "lastPrice": 7930,
+            "totalCount": 251,
+            "totalVolume": 2081019,
+            "totalValue": 16274910450,
+            "priceChange": 370,
+            "lastClosePrice": 7560
+          }
+        }
+      ]
+    },
+    {
+      "name": "ماشين آلات و دستگاه‌هاي برقي",
+      "code": "31",
+      "instruments": [
+        {
+          "refId": "IRO1JOSH0001",
+          "name": "بكاب",
+          "detailName": "صنايع‌جوشكاب‌يزد",
+          "tradeSummary": {
+            "closePrice": 24940,
+            "lastPrice": 26140,
+            "totalCount": 28,
+            "totalVolume": 18029,
+            "totalValue": 471278060,
+            "priceChange": 1240,
+            "lastClosePrice": 24900
+          }
+        },
+        {
+          "refId": "IRO1TRNS0001",
+          "name": "بترانس",
+          "detailName": "ايران‌ ترانسفو",
+          "tradeSummary": {
+            "closePrice": 2030,
+            "lastPrice": 2030,
+            "totalCount": 678,
+            "totalVolume": 16317638,
+            "totalValue": 33126852955,
+            "priceChange": -37,
+            "lastClosePrice": 2067
+          }
+        },
+        {
+          "refId": "IRO1LAPS0001",
+          "name": "بشهاب",
+          "detailName": "لامپ‌  پارس‌ شهاب‌",
+          "tradeSummary": {
+            "closePrice": 76330,
+            "lastPrice": 74910,
+            "totalCount": 240,
+            "totalVolume": 95208,
+            "totalValue": 7173702100,
+            "priceChange": -2420,
+            "lastClosePrice": 77330
+          }
+        },
+        {
+          "refId": "IRO1SWIC0001",
+          "name": "بسويچ",
+          "detailName": "پارس‌سويچ‌",
+          "tradeSummary": {
+            "closePrice": 16030,
+            "lastPrice": 15760,
+            "totalCount": 54,
+            "totalVolume": 95106,
+            "totalValue": 1500426270,
+            "priceChange": -300,
+            "lastClosePrice": 16060
+          }
+        },
+        {
+          "refId": "IRO1MOTJ0001",
+          "name": "بموتو",
+          "detailName": "موتوژن‌",
+          "tradeSummary": {
+            "closePrice": 2952,
+            "lastPrice": 2934,
+            "totalCount": 308,
+            "totalVolume": 2053674,
+            "totalValue": 5967258568,
+            "priceChange": -44,
+            "lastClosePrice": 2978
+          }
+        },
+        {
+          "refId": "IRO1KGND0001",
+          "name": "بكام",
+          "detailName": "كارخانجات توليدي شهيد قندي",
+          "tradeSummary": {
+            "closePrice": 1570,
+            "lastPrice": 1551,
+            "totalCount": 227,
+            "totalVolume": 3108197,
+            "totalValue": 4829085145,
+            "priceChange": -26,
+            "lastClosePrice": 1577
+          }
+        },
+        {
+          "refId": "IRO1NIRO0001",
+          "name": "بنيرو",
+          "detailName": "نيروترانس‌",
+          "tradeSummary": {
+            "closePrice": 2437,
+            "lastPrice": 2440,
+            "totalCount": 98,
+            "totalVolume": 7711430,
+            "totalValue": 18789118380,
+            "priceChange": 15,
+            "lastClosePrice": 2425
+          }
+        },
+        {
+          "refId": "IRO1KALZ0001",
+          "name": "بالبر",
+          "detailName": "كابل‌ البرز",
+          "tradeSummary": {
+            "closePrice": 44540,
+            "lastPrice": 44580,
+            "totalCount": 37,
+            "totalVolume": 359074,
+            "totalValue": 16007518920,
+            "priceChange": 2120,
+            "lastClosePrice": 42460
+          }
+        }
+      ]
+    },
+    {
+      "name": "ساخت دستگاه‌ها و وسايل ارتباطي",
+      "code": "32",
+      "instruments": [
+        {
+          "refId": "IRO1PELC0001",
+          "name": "لپارس",
+          "detailName": "پارس‌ الكتريك‌",
+          "tradeSummary": {
+            "closePrice": 78540,
+            "lastPrice": 78810,
+            "totalCount": 971,
+            "totalVolume": 594196,
+            "totalValue": 46667691410,
+            "priceChange": -1180,
+            "lastClosePrice": 79990
+          }
+        }
+      ]
+    },
+    {
+      "name": "خودرو و ساخت قطعات",
+      "code": "34",
+      "instruments": [
+        {
+          "refId": "IRO1SZPO0001",
+          "name": "خپويش",
+          "detailName": "سازه‌ پويش‌",
+          "tradeSummary": {
+            "closePrice": 22270,
+            "lastPrice": 22000,
+            "totalCount": 156,
+            "totalVolume": 261732,
+            "totalValue": 5726384890,
+            "priceChange": -500,
+            "lastClosePrice": 22500
+          }
+        },
+        {
+          "refId": "IRO1ATIR0002",
+          "name": "خاهن2",
+          "detailName": "آهنگري‌ تراكتورسازي‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 5810,
+            "lastPrice": 5810,
+            "totalCount": 1,
+            "totalVolume": 7644349,
+            "totalValue": 44413667690,
+            "priceChange": 190,
+            "lastClosePrice": 5620
+          }
+        },
+        {
+          "refId": "IRO1TMKH0001",
+          "name": "خمحور",
+          "detailName": "توليدمحورخودرو",
+          "tradeSummary": {
+            "closePrice": 3107,
+            "lastPrice": 3090,
+            "totalCount": 819,
+            "totalVolume": 14864241,
+            "totalValue": 46181654135,
+            "priceChange": -159,
+            "lastClosePrice": 3249
+          }
+        },
+        {
+          "refId": "IRO1BHMN0001",
+          "name": "خبهمن",
+          "detailName": "گروه‌بهمن‌",
+          "tradeSummary": {
+            "closePrice": 1708,
+            "lastPrice": 1699,
+            "totalCount": 2316,
+            "totalVolume": 81875963,
+            "totalValue": 139839678402,
+            "priceChange": -49,
+            "lastClosePrice": 1748
+          }
+        },
+        {
+          "refId": "IRO1INDM0001",
+          "name": "خكمك",
+          "detailName": "كمك‌فنرايندامين‌",
+          "tradeSummary": {
+            "closePrice": 17850,
+            "lastPrice": 17860,
+            "totalCount": 346,
+            "totalVolume": 1152031,
+            "totalValue": 20568709280,
+            "priceChange": -500,
+            "lastClosePrice": 18360
+          }
+        },
+        {
+          "refId": "IRO1MHKM0001",
+          "name": "خمهر",
+          "detailName": "مهركام‌پارس‌",
+          "tradeSummary": {
+            "closePrice": 1751,
+            "lastPrice": 1750,
+            "totalCount": 528,
+            "totalVolume": 13667758,
+            "totalValue": 23937046039,
+            "priceChange": -46,
+            "lastClosePrice": 1796
+          }
+        },
+        {
+          "refId": "IRO1RTIR0001",
+          "name": "ختراك",
+          "detailName": "ريخته‌گري‌ تراكتورسازي‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 6750,
+            "lastPrice": 6730,
+            "totalCount": 576,
+            "totalVolume": 5021765,
+            "totalValue": 33877915940,
+            "priceChange": -230,
+            "lastClosePrice": 6960
+          }
+        },
+        {
+          "refId": "IRO1NMOH0001",
+          "name": "خمحركه",
+          "detailName": "نيرو محركه‌",
+          "tradeSummary": {
+            "closePrice": 3922,
+            "lastPrice": 3918,
+            "totalCount": 1110,
+            "totalVolume": 13624582,
+            "totalValue": 53431433737,
+            "priceChange": -43,
+            "lastClosePrice": 3961
+          }
+        },
+        {
+          "refId": "IRO1RINM0001",
+          "name": "خرينگ",
+          "detailName": "رينگ‌سازي‌مشهد",
+          "tradeSummary": {
+            "closePrice": 21520,
+            "lastPrice": 21500,
+            "totalCount": 449,
+            "totalVolume": 932156,
+            "totalValue": 20058111290,
+            "priceChange": -370,
+            "lastClosePrice": 21870
+          }
+        },
+        {
+          "refId": "IRO1RIIR0001",
+          "name": "خريخت",
+          "detailName": "صنايع‌ريخته‌گري‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 3862,
+            "lastPrice": 3880,
+            "totalCount": 464,
+            "totalVolume": 8862143,
+            "totalValue": 34229580993,
+            "priceChange": 10,
+            "lastClosePrice": 3870
+          }
+        },
+        {
+          "refId": "IRO1CHAR0001",
+          "name": "خچرخش",
+          "detailName": "چرخشگر",
+          "tradeSummary": {
+            "closePrice": 16000,
+            "lastPrice": 16000,
+            "totalCount": 340,
+            "totalVolume": 1065461,
+            "totalValue": 17050866960,
+            "priceChange": -360,
+            "lastClosePrice": 16360
+          }
+        },
+        {
+          "refId": "IRO1ZMYD0001",
+          "name": "خزاميا",
+          "detailName": "زامياد",
+          "tradeSummary": {
+            "closePrice": 12960,
+            "lastPrice": 12750,
+            "totalCount": 3260,
+            "totalVolume": 20482917,
+            "totalValue": 265363508500,
+            "priceChange": -370,
+            "lastClosePrice": 13120
+          }
+        },
+        {
+          "refId": "IRO1MSTI0001",
+          "name": "خموتور",
+          "detailName": "موتورسازان‌تراكتورسازي‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 3928,
+            "lastPrice": 3875,
+            "totalCount": 213,
+            "totalVolume": 1891135,
+            "totalValue": 7376032404,
+            "priceChange": -80,
+            "lastClosePrice": 3955
+          }
+        },
+        {
+          "refId": "IRO1KFAN0001",
+          "name": "خفنر",
+          "detailName": "فنرسازي‌خاور",
+          "tradeSummary": {
+            "closePrice": 7410,
+            "lastPrice": 7600,
+            "totalCount": 444,
+            "totalVolume": 3841382,
+            "totalValue": 28454624510,
+            "priceChange": 20,
+            "lastClosePrice": 7580
+          }
+        },
+        {
+          "refId": "IRO1MNSR0001",
+          "name": "خنصير",
+          "detailName": "مهندسي‌نصيرماشين‌",
+          "tradeSummary": {
+            "closePrice": 14180,
+            "lastPrice": 14240,
+            "totalCount": 2347,
+            "totalVolume": 14476319,
+            "totalValue": 205284084020,
+            "priceChange": 670,
+            "lastClosePrice": 13570
+          }
+        },
+        {
+          "refId": "IRO1RENA0001",
+          "name": "ورنا",
+          "detailName": "سرمايه‌گذاري‌ رنا(هلدينگ‌",
+          "tradeSummary": {
+            "closePrice": 6010,
+            "lastPrice": 5940,
+            "totalCount": 2360,
+            "totalVolume": 40321719,
+            "totalValue": 242136812330,
+            "priceChange": -90,
+            "lastClosePrice": 6030
+          }
+        },
+        {
+          "refId": "IRO1SIPA0001",
+          "name": "خساپا",
+          "detailName": "سايپا",
+          "tradeSummary": {
+            "closePrice": 2077,
+            "lastPrice": 2073,
+            "totalCount": 21757,
+            "totalVolume": 1023144043,
+            "totalValue": 2124669638415,
+            "priceChange": 5,
+            "lastClosePrice": 2068
+          }
+        },
+        {
+          "refId": "IRO1KRIR0001",
+          "name": "خكار",
+          "detailName": "ايركا پارت صنعت",
+          "tradeSummary": {
+            "closePrice": 2501,
+            "lastPrice": 2466,
+            "totalCount": 1206,
+            "totalVolume": 33949254,
+            "totalValue": 84893651258,
+            "priceChange": -63,
+            "lastClosePrice": 2529
+          }
+        },
+        {
+          "refId": "IRO1GOST0001",
+          "name": "خگستر",
+          "detailName": "گسترش‌سرمايه‌گذاري‌ايران‌خودرو",
+          "tradeSummary": {
+            "closePrice": 3412,
+            "lastPrice": 3361,
+            "totalCount": 9534,
+            "totalVolume": 251688264,
+            "totalValue": 858837555252,
+            "priceChange": -138,
+            "lastClosePrice": 3499
+          }
+        },
+        {
+          "refId": "IRO1IKCO0001",
+          "name": "خودرو",
+          "detailName": "ايران‌ خودرو",
+          "tradeSummary": {
+            "closePrice": 2174,
+            "lastPrice": 2160,
+            "totalCount": 10732,
+            "totalVolume": 415451518,
+            "totalValue": 903051628714,
+            "priceChange": -44,
+            "lastClosePrice": 2204
+          }
+        },
+        {
+          "refId": "IRO1FNAR0001",
+          "name": "خزر",
+          "detailName": "فنرسازي‌زر",
+          "tradeSummary": {
+            "closePrice": 3324,
+            "lastPrice": 3349,
+            "totalCount": 743,
+            "totalVolume": 10192437,
+            "totalValue": 33877126501,
+            "priceChange": -49,
+            "lastClosePrice": 3398
+          }
+        },
+        {
+          "refId": "IRO1KHSH0001",
+          "name": "خشرق",
+          "detailName": "الكتريك‌ خودرو شرق‌",
+          "tradeSummary": {
+            "closePrice": 11580,
+            "lastPrice": 11480,
+            "totalCount": 385,
+            "totalVolume": 2110905,
+            "totalValue": 24454155030,
+            "priceChange": -590,
+            "lastClosePrice": 12070
+          }
+        },
+        {
+          "refId": "IRO1ATIR0001",
+          "name": "خاهن",
+          "detailName": "آهنگري‌ تراكتورسازي‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 5750,
+            "lastPrice": 5890,
+            "totalCount": 464,
+            "totalVolume": 3421040,
+            "totalValue": 19999623420,
+            "priceChange": 270,
+            "lastClosePrice": 5620
+          }
+        },
+        {
+          "refId": "IRO1AZIN0001",
+          "name": "خاذين",
+          "detailName": "سايپاآذين‌",
+          "tradeSummary": {
+            "closePrice": 2214,
+            "lastPrice": 2174,
+            "totalCount": 815,
+            "totalVolume": 16186205,
+            "totalValue": 35833475056,
+            "priceChange": -37,
+            "lastClosePrice": 2211
+          }
+        },
+        {
+          "refId": "IRO1LENT0001",
+          "name": "خلنت",
+          "detailName": "لنت‌ ترمزايران‌",
+          "tradeSummary": {
+            "closePrice": 30100,
+            "lastPrice": 29750,
+            "totalCount": 814,
+            "totalVolume": 1058600,
+            "totalValue": 31859957760,
+            "priceChange": -1430,
+            "lastClosePrice": 31180
+          }
+        },
+        {
+          "refId": "IRO1MESI0001",
+          "name": "خوساز",
+          "detailName": "محورسازان‌ايران‌خودرو",
+          "tradeSummary": {
+            "closePrice": 10310,
+            "lastPrice": 10180,
+            "totalCount": 1155,
+            "totalVolume": 6257487,
+            "totalValue": 64504294950,
+            "priceChange": -120,
+            "lastClosePrice": 10300
+          }
+        },
+        {
+          "refId": "IRO1GHAT0001",
+          "name": "ختوقا",
+          "detailName": "قطعات‌ اتومبيل‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 3092,
+            "lastPrice": 3039,
+            "totalCount": 1001,
+            "totalVolume": 22322488,
+            "totalValue": 69025749237,
+            "priceChange": -118,
+            "lastClosePrice": 3157
+          }
+        }
+      ]
+    },
+    {
+      "name": "قند و شكر",
+      "code": "38",
+      "instruments": [
+        {
+          "refId": "IRO1GESF0001",
+          "name": "قصفها",
+          "detailName": "قنداصفهان‌",
+          "tradeSummary": {
+            "closePrice": 75230,
+            "lastPrice": 74500,
+            "totalCount": 135,
+            "totalVolume": 47899,
+            "totalValue": 3577349050,
+            "priceChange": -910,
+            "lastClosePrice": 75410
+          }
+        },
+        {
+          "refId": "IRO1GNBO0001",
+          "name": "قنيشا",
+          "detailName": "قند  نيشابور",
+          "tradeSummary": {
+            "closePrice": 1949,
+            "lastPrice": 1961,
+            "totalCount": 352,
+            "totalVolume": 7168706,
+            "totalValue": 13960107472,
+            "priceChange": -24,
+            "lastClosePrice": 1985
+          }
+        },
+        {
+          "refId": "IRO1GPSH0001",
+          "name": "قپيرا",
+          "detailName": "فرآورده‌هاي‌غدايي‌وقندپيرانشهر",
+          "tradeSummary": {
+            "closePrice": 8650,
+            "lastPrice": 8640,
+            "totalCount": 17,
+            "totalVolume": 63488,
+            "totalValue": 555384750,
+            "priceChange": -10,
+            "lastClosePrice": 8650
+          }
+        },
+        {
+          "refId": "IRO1GHEG0001",
+          "name": "قهكمت",
+          "detailName": "قندهكمتان‌",
+          "tradeSummary": {
+            "closePrice": 7380,
+            "lastPrice": 7190,
+            "totalCount": 156,
+            "totalVolume": 2810224,
+            "totalValue": 20742170060,
+            "priceChange": -150,
+            "lastClosePrice": 7340
+          }
+        },
+        {
+          "refId": "IRO1GHND0001",
+          "name": "قشهد",
+          "detailName": "شهد",
+          "tradeSummary": {
+            "closePrice": 13740,
+            "lastPrice": 13750,
+            "totalCount": 50,
+            "totalVolume": 270186,
+            "totalValue": 3708554370,
+            "priceChange": 0,
+            "lastClosePrice": 13750
+          }
+        },
+        {
+          "refId": "IRO1SHKR0001",
+          "name": "قشكر",
+          "detailName": "شكرشاهرود",
+          "tradeSummary": {
+            "closePrice": 1838,
+            "lastPrice": 1828,
+            "totalCount": 234,
+            "totalVolume": 2435650,
+            "totalValue": 4444219037,
+            "priceChange": -16,
+            "lastClosePrice": 1844
+          }
+        },
+        {
+          "refId": "IRO1GLOR0001",
+          "name": "قلرست",
+          "detailName": "قند لرستان‌",
+          "tradeSummary": {
+            "closePrice": 25170,
+            "lastPrice": 24560,
+            "totalCount": 592,
+            "totalVolume": 1173700,
+            "totalValue": 29546369960,
+            "priceChange": -1290,
+            "lastClosePrice": 25850
+          }
+        },
+        {
+          "refId": "IRO1GMRO0001",
+          "name": "قمرو",
+          "detailName": "قند مرودشت‌",
+          "tradeSummary": {
+            "closePrice": 9770,
+            "lastPrice": 9720,
+            "totalCount": 89,
+            "totalVolume": 348145,
+            "totalValue": 3417652130,
+            "priceChange": -30,
+            "lastClosePrice": 9750
+          }
+        },
+        {
+          "refId": "IRO1GSBE0001",
+          "name": "قثابت",
+          "detailName": "قند ثابت‌ خراسان‌",
+          "tradeSummary": {
+            "closePrice": 2342,
+            "lastPrice": 2387,
+            "totalCount": 2134,
+            "totalVolume": 50806088,
+            "totalValue": 118986131813,
+            "priceChange": 99,
+            "lastClosePrice": 2288
+          }
+        },
+        {
+          "refId": "IRO1GGAZ0001",
+          "name": "قزوين",
+          "detailName": "كارخانجات‌ قند قزوين‌",
+          "tradeSummary": {
+            "closePrice": 4389,
+            "lastPrice": 4400,
+            "totalCount": 123,
+            "totalVolume": 1002167,
+            "totalValue": 4416073427,
+            "priceChange": 18,
+            "lastClosePrice": 4382
+          }
+        }
+      ]
+    },
+    {
+      "name": "شرکتهاي چند رشته اي صنعتي",
+      "code": "39",
+      "instruments": [
+        {
+          "refId": "IRO1GDIR0002",
+          "name": "وغدير2",
+          "detailName": "سرمايه‌گذاري‌غدير(هلدينگ‌",
+          "tradeSummary": {
+            "closePrice": 14360,
+            "lastPrice": 14360,
+            "totalCount": 2,
+            "totalVolume": 6960000,
+            "totalValue": 99945600000,
+            "priceChange": 40,
+            "lastClosePrice": 14320
+          }
+        },
+        {
+          "refId": "IRO1NIKI0001",
+          "name": "ونيكي",
+          "detailName": "سرمايه‌گذاري‌ ملي‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 8850,
+            "lastPrice": 8880,
+            "totalCount": 266,
+            "totalVolume": 2471495,
+            "totalValue": 21844926950,
+            "priceChange": 30,
+            "lastClosePrice": 8850
+          }
+        },
+        {
+          "refId": "IRO1SAND0001",
+          "name": "وصندوق",
+          "detailName": "سرمايه‌گذاري‌صندوق‌بازنشستگي‌",
+          "tradeSummary": {
+            "closePrice": 11260,
+            "lastPrice": 11080,
+            "totalCount": 181,
+            "totalVolume": 2360022,
+            "totalValue": 26400902500,
+            "priceChange": -200,
+            "lastClosePrice": 11280
+          }
+        },
+        {
+          "refId": "IRB6ST0103B2",
+          "name": "صشستا3112",
+          "detailName": "صكوك اجاره شستا311-بدون ضامن",
+          "tradeSummary": {
+            "closePrice": 1014438,
+            "lastPrice": 1000000,
+            "totalCount": 4,
+            "totalVolume": 2000000,
+            "totalValue": 2028876000000,
+            "priceChange": 0,
+            "lastClosePrice": 1000000
+          }
+        },
+        {
+          "refId": "IRO1GDIR0001",
+          "name": "وغدير",
+          "detailName": "سرمايه‌گذاري‌غدير(هلدينگ‌",
+          "tradeSummary": {
+            "closePrice": 14360,
+            "lastPrice": 14390,
+            "totalCount": 1599,
+            "totalVolume": 16234682,
+            "totalValue": 233144117090,
+            "priceChange": 70,
+            "lastClosePrice": 14320
+          }
+        },
+        {
+          "refId": "IRO1TAMN0001",
+          "name": "شستا",
+          "detailName": "سرمايه گذاري تامين اجتماعي",
+          "tradeSummary": {
+            "closePrice": 977,
+            "lastPrice": 981,
+            "totalCount": 4835,
+            "totalVolume": 306195699,
+            "totalValue": 299169926564,
+            "priceChange": 0,
+            "lastClosePrice": 981
+          }
+        },
+        {
+          "refId": "IRB6EG014082",
+          "name": "صغدير4082",
+          "detailName": "صكوك اجاره غدير408-بدون ضامن",
+          "tradeSummary": {
+            "closePrice": 995000,
+            "lastPrice": 995000,
+            "totalCount": 1,
+            "totalVolume": 90000,
+            "totalValue": 89550000000,
+            "priceChange": -5000,
+            "lastClosePrice": 1000000
+          }
+        },
+        {
+          "refId": "IRO1OIMC0001",
+          "name": "واميد",
+          "detailName": "گروه مديريت سرمايه گذاري اميد",
+          "tradeSummary": {
+            "closePrice": 12570,
+            "lastPrice": 12610,
+            "totalCount": 84,
+            "totalVolume": 613622,
+            "totalValue": 7715794740,
+            "priceChange": 40,
+            "lastClosePrice": 12570
+          }
+        },
+        {
+          "refId": "IRO1BANK0001",
+          "name": "وبانك",
+          "detailName": "سرمايه گذاري گروه توسعه ملي",
+          "tradeSummary": {
+            "closePrice": 9990,
+            "lastPrice": 10020,
+            "totalCount": 703,
+            "totalVolume": 10716846,
+            "totalValue": 107069248450,
+            "priceChange": -20,
+            "lastClosePrice": 10040
+          }
+        }
+      ]
+    },
+    {
+      "name": "عرضه برق، گاز، بخاروآب گرم",
+      "code": "40",
+      "instruments": [
+        {
+          "refId": "IRO1MOBN0002",
+          "name": "مبين2",
+          "detailName": "مبين انرژي خليج فارس",
+          "tradeSummary": {
+            "closePrice": 25100,
+            "lastPrice": 25100,
+            "totalCount": 1,
+            "totalVolume": 4120000,
+            "totalValue": 103412000000,
+            "priceChange": -250,
+            "lastClosePrice": 25350
+          }
+        },
+        {
+          "refId": "IRO1NBAB0001",
+          "name": "آبادا",
+          "detailName": "توليد نيروي برق آبادان",
+          "tradeSummary": {
+            "closePrice": 9460,
+            "lastPrice": 9680,
+            "totalCount": 1225,
+            "totalVolume": 3157070,
+            "totalValue": 29857623370,
+            "priceChange": 230,
+            "lastClosePrice": 9450
+          }
+        },
+        {
+          "refId": "IRO1SNRO0001",
+          "name": "ونيرو",
+          "detailName": "سرمايه‌گذاري‌نيرو",
+          "tradeSummary": {
+            "closePrice": 2796,
+            "lastPrice": 2865,
+            "totalCount": 1245,
+            "totalVolume": 54959143,
+            "totalValue": 153686450290,
+            "priceChange": 113,
+            "lastClosePrice": 2752
+          }
+        },
+        {
+          "refId": "IRO1MOBN0001",
+          "name": "مبين",
+          "detailName": "مبين انرژي خليج فارس",
+          "tradeSummary": {
+            "closePrice": 25000,
+            "lastPrice": 24780,
+            "totalCount": 564,
+            "totalVolume": 2220804,
+            "totalValue": 54631224920,
+            "priceChange": -570,
+            "lastClosePrice": 25350
+          }
+        }
+      ]
+    },
+    {
+      "name": "محصولات غذايي و آشاميدني به جز قند و شكر",
+      "code": "42",
+      "instruments": [
+        {
+          "refId": "IRO1SLMN0001",
+          "name": "غسالم",
+          "detailName": "سالمين‌",
+          "tradeSummary": {
+            "closePrice": 3099,
+            "lastPrice": 3121,
+            "totalCount": 448,
+            "totalVolume": 4545558,
+            "totalValue": 14078347119,
+            "priceChange": -21,
+            "lastClosePrice": 3142
+          }
+        },
+        {
+          "refId": "IRO1SPPE0001",
+          "name": "غشصفا",
+          "detailName": "شيرپاستوريزه‌پگاه‌اصفهان‌",
+          "tradeSummary": {
+            "closePrice": 17810,
+            "lastPrice": 17650,
+            "totalCount": 426,
+            "totalVolume": 1013667,
+            "totalValue": 18056264630,
+            "priceChange": -650,
+            "lastClosePrice": 18300
+          }
+        },
+        {
+          "refId": "IRO1SHPZ0001",
+          "name": "غشاذر",
+          "detailName": "پگاه‌آذربايجان‌غربي‌",
+          "tradeSummary": {
+            "closePrice": 4737,
+            "lastPrice": 4800,
+            "totalCount": 525,
+            "totalVolume": 5216677,
+            "totalValue": 24711451322,
+            "priceChange": 271,
+            "lastClosePrice": 4529
+          }
+        },
+        {
+          "refId": "IRO1KDPS0001",
+          "name": "غدام",
+          "detailName": "خوراك‌  دام‌ پارس‌",
+          "tradeSummary": {
+            "closePrice": 40730,
+            "lastPrice": 40910,
+            "totalCount": 585,
+            "totalVolume": 502494,
+            "totalValue": 20466242920,
+            "priceChange": -830,
+            "lastClosePrice": 41740
+          }
+        },
+        {
+          "refId": "IRO1TSBE0001",
+          "name": "وبشهر",
+          "detailName": "توسعه‌ صنايع‌ بهشهر(هلدينگ",
+          "tradeSummary": {
+            "closePrice": 6820,
+            "lastPrice": 6700,
+            "totalCount": 132,
+            "totalVolume": 479866,
+            "totalValue": 3224738770,
+            "priceChange": -130,
+            "lastClosePrice": 6830
+          }
+        },
+        {
+          "refId": "IRO1SHAD0001",
+          "name": "غشهد",
+          "detailName": "شهد ايران ‌",
+          "tradeSummary": {
+            "closePrice": 4536,
+            "lastPrice": 4477,
+            "totalCount": 243,
+            "totalVolume": 1912641,
+            "totalValue": 8652936347,
+            "priceChange": -76,
+            "lastClosePrice": 4553
+          }
+        },
+        {
+          "refId": "IRO1NOSH0001",
+          "name": "غنوش",
+          "detailName": "نوش‌ مازندران‌",
+          "tradeSummary": {
+            "closePrice": 10860,
+            "lastPrice": 10990,
+            "totalCount": 3330,
+            "totalVolume": 26425655,
+            "totalValue": 287011640770,
+            "priceChange": 520,
+            "lastClosePrice": 10470
+          }
+        },
+        {
+          "refId": "IRO1GORJ0001",
+          "name": "غگرجي",
+          "detailName": "بيسكويت‌  گرجي‌",
+          "tradeSummary": {
+            "closePrice": 1512,
+            "lastPrice": 1507,
+            "totalCount": 648,
+            "totalVolume": 11635067,
+            "totalValue": 17597233354,
+            "priceChange": 13,
+            "lastClosePrice": 1494
+          }
+        },
+        {
+          "refId": "IRO1MINO0001",
+          "name": "غپينو",
+          "detailName": "پارس‌ مينو",
+          "tradeSummary": {
+            "closePrice": 2427,
+            "lastPrice": 2466,
+            "totalCount": 1198,
+            "totalVolume": 23653177,
+            "totalValue": 57406095022,
+            "priceChange": 94,
+            "lastClosePrice": 2372
+          }
+        },
+        {
+          "refId": "IRO1KLBR0001",
+          "name": "غالبر",
+          "detailName": "لبنيات‌ كالبر",
+          "tradeSummary": {
+            "closePrice": 8710,
+            "lastPrice": 8670,
+            "totalCount": 217,
+            "totalVolume": 906354,
+            "totalValue": 7813346130,
+            "priceChange": -150,
+            "lastClosePrice": 8820
+          }
+        },
+        {
+          "refId": "IRO1KRSH0001",
+          "name": "غكورش",
+          "detailName": "صنعت غذايي كورش",
+          "tradeSummary": {
+            "closePrice": 40780,
+            "lastPrice": 41200,
+            "totalCount": 805,
+            "totalVolume": 1083888,
+            "totalValue": 44153101790,
+            "priceChange": 20,
+            "lastClosePrice": 41180
+          }
+        },
+        {
+          "refId": "IRO1GCOZ0001",
+          "name": "غگل",
+          "detailName": "گلوكوزان‌",
+          "tradeSummary": {
+            "closePrice": 3974,
+            "lastPrice": 3990,
+            "totalCount": 1350,
+            "totalVolume": 15425190,
+            "totalValue": 61305233999,
+            "priceChange": -93,
+            "lastClosePrice": 4083
+          }
+        },
+        {
+          "refId": "IRO1BENN0001",
+          "name": "غبهنوش",
+          "detailName": "بهنوش‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 52310,
+            "lastPrice": 51260,
+            "totalCount": 362,
+            "totalVolume": 187328,
+            "totalValue": 9670020800,
+            "priceChange": -2390,
+            "lastClosePrice": 53650
+          }
+        },
+        {
+          "refId": "IRO1CHCH0001",
+          "name": "غچين",
+          "detailName": "كشت‌ و صنعت‌ چين‌ چين",
+          "tradeSummary": {
+            "closePrice": 11380,
+            "lastPrice": 11240,
+            "totalCount": 362,
+            "totalVolume": 1790777,
+            "totalValue": 20374645810,
+            "priceChange": -590,
+            "lastClosePrice": 11830
+          }
+        },
+        {
+          "refId": "IRO1ZARM0001",
+          "name": "غزر",
+          "detailName": "صنعتي زر ماكارون",
+          "tradeSummary": {
+            "closePrice": 7830,
+            "lastPrice": 7840,
+            "totalCount": 1461,
+            "totalVolume": 3832312,
+            "totalValue": 30007674310,
+            "priceChange": -60,
+            "lastClosePrice": 7900
+          }
+        },
+        {
+          "refId": "IRO1SBEH0001",
+          "name": "غبشهر",
+          "detailName": "صنعتي‌ بهشهر",
+          "tradeSummary": {
+            "closePrice": 3582,
+            "lastPrice": 3598,
+            "totalCount": 367,
+            "totalVolume": 6633319,
+            "totalValue": 23639577182,
+            "priceChange": -38,
+            "lastClosePrice": 3636
+          }
+        },
+        {
+          "refId": "IRO1MRGN0001",
+          "name": "غمارگ",
+          "detailName": "مارگارين‌",
+          "tradeSummary": {
+            "closePrice": 2151,
+            "lastPrice": 2160,
+            "totalCount": 747,
+            "totalVolume": 13043812,
+            "totalValue": 28052413638,
+            "priceChange": -72,
+            "lastClosePrice": 2232
+          }
+        },
+        {
+          "refId": "IRO1PIAZ0001",
+          "name": "غاذر",
+          "detailName": "كشت‌وصنعت‌پياذر",
+          "tradeSummary": {
+            "closePrice": 55430,
+            "lastPrice": 54790,
+            "totalCount": 485,
+            "totalVolume": 579334,
+            "totalValue": 32114451190,
+            "priceChange": -2880,
+            "lastClosePrice": 57670
+          }
+        },
+        {
+          "refId": "IRO1SPKH0001",
+          "name": "غشان",
+          "detailName": "شيرپاستوريزه‌پگاه‌خراسان‌",
+          "tradeSummary": {
+            "closePrice": 3871,
+            "lastPrice": 3848,
+            "totalCount": 239,
+            "totalVolume": 3200662,
+            "totalValue": 12426418635,
+            "priceChange": 26,
+            "lastClosePrice": 3822
+          }
+        },
+        {
+          "refId": "IRO1MRAM0001",
+          "name": "غمهرا",
+          "detailName": "توليدي‌مهرام‌",
+          "tradeSummary": {
+            "closePrice": 11650,
+            "lastPrice": 11620,
+            "totalCount": 136,
+            "totalVolume": 411834,
+            "totalValue": 4777087540,
+            "priceChange": -50,
+            "lastClosePrice": 11670
+          }
+        },
+        {
+          "refId": "IRO1KDPS0004",
+          "name": "غدام4",
+          "detailName": "خوراك‌  دام‌ پارس‌",
+          "tradeSummary": {
+            "closePrice": 40730,
+            "lastPrice": 40730,
+            "totalCount": 1,
+            "totalVolume": 1000000,
+            "totalValue": 40730000000,
+            "priceChange": -1010,
+            "lastClosePrice": 41740
+          }
+        }
+      ]
+    },
+    {
+      "name": "مواد و محصولات دارويي",
+      "code": "43",
+      "instruments": [
+        {
+          "refId": "IRO1EXIR0001",
+          "name": "دلر",
+          "detailName": "داروسازي‌ اكسير",
+          "tradeSummary": {
+            "closePrice": 19800,
+            "lastPrice": 19800,
+            "totalCount": 81,
+            "totalVolume": 167447,
+            "totalValue": 3294772250,
+            "priceChange": -30,
+            "lastClosePrice": 19830
+          }
+        },
+        {
+          "refId": "IRO1DOSE0001",
+          "name": "داسوه",
+          "detailName": "داروسازي‌ اسوه‌",
+          "tradeSummary": {
+            "closePrice": 32830,
+            "lastPrice": 33330,
+            "totalCount": 87,
+            "totalVolume": 102667,
+            "totalValue": 3452204540,
+            "priceChange": 730,
+            "lastClosePrice": 32600
+          }
+        },
+        {
+          "refId": "IRO1TMVD0001",
+          "name": "دتماد",
+          "detailName": "توليدمواداوليه‌داروپخش‌",
+          "tradeSummary": {
+            "closePrice": 31780,
+            "lastPrice": 31770,
+            "totalCount": 208,
+            "totalVolume": 547976,
+            "totalValue": 17416550740,
+            "priceChange": -160,
+            "lastClosePrice": 31930
+          }
+        },
+        {
+          "refId": "IRO1DSOB0001",
+          "name": "دسبحا",
+          "detailName": "گروه دارويي سبحان",
+          "tradeSummary": {
+            "closePrice": 7060,
+            "lastPrice": 7040,
+            "totalCount": 1111,
+            "totalVolume": 11595151,
+            "totalValue": 81866767880,
+            "priceChange": 50,
+            "lastClosePrice": 6990
+          }
+        },
+        {
+          "refId": "IRO1DAML0001",
+          "name": "ددام",
+          "detailName": "داروسازي زاگرس فارمد پارس",
+          "tradeSummary": {
+            "closePrice": 11430,
+            "lastPrice": 11490,
+            "totalCount": 555,
+            "totalVolume": 3723971,
+            "totalValue": 42559510110,
+            "priceChange": 530,
+            "lastClosePrice": 10960
+          }
+        },
+        {
+          "refId": "IRO1DJBR0001",
+          "name": "دجابر",
+          "detailName": "داروسازي‌ جابرابن‌حيان‌",
+          "tradeSummary": {
+            "closePrice": 11630,
+            "lastPrice": 11550,
+            "totalCount": 126,
+            "totalVolume": 495297,
+            "totalValue": 5675070700,
+            "priceChange": -180,
+            "lastClosePrice": 11730
+          }
+        },
+        {
+          "refId": "IRO1DRZK0001",
+          "name": "درازك",
+          "detailName": "دارويي‌ رازك‌",
+          "tradeSummary": {
+            "closePrice": 12390,
+            "lastPrice": 12280,
+            "totalCount": 65,
+            "totalVolume": 137335,
+            "totalValue": 1697415400,
+            "priceChange": -110,
+            "lastClosePrice": 12390
+          }
+        },
+        {
+          "refId": "IRO1DDPK0001",
+          "name": "دشيمي",
+          "detailName": "شيمي‌ داروئي‌ داروپخش‌",
+          "tradeSummary": {
+            "closePrice": 25390,
+            "lastPrice": 25400,
+            "totalCount": 59,
+            "totalVolume": 77409,
+            "totalValue": 1983154040,
+            "priceChange": 40,
+            "lastClosePrice": 25360
+          }
+        },
+        {
+          "refId": "IRO1ALBZ0001",
+          "name": "والبر",
+          "detailName": "سرمايه‌ گذاري‌ البرز(هلدينگ‌",
+          "tradeSummary": {
+            "closePrice": 4501,
+            "lastPrice": 4509,
+            "totalCount": 364,
+            "totalVolume": 4878668,
+            "totalValue": 21933685542,
+            "priceChange": -43,
+            "lastClosePrice": 4552
+          }
+        },
+        {
+          "refId": "IRO1FTIR0001",
+          "name": "دفرا",
+          "detailName": "فرآورده‌هاي‌ تزريقي‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 16660,
+            "lastPrice": 16590,
+            "totalCount": 26,
+            "totalVolume": 27514,
+            "totalValue": 456283260,
+            "priceChange": -70,
+            "lastClosePrice": 16660
+          }
+        },
+        {
+          "refId": "IRO1DPAK0001",
+          "name": "دارو",
+          "detailName": "كارخانجات‌داروپخش‌",
+          "tradeSummary": {
+            "closePrice": 13790,
+            "lastPrice": 13840,
+            "totalCount": 117,
+            "totalVolume": 398139,
+            "totalValue": 5530701320,
+            "priceChange": 110,
+            "lastClosePrice": 13730
+          }
+        },
+        {
+          "refId": "IRO1DTIP0001",
+          "name": "تيپيكو",
+          "detailName": "سرمايه گذاري دارويي تامين",
+          "tradeSummary": {
+            "closePrice": 21800,
+            "lastPrice": 21780,
+            "totalCount": 207,
+            "totalVolume": 537447,
+            "totalValue": 11670210760,
+            "priceChange": -30,
+            "lastClosePrice": 21810
+          }
+        },
+        {
+          "refId": "IRO1DARO0001",
+          "name": "وپخش",
+          "detailName": "داروپخش‌ (هلدينگ‌",
+          "tradeSummary": {
+            "closePrice": 33730,
+            "lastPrice": 33720,
+            "totalCount": 69,
+            "totalVolume": 1064972,
+            "totalValue": 35922159730,
+            "priceChange": 10,
+            "lastClosePrice": 33710
+          }
+        },
+        {
+          "refId": "IRO1DABO0001",
+          "name": "دابور",
+          "detailName": "داروسازي‌ ابوريحان‌",
+          "tradeSummary": {
+            "closePrice": 23720,
+            "lastPrice": 23790,
+            "totalCount": 291,
+            "totalVolume": 1967985,
+            "totalValue": 46673249280,
+            "priceChange": 1130,
+            "lastClosePrice": 22660
+          }
+        },
+        {
+          "refId": "IRO1ROZD0001",
+          "name": "دروز",
+          "detailName": "داروسازي‌ روزدارو",
+          "tradeSummary": {
+            "closePrice": 18220,
+            "lastPrice": 18260,
+            "totalCount": 101,
+            "totalVolume": 211950,
+            "totalValue": 3842632750,
+            "priceChange": 10,
+            "lastClosePrice": 18250
+          }
+        },
+        {
+          "refId": "IRO1PDRO0001",
+          "name": "دپارس",
+          "detailName": "پارس‌ دارو",
+          "tradeSummary": {
+            "closePrice": 24880,
+            "lastPrice": 25600,
+            "totalCount": 43,
+            "totalVolume": 45646,
+            "totalValue": 1157575690,
+            "priceChange": 760,
+            "lastClosePrice": 24840
+          }
+        },
+        {
+          "refId": "IRO1DALZ0001",
+          "name": "دالبر",
+          "detailName": "البرزدارو",
+          "tradeSummary": {
+            "closePrice": 8660,
+            "lastPrice": 8700,
+            "totalCount": 258,
+            "totalVolume": 1755186,
+            "totalValue": 15251961830,
+            "priceChange": 490,
+            "lastClosePrice": 8210
+          }
+        },
+        {
+          "refId": "IRO1BRKT0001",
+          "name": "بركت",
+          "detailName": "گروه دارويي بركت",
+          "tradeSummary": {
+            "closePrice": 13880,
+            "lastPrice": 13970,
+            "totalCount": 1881,
+            "totalVolume": 6199236,
+            "totalValue": 86042534010,
+            "priceChange": -260,
+            "lastClosePrice": 14230
+          }
+        },
+        {
+          "refId": "IRO1SHFA0001",
+          "name": "شفا",
+          "detailName": "سرمايه گذاري شفادارو",
+          "tradeSummary": {
+            "closePrice": 18370,
+            "lastPrice": 18350,
+            "totalCount": 107,
+            "totalVolume": 194479,
+            "totalValue": 3558095110,
+            "priceChange": -40,
+            "lastClosePrice": 18390
+          }
+        },
+        {
+          "refId": "IRR1DPAK0101",
+          "name": "داروح",
+          "detailName": "ح . كارخانجات‌داروپخش",
+          "tradeSummary": {
+            "closePrice": 11790,
+            "lastPrice": 11450,
+            "totalCount": 230,
+            "totalVolume": 403358,
+            "totalValue": 4755853210,
+            "priceChange": -140,
+            "lastClosePrice": 11590
+          }
+        },
+        {
+          "refId": "IRO1IRDR0001",
+          "name": "ديران",
+          "detailName": "ايران‌دارو",
+          "tradeSummary": {
+            "closePrice": 12590,
+            "lastPrice": 12710,
+            "totalCount": 718,
+            "totalVolume": 3293726,
+            "totalValue": 41481395180,
+            "priceChange": -390,
+            "lastClosePrice": 13100
+          }
+        },
+        {
+          "refId": "IRO1ABDI0001",
+          "name": "دعبيد",
+          "detailName": "لابراتوارداروسازي‌  دكترعبيدي‌",
+          "tradeSummary": {
+            "closePrice": 34250,
+            "lastPrice": 33500,
+            "totalCount": 362,
+            "totalVolume": 426409,
+            "totalValue": 14282465820,
+            "priceChange": -990,
+            "lastClosePrice": 34490
+          }
+        },
+        {
+          "refId": "IRO1DLGM0001",
+          "name": "دلقما",
+          "detailName": "دارويي‌ لقمان‌",
+          "tradeSummary": {
+            "closePrice": 1740,
+            "lastPrice": 1684,
+            "totalCount": 700,
+            "totalVolume": 15848727,
+            "totalValue": 27577935244,
+            "priceChange": -28,
+            "lastClosePrice": 1712
+          }
+        },
+        {
+          "refId": "IRO1AMIN0001",
+          "name": "دامين",
+          "detailName": "داروسازي‌ امين‌",
+          "tradeSummary": {
+            "closePrice": 2821,
+            "lastPrice": 2836,
+            "totalCount": 322,
+            "totalVolume": 3225068,
+            "totalValue": 9090466328,
+            "priceChange": 12,
+            "lastClosePrice": 2824
+          }
+        },
+        {
+          "refId": "IRO1DSIN0001",
+          "name": "دسينا",
+          "detailName": "داروسازي‌ سينا",
+          "tradeSummary": {
+            "closePrice": 23320,
+            "lastPrice": 23200,
+            "totalCount": 56,
+            "totalVolume": 168788,
+            "totalValue": 3954782290,
+            "priceChange": -80,
+            "lastClosePrice": 23280
+          }
+        },
+        {
+          "refId": "IRO1DKSR0001",
+          "name": "دكوثر",
+          "detailName": "داروسازي‌ كوثر",
+          "tradeSummary": {
+            "closePrice": 2568,
+            "lastPrice": 2550,
+            "totalCount": 277,
+            "totalVolume": 4036290,
+            "totalValue": 10236201069,
+            "priceChange": -84,
+            "lastClosePrice": 2634
+          }
+        },
+        {
+          "refId": "IRO1DZAH0001",
+          "name": "دزهراوي",
+          "detailName": "داروسازي‌زهراوي‌",
+          "tradeSummary": {
+            "closePrice": 3954,
+            "lastPrice": 3929,
+            "totalCount": 245,
+            "totalVolume": 2022289,
+            "totalValue": 7921122188,
+            "priceChange": -69,
+            "lastClosePrice": 3998
+          }
+        },
+        {
+          "refId": "IRO1DSBH0001",
+          "name": "دسبحان",
+          "detailName": "سبحان دارو",
+          "tradeSummary": {
+            "closePrice": 7290,
+            "lastPrice": 7310,
+            "totalCount": 484,
+            "totalVolume": 2521017,
+            "totalValue": 18368425310,
+            "priceChange": 340,
+            "lastClosePrice": 6970
+          }
+        },
+        {
+          "refId": "IRO1DFRB0001",
+          "name": "دفارا",
+          "detailName": "داروسازي‌ فارابي‌",
+          "tradeSummary": {
+            "closePrice": 11510,
+            "lastPrice": 11540,
+            "totalCount": 184,
+            "totalVolume": 933573,
+            "totalValue": 10763805330,
+            "priceChange": 70,
+            "lastClosePrice": 11470
+          }
+        },
+        {
+          "refId": "IRO1KIMI0001",
+          "name": "دكيمي",
+          "detailName": "كيميدارو",
+          "tradeSummary": {
+            "closePrice": 22820,
+            "lastPrice": 22720,
+            "totalCount": 206,
+            "totalVolume": 635182,
+            "totalValue": 14505210330,
+            "priceChange": 120,
+            "lastClosePrice": 22600
+          }
+        }
+      ]
+    },
+    {
+      "name": "محصولات شيميايي",
+      "code": "44",
+      "instruments": [
+        {
+          "refId": "IRO1SHFS0001",
+          "name": "شفارس",
+          "detailName": "صنايع‌ شيميايي‌ فارس‌",
+          "tradeSummary": {
+            "closePrice": 1038,
+            "lastPrice": 1027,
+            "totalCount": 437,
+            "totalVolume": 12810965,
+            "totalValue": 13258315002,
+            "priceChange": -40,
+            "lastClosePrice": 1067
+          }
+        },
+        {
+          "refId": "IRO1NORI0001",
+          "name": "نوري",
+          "detailName": "پتروشيمي نوري",
+          "tradeSummary": {
+            "closePrice": 94140,
+            "lastPrice": 93720,
+            "totalCount": 2314,
+            "totalVolume": 1382466,
+            "totalValue": 130139545130,
+            "priceChange": -2180,
+            "lastClosePrice": 95900
+          }
+        },
+        {
+          "refId": "IRO1SHSI0001",
+          "name": "شسينا",
+          "detailName": "صنايع‌شيميايي‌سينا",
+          "tradeSummary": {
+            "closePrice": 1644,
+            "lastPrice": 1644,
+            "totalCount": 525,
+            "totalVolume": 12596908,
+            "totalValue": 20710709026,
+            "priceChange": -54,
+            "lastClosePrice": 1698
+          }
+        },
+        {
+          "refId": "IRO1PKHA0001",
+          "name": "شخارك",
+          "detailName": "پتروشيمي‌ خارك‌",
+          "tradeSummary": {
+            "closePrice": 38230,
+            "lastPrice": 37510,
+            "totalCount": 251,
+            "totalVolume": 234557,
+            "totalValue": 8890728940,
+            "priceChange": -760,
+            "lastClosePrice": 38270
+          }
+        },
+        {
+          "refId": "IRO1KRSN0001",
+          "name": "خراسان",
+          "detailName": "پتروشيمي خراسان",
+          "tradeSummary": {
+            "closePrice": 106700,
+            "lastPrice": 108820,
+            "totalCount": 275,
+            "totalVolume": 129155,
+            "totalValue": 14094180800,
+            "priceChange": 2650,
+            "lastClosePrice": 106170
+          }
+        },
+        {
+          "refId": "IRO1PETR0001",
+          "name": "وپترو",
+          "detailName": "سرمايه‌گذاري صنايع پتروشيمي‌",
+          "tradeSummary": {
+            "closePrice": 9370,
+            "lastPrice": 9370,
+            "totalCount": 132,
+            "totalVolume": 592948,
+            "totalValue": 5563372550,
+            "priceChange": 0,
+            "lastClosePrice": 9370
+          }
+        },
+        {
+          "refId": "IRO1PSHZ0001",
+          "name": "شيراز",
+          "detailName": "پتروشيمي‌شيراز",
+          "tradeSummary": {
+            "closePrice": 71270,
+            "lastPrice": 71000,
+            "totalCount": 859,
+            "totalVolume": 1237815,
+            "totalValue": 88865573210,
+            "priceChange": 2110,
+            "lastClosePrice": 68890
+          }
+        },
+        {
+          "refId": "IRO1PJMZ0001",
+          "name": "جم",
+          "detailName": "پتروشيمي جم",
+          "tradeSummary": {
+            "closePrice": 38740,
+            "lastPrice": 38600,
+            "totalCount": 430,
+            "totalVolume": 1101209,
+            "totalValue": 42433267320,
+            "priceChange": -300,
+            "lastClosePrice": 38900
+          }
+        },
+        {
+          "refId": "IRO1JPPC0001",
+          "name": "جم پيلن",
+          "detailName": "پلي پروپيلن جم - جم پيلن",
+          "tradeSummary": {
+            "closePrice": 118100,
+            "lastPrice": 118220,
+            "totalCount": 389,
+            "totalVolume": 2255890,
+            "totalValue": 266416607770,
+            "priceChange": 1330,
+            "lastClosePrice": 116890
+          }
+        },
+        {
+          "refId": "IRO1AMLH0001",
+          "name": "شاملا",
+          "detailName": "معدني‌ املاح‌  ايران‌",
+          "tradeSummary": {
+            "closePrice": 10830,
+            "lastPrice": 10570,
+            "totalCount": 187,
+            "totalVolume": 696260,
+            "totalValue": 7534275480,
+            "priceChange": -270,
+            "lastClosePrice": 10840
+          }
+        },
+        {
+          "refId": "IRO1PGDR0001",
+          "name": "شغدير",
+          "detailName": "پتروشيمي غدير",
+          "tradeSummary": {
+            "closePrice": 71120,
+            "lastPrice": 70950,
+            "totalCount": 696,
+            "totalVolume": 763639,
+            "totalValue": 54308661310,
+            "priceChange": -1840,
+            "lastClosePrice": 72790
+          }
+        },
+        {
+          "refId": "IRO1PARK0001",
+          "name": "شاراك",
+          "detailName": "پتروشيمي شازند",
+          "tradeSummary": {
+            "closePrice": 33920,
+            "lastPrice": 33710,
+            "totalCount": 530,
+            "totalVolume": 730972,
+            "totalValue": 24620077420,
+            "priceChange": -290,
+            "lastClosePrice": 34000
+          }
+        },
+        {
+          "refId": "IRO1PKER0001",
+          "name": "كرماشا",
+          "detailName": "صنايع پتروشيمي كرمانشاه",
+          "tradeSummary": {
+            "closePrice": 59250,
+            "lastPrice": 58960,
+            "totalCount": 737,
+            "totalVolume": 1055137,
+            "totalValue": 62343495130,
+            "priceChange": -770,
+            "lastClosePrice": 59730
+          }
+        },
+        {
+          "refId": "IRO1PASH0001",
+          "name": "پاكشو",
+          "detailName": "گروه صنعتي پاكشو",
+          "tradeSummary": {
+            "closePrice": 6230,
+            "lastPrice": 6210,
+            "totalCount": 104,
+            "totalVolume": 632251,
+            "totalValue": 3892711050,
+            "priceChange": -20,
+            "lastClosePrice": 6230
+          }
+        },
+        {
+          "refId": "IRO1GTSH0001",
+          "name": "شگل",
+          "detailName": "گلتاش‌",
+          "tradeSummary": {
+            "closePrice": 4510,
+            "lastPrice": 4460,
+            "totalCount": 141,
+            "totalVolume": 1219913,
+            "totalValue": 5411832338,
+            "priceChange": -92,
+            "lastClosePrice": 4552
+          }
+        },
+        {
+          "refId": "IRO1NKOL0001",
+          "name": "شكلر",
+          "detailName": "نيروكلر",
+          "tradeSummary": {
+            "closePrice": 18730,
+            "lastPrice": 18650,
+            "totalCount": 264,
+            "totalVolume": 714638,
+            "totalValue": 13342797580,
+            "priceChange": -530,
+            "lastClosePrice": 19180
+          }
+        },
+        {
+          "refId": "IRO1PRDZ0001",
+          "name": "شپديس",
+          "detailName": "پتروشيمي پرديس",
+          "tradeSummary": {
+            "closePrice": 190090,
+            "lastPrice": 190460,
+            "totalCount": 2961,
+            "totalVolume": 1926145,
+            "totalValue": 366131962610,
+            "priceChange": 3660,
+            "lastClosePrice": 186800
+          }
+        },
+        {
+          "refId": "IRO1IPTR0001",
+          "name": "پترول",
+          "detailName": "گ.س.وت.ص.پتروشيمي خليج فارس",
+          "tradeSummary": {
+            "closePrice": 2329,
+            "lastPrice": 2300,
+            "totalCount": 2586,
+            "totalVolume": 59927203,
+            "totalValue": 139560587115,
+            "priceChange": -43,
+            "lastClosePrice": 2343
+          }
+        },
+        {
+          "refId": "IRO1SSIN0001",
+          "name": "شيران",
+          "detailName": "س. صنايع‌شيميايي‌ايران",
+          "tradeSummary": {
+            "closePrice": 9010,
+            "lastPrice": 9050,
+            "totalCount": 579,
+            "totalVolume": 2600955,
+            "totalValue": 23297731080,
+            "priceChange": 10,
+            "lastClosePrice": 9040
+          }
+        },
+        {
+          "refId": "IRO1PTAP0001",
+          "name": "تاپيكو",
+          "detailName": "س. نفت و گاز و پتروشيمي تأمين",
+          "tradeSummary": {
+            "closePrice": 11190,
+            "lastPrice": 11230,
+            "totalCount": 807,
+            "totalVolume": 8220707,
+            "totalValue": 92031180590,
+            "priceChange": 60,
+            "lastClosePrice": 11170
+          }
+        },
+        {
+          "refId": "IRO1PASN0002",
+          "name": "پارسان2",
+          "detailName": "گسترش نفت و گاز پارسيان",
+          "tradeSummary": {
+            "closePrice": 31500,
+            "lastPrice": 31500,
+            "totalCount": 2,
+            "totalVolume": 2688432,
+            "totalValue": 84685608000,
+            "priceChange": 130,
+            "lastClosePrice": 31370
+          }
+        },
+        {
+          "refId": "IRO1PASN0001",
+          "name": "پارسان",
+          "detailName": "گسترش نفت و گاز پارسيان",
+          "tradeSummary": {
+            "closePrice": 31500,
+            "lastPrice": 31600,
+            "totalCount": 666,
+            "totalVolume": 6163981,
+            "totalValue": 194169909840,
+            "priceChange": 230,
+            "lastClosePrice": 31370
+          }
+        },
+        {
+          "refId": "IRO1PAKS0001",
+          "name": "شپاكسا",
+          "detailName": "پاكسان‌",
+          "tradeSummary": {
+            "closePrice": 1827,
+            "lastPrice": 1861,
+            "totalCount": 154,
+            "totalVolume": 5910371,
+            "totalValue": 10999200431,
+            "priceChange": 105,
+            "lastClosePrice": 1756
+          }
+        },
+        {
+          "refId": "IRO1PKLJ0001",
+          "name": "فارس",
+          "detailName": "صنايع پتروشيمي خليج فارس",
+          "tradeSummary": {
+            "closePrice": 7770,
+            "lastPrice": 7740,
+            "totalCount": 2767,
+            "totalVolume": 30411451,
+            "totalValue": 236233537100,
+            "priceChange": -40,
+            "lastClosePrice": 7780
+          }
+        },
+        {
+          "refId": "IRO1BMPS0001",
+          "name": "شپارس",
+          "detailName": "بين‌ المللي‌ محصولات‌  پارس‌",
+          "tradeSummary": {
+            "closePrice": 4245,
+            "lastPrice": 4417,
+            "totalCount": 48,
+            "totalVolume": 645432,
+            "totalValue": 2850873144,
+            "priceChange": 210,
+            "lastClosePrice": 4207
+          }
+        },
+        {
+          "refId": "IRO1CRBN0001",
+          "name": "شكربن",
+          "detailName": "كربن‌ ايران‌",
+          "tradeSummary": {
+            "closePrice": 3388,
+            "lastPrice": 3388,
+            "totalCount": 544,
+            "totalVolume": 13606795,
+            "totalValue": 46096592516,
+            "priceChange": -142,
+            "lastClosePrice": 3530
+          }
+        },
+        {
+          "refId": "IRO1PRDZ0002",
+          "name": "شپديس2",
+          "detailName": "پتروشيمي پرديس",
+          "tradeSummary": {
+            "closePrice": 189000,
+            "lastPrice": 189000,
+            "totalCount": 1,
+            "totalVolume": 293000,
+            "totalValue": 55377000000,
+            "priceChange": 2200,
+            "lastClosePrice": 186800
+          }
+        },
+        {
+          "refId": "IRO1BONA0001",
+          "name": "بوعلي",
+          "detailName": "پتروشيمي بوعلي سينا",
+          "tradeSummary": {
+            "closePrice": 98780,
+            "lastPrice": 98800,
+            "totalCount": 1028,
+            "totalVolume": 206575,
+            "totalValue": 20383744980,
+            "priceChange": -10,
+            "lastClosePrice": 98810
+          }
+        },
+        {
+          "refId": "IRO1PARS0001",
+          "name": "پارس",
+          "detailName": "پتروشيمي پارس",
+          "tradeSummary": {
+            "closePrice": 2328,
+            "lastPrice": 2353,
+            "totalCount": 553,
+            "totalVolume": 10357736,
+            "totalValue": 24245677182,
+            "priceChange": 28,
+            "lastClosePrice": 2325
+          }
+        },
+        {
+          "refId": "IRO1LEAB0001",
+          "name": "شلعاب",
+          "detailName": "لعابيران‌",
+          "tradeSummary": {
+            "closePrice": 4932,
+            "lastPrice": 4920,
+            "totalCount": 373,
+            "totalVolume": 3028302,
+            "totalValue": 14934698215,
+            "priceChange": -119,
+            "lastClosePrice": 5039
+          }
+        },
+        {
+          "refId": "IRO1SHOY0001",
+          "name": "شوينده",
+          "detailName": "مديريت صنعت شوينده ت.ص.بهشهر",
+          "tradeSummary": {
+            "closePrice": 15040,
+            "lastPrice": 14910,
+            "totalCount": 261,
+            "totalVolume": 723041,
+            "totalValue": 10818601170,
+            "priceChange": -320,
+            "lastClosePrice": 15230
+          }
+        },
+        {
+          "refId": "IRO1PFAN0001",
+          "name": "شفن",
+          "detailName": "پتروشيمي فناوران",
+          "tradeSummary": {
+            "closePrice": 6770,
+            "lastPrice": 6690,
+            "totalCount": 2521,
+            "totalVolume": 17418699,
+            "totalValue": 117924005580,
+            "priceChange": -70,
+            "lastClosePrice": 6760
+          }
+        },
+        {
+          "refId": "IRO1DODE0001",
+          "name": "شدوص",
+          "detailName": "دوده‌ صنعتي‌ پارس‌",
+          "tradeSummary": {
+            "closePrice": 11410,
+            "lastPrice": 11430,
+            "totalCount": 444,
+            "totalVolume": 1761190,
+            "totalValue": 20091118230,
+            "priceChange": -200,
+            "lastClosePrice": 11630
+          }
+        },
+        {
+          "refId": "IRO1GARN0001",
+          "name": "قرن",
+          "detailName": "پديده شيمي قرن",
+          "tradeSummary": {
+            "closePrice": 16710,
+            "lastPrice": 16870,
+            "totalCount": 345,
+            "totalVolume": 729514,
+            "totalValue": 12164403160,
+            "priceChange": 10,
+            "lastClosePrice": 16860
+          }
+        }
+      ]
+    },
+    {
+      "name": "خرده فروشي،باستثناي وسايل نقليه موتوري",
+      "code": "47",
+      "instruments": [
+        {
+          "refId": "IRO1OFOG0001",
+          "name": "افق",
+          "detailName": "فروشگاههاي زنجيره اي افق كوروش",
+          "tradeSummary": {
+            "closePrice": 57680,
+            "lastPrice": 57980,
+            "totalCount": 202,
+            "totalVolume": 148186,
+            "totalValue": 8594324200,
+            "priceChange": 340,
+            "lastClosePrice": 57640
+          }
+        }
+      ]
+    },
+    {
+      "name": "كاشي و سراميك",
+      "code": "49",
+      "instruments": [
+        {
+          "refId": "IRO1KPRS0001",
+          "name": "كپارس",
+          "detailName": "كاشي‌ پارس‌",
+          "tradeSummary": {
+            "closePrice": 7240,
+            "lastPrice": 7180,
+            "totalCount": 367,
+            "totalVolume": 2418516,
+            "totalValue": 17505105600,
+            "priceChange": -230,
+            "lastClosePrice": 7410
+          }
+        },
+        {
+          "refId": "IRO1TKSM0001",
+          "name": "كترام",
+          "detailName": "توليدي‌ كاشي‌ تكسرام‌",
+          "tradeSummary": {
+            "closePrice": 7800,
+            "lastPrice": 7690,
+            "totalCount": 143,
+            "totalVolume": 588073,
+            "totalValue": 4521320870,
+            "priceChange": -160,
+            "lastClosePrice": 7850
+          }
+        },
+        {
+          "refId": "IRO1ALVN0001",
+          "name": "كلوند",
+          "detailName": "كاشي‌ الوند",
+          "tradeSummary": {
+            "closePrice": 24120,
+            "lastPrice": 24270,
+            "totalCount": 124,
+            "totalVolume": 408207,
+            "totalValue": 9838790870,
+            "priceChange": 130,
+            "lastClosePrice": 24140
+          }
+        },
+        {
+          "refId": "IRO1KHFZ0001",
+          "name": "كحافظ",
+          "detailName": "كاشي‌ وسراميك‌ حافظ‌",
+          "tradeSummary": {
+            "closePrice": 5050,
+            "lastPrice": 5050,
+            "totalCount": 435,
+            "totalVolume": 6506121,
+            "totalValue": 32842241010,
+            "priceChange": -130,
+            "lastClosePrice": 5180
+          }
+        },
+        {
+          "refId": "IRO1SINA0001",
+          "name": "كساوه",
+          "detailName": "صنايع‌ كاشي‌ و سراميك‌ سينا",
+          "tradeSummary": {
+            "closePrice": 38800,
+            "lastPrice": 38940,
+            "totalCount": 379,
+            "totalVolume": 375563,
+            "totalValue": 14624411110,
+            "priceChange": 1390,
+            "lastClosePrice": 37550
+          }
+        },
+        {
+          "refId": "IRO1KSAD0001",
+          "name": "كسعدي",
+          "detailName": "كاشي‌ سعدي‌",
+          "tradeSummary": {
+            "closePrice": 8480,
+            "lastPrice": 8410,
+            "totalCount": 191,
+            "totalVolume": 726660,
+            "totalValue": 6076394650,
+            "priceChange": -140,
+            "lastClosePrice": 8550
+          }
+        }
+      ]
+    },
+    {
+      "name": "سيمان، آهك و گچ",
+      "code": "53",
+      "instruments": [
+        {
+          "refId": "IRO1SDST0001",
+          "name": "سدشت",
+          "detailName": "صنايع سيمان دشتستان",
+          "tradeSummary": {
+            "closePrice": 25640,
+            "lastPrice": 25250,
+            "totalCount": 384,
+            "totalVolume": 413788,
+            "totalValue": 10611338650,
+            "priceChange": -370,
+            "lastClosePrice": 25620
+          }
+        },
+        {
+          "refId": "IRO1SSNR0001",
+          "name": "سنير",
+          "detailName": "سيمان‌ سفيد ني‌ريز",
+          "tradeSummary": {
+            "closePrice": 27970,
+            "lastPrice": 27850,
+            "totalCount": 1156,
+            "totalVolume": 1886443,
+            "totalValue": 52767849180,
+            "priceChange": -1460,
+            "lastClosePrice": 29310
+          }
+        },
+        {
+          "refId": "IRO1SSEP0001",
+          "name": "سپاها",
+          "detailName": "سيمان‌سپاهان‌",
+          "tradeSummary": {
+            "closePrice": 9720,
+            "lastPrice": 9800,
+            "totalCount": 364,
+            "totalVolume": 2539527,
+            "totalValue": 24683212130,
+            "priceChange": -110,
+            "lastClosePrice": 9910
+          }
+        },
+        {
+          "refId": "IRO1SKAZ0001",
+          "name": "سخزر",
+          "detailName": "سيمان‌ خزر",
+          "tradeSummary": {
+            "closePrice": 23870,
+            "lastPrice": 24300,
+            "totalCount": 64,
+            "totalVolume": 117160,
+            "totalValue": 2833437780,
+            "priceChange": 500,
+            "lastClosePrice": 23800
+          }
+        },
+        {
+          "refId": "IRO1SEIL0001",
+          "name": "سيلام",
+          "detailName": "سيمان‌ ايلام‌",
+          "tradeSummary": {
+            "closePrice": 8120,
+            "lastPrice": 8020,
+            "totalCount": 274,
+            "totalVolume": 1711990,
+            "totalValue": 13876498270,
+            "priceChange": -250,
+            "lastClosePrice": 8270
+          }
+        },
+        {
+          "refId": "IRO1SADB0001",
+          "name": "ساربيل",
+          "detailName": "سيمان آرتا اردبيل",
+          "tradeSummary": {
+            "closePrice": 35920,
+            "lastPrice": 36800,
+            "totalCount": 833,
+            "totalVolume": 1882935,
+            "totalValue": 67637076510,
+            "priceChange": 1690,
+            "lastClosePrice": 35110
+          }
+        },
+        {
+          "refId": "IRO1SFKZ0001",
+          "name": "سفارس",
+          "detailName": "سيمان فارس و خوزستان",
+          "tradeSummary": {
+            "closePrice": 16930,
+            "lastPrice": 16950,
+            "totalCount": 396,
+            "totalVolume": 2231748,
+            "totalValue": 37782529010,
+            "priceChange": -220,
+            "lastClosePrice": 17170
+          }
+        },
+        {
+          "refId": "IRO1SKER0001",
+          "name": "سكرما",
+          "detailName": "سيمان‌ كرمان‌",
+          "tradeSummary": {
+            "closePrice": 14850,
+            "lastPrice": 14640,
+            "totalCount": 55,
+            "totalVolume": 109215,
+            "totalValue": 1599390100,
+            "priceChange": -230,
+            "lastClosePrice": 14870
+          }
+        },
+        {
+          "refId": "IRO1SHGN0001",
+          "name": "سهگمت",
+          "detailName": "سيمان‌هگمتان‌",
+          "tradeSummary": {
+            "closePrice": 28360,
+            "lastPrice": 28380,
+            "totalCount": 94,
+            "totalVolume": 183918,
+            "totalValue": 5234712940,
+            "priceChange": 70,
+            "lastClosePrice": 28310
+          }
+        },
+        {
+          "refId": "IRO1SKHS0001",
+          "name": "سخاش",
+          "detailName": "سيمان‌خاش‌",
+          "tradeSummary": {
+            "closePrice": 58460,
+            "lastPrice": 58680,
+            "totalCount": 189,
+            "totalVolume": 126274,
+            "totalValue": 7352287970,
+            "priceChange": 0,
+            "lastClosePrice": 58680
+          }
+        },
+        {
+          "refId": "IRO1SFRS0001",
+          "name": "سفار",
+          "detailName": "سيمان‌فارس‌",
+          "tradeSummary": {
+            "closePrice": 83980,
+            "lastPrice": 84150,
+            "totalCount": 92,
+            "totalVolume": 46678,
+            "totalValue": 3972063000,
+            "priceChange": 560,
+            "lastClosePrice": 83590
+          }
+        },
+        {
+          "refId": "IRO1ABIK0001",
+          "name": "سآبيك",
+          "detailName": "سيمان آبيك",
+          "tradeSummary": {
+            "closePrice": 11700,
+            "lastPrice": 11790,
+            "totalCount": 3038,
+            "totalVolume": 4046530,
+            "totalValue": 47328793350,
+            "priceChange": 90,
+            "lastClosePrice": 11700
+          }
+        },
+        {
+          "refId": "IRO1SDOR0001",
+          "name": "سدور",
+          "detailName": "سيمان‌ دورود",
+          "tradeSummary": {
+            "closePrice": 6530,
+            "lastPrice": 6610,
+            "totalCount": 271,
+            "totalVolume": 1278186,
+            "totalValue": 8341512050,
+            "priceChange": 80,
+            "lastClosePrice": 6530
+          }
+        },
+        {
+          "refId": "IRO1STEH0001",
+          "name": "ستران",
+          "detailName": "سيمان‌ تهران‌",
+          "tradeSummary": {
+            "closePrice": 25790,
+            "lastPrice": 25550,
+            "totalCount": 289,
+            "totalVolume": 554350,
+            "totalValue": 14224090590,
+            "priceChange": -720,
+            "lastClosePrice": 26270
+          }
+        },
+        {
+          "refId": "IRO1SDAB0001",
+          "name": "ساراب",
+          "detailName": "سيمان‌ داراب‌",
+          "tradeSummary": {
+            "closePrice": 17350,
+            "lastPrice": 17250,
+            "totalCount": 69,
+            "totalVolume": 326847,
+            "totalValue": 5674159570,
+            "priceChange": -100,
+            "lastClosePrice": 17350
+          }
+        },
+        {
+          "refId": "IRO1KHOC0001",
+          "name": "سخوز",
+          "detailName": "سيمان خوزستان",
+          "tradeSummary": {
+            "closePrice": 21950,
+            "lastPrice": 22000,
+            "totalCount": 166,
+            "totalVolume": 455996,
+            "totalValue": 10056888750,
+            "priceChange": 250,
+            "lastClosePrice": 21750
+          }
+        },
+        {
+          "refId": "IRO1SFNO0001",
+          "name": "سفانو",
+          "detailName": "سيمان فارس نو",
+          "tradeSummary": {
+            "closePrice": 38880,
+            "lastPrice": 38700,
+            "totalCount": 91,
+            "totalVolume": 216924,
+            "totalValue": 8403873220,
+            "priceChange": -370,
+            "lastClosePrice": 39070
+          }
+        },
+        {
+          "refId": "IRO1CIDC0001",
+          "name": "سيدكو",
+          "detailName": "سرمايه گذاري توسعه صنايع سيمان",
+          "tradeSummary": {
+            "closePrice": 7060,
+            "lastPrice": 7100,
+            "totalCount": 47,
+            "totalVolume": 544577,
+            "totalValue": 3850776330,
+            "priceChange": 40,
+            "lastClosePrice": 7060
+          }
+        },
+        {
+          "refId": "IRO1SHGN0002",
+          "name": "سهگمت2",
+          "detailName": "سيمان‌هگمتان‌",
+          "tradeSummary": {
+            "closePrice": 28350,
+            "lastPrice": 28350,
+            "totalCount": 2,
+            "totalVolume": 2820000,
+            "totalValue": 79947000000,
+            "priceChange": 40,
+            "lastClosePrice": 28310
+          }
+        },
+        {
+          "refId": "IRO1SKOR0001",
+          "name": "سكرد",
+          "detailName": "سيمان كردستان",
+          "tradeSummary": {
+            "closePrice": 11500,
+            "lastPrice": 11420,
+            "totalCount": 1892,
+            "totalVolume": 9849112,
+            "totalValue": 113223006590,
+            "priceChange": -600,
+            "lastClosePrice": 12020
+          }
+        },
+        {
+          "refId": "IRO1SSOF0001",
+          "name": "سصوفي",
+          "detailName": "سيمان‌ صوفيان‌",
+          "tradeSummary": {
+            "closePrice": 19670,
+            "lastPrice": 19900,
+            "totalCount": 199,
+            "totalVolume": 494585,
+            "totalValue": 9708964050,
+            "priceChange": 150,
+            "lastClosePrice": 19750
+          }
+        },
+        {
+          "refId": "IRO1SIMS0001",
+          "name": "سشمال",
+          "detailName": "سيمان‌ شمال‌",
+          "tradeSummary": {
+            "closePrice": 8930,
+            "lastPrice": 8720,
+            "totalCount": 445,
+            "totalVolume": 2423907,
+            "totalValue": 21634806090,
+            "priceChange": -210,
+            "lastClosePrice": 8930
+          }
+        },
+        {
+          "refId": "IRO1SEFH0001",
+          "name": "سصفها",
+          "detailName": "سيمان‌اصفهان‌",
+          "tradeSummary": {
+            "closePrice": 49500,
+            "lastPrice": 49230,
+            "totalCount": 543,
+            "totalVolume": 515870,
+            "totalValue": 25537303540,
+            "priceChange": -2590,
+            "lastClosePrice": 51820
+          }
+        },
+        {
+          "refId": "IRO1SGEN0001",
+          "name": "سقاين",
+          "detailName": "سيمان‌ قائن‌",
+          "tradeSummary": {
+            "closePrice": 41610,
+            "lastPrice": 42000,
+            "totalCount": 66,
+            "totalVolume": 126244,
+            "totalValue": 5278640520,
+            "priceChange": 500,
+            "lastClosePrice": 41500
+          }
+        },
+        {
+          "refId": "IRO1SBHN0001",
+          "name": "سبهان",
+          "detailName": "سيمان‌ بهبهان‌",
+          "tradeSummary": {
+            "closePrice": 41010,
+            "lastPrice": 41320,
+            "totalCount": 190,
+            "totalVolume": 265787,
+            "totalValue": 10822869040,
+            "priceChange": -560,
+            "lastClosePrice": 41880
+          }
+        },
+        {
+          "refId": "IRO1SSHR0001",
+          "name": "سشرق",
+          "detailName": "سيمان‌ شرق‌",
+          "tradeSummary": {
+            "closePrice": 7570,
+            "lastPrice": 7470,
+            "totalCount": 382,
+            "totalVolume": 1582163,
+            "totalValue": 11919288600,
+            "priceChange": -230,
+            "lastClosePrice": 7700
+          }
+        },
+        {
+          "refId": "IRO1SHZG0001",
+          "name": "سهرمز",
+          "detailName": "سيمان‌هرمزگان‌",
+          "tradeSummary": {
+            "closePrice": 25820,
+            "lastPrice": 25800,
+            "totalCount": 1138,
+            "totalVolume": 4351200,
+            "totalValue": 112332950930,
+            "priceChange": -1040,
+            "lastClosePrice": 26840
+          }
+        },
+        {
+          "refId": "IRO1SROD0001",
+          "name": "سرود",
+          "detailName": "سيمان‌شاهرود",
+          "tradeSummary": {
+            "closePrice": 20390,
+            "lastPrice": 20220,
+            "totalCount": 85,
+            "totalVolume": 215869,
+            "totalValue": 4395647030,
+            "priceChange": -180,
+            "lastClosePrice": 20400
+          }
+        },
+        {
+          "refId": "IRO1SBOJ0001",
+          "name": "سبجنو",
+          "detailName": "سيمان‌ بجنورد",
+          "tradeSummary": {
+            "closePrice": 36490,
+            "lastPrice": 36100,
+            "totalCount": 44,
+            "totalVolume": 37401,
+            "totalValue": 1350443640,
+            "priceChange": -430,
+            "lastClosePrice": 36530
+          }
+        },
+        {
+          "refId": "IRO1SITA0001",
+          "name": "سيتا",
+          "detailName": "سرمايه گذاري سيمان تامين",
+          "tradeSummary": {
+            "closePrice": 8760,
+            "lastPrice": 8770,
+            "totalCount": 719,
+            "totalVolume": 910031,
+            "totalValue": 7978491430,
+            "priceChange": 10,
+            "lastClosePrice": 8760
+          }
+        },
+        {
+          "refId": "IRO1SGRB0001",
+          "name": "سغرب",
+          "detailName": "سيمان‌غرب‌",
+          "tradeSummary": {
+            "closePrice": 22170,
+            "lastPrice": 22140,
+            "totalCount": 1072,
+            "totalVolume": 4366254,
+            "totalValue": 96783752320,
+            "priceChange": 1120,
+            "lastClosePrice": 21020
+          }
+        },
+        {
+          "refId": "IRO1SMAZ0001",
+          "name": "سمازن",
+          "detailName": "سيمان‌مازندران‌",
+          "tradeSummary": {
+            "closePrice": 13010,
+            "lastPrice": 13120,
+            "totalCount": 183,
+            "totalVolume": 1046209,
+            "totalValue": 13620200400,
+            "priceChange": 170,
+            "lastClosePrice": 12950
+          }
+        },
+        {
+          "refId": "IRO1SURO0001",
+          "name": "ساروم",
+          "detailName": "سيمان‌اروميه‌",
+          "tradeSummary": {
+            "closePrice": 29620,
+            "lastPrice": 29410,
+            "totalCount": 56,
+            "totalVolume": 41801,
+            "totalValue": 1230939380,
+            "priceChange": -230,
+            "lastClosePrice": 29640
+          }
+        }
+      ]
+    },
+    {
+      "name": "ساير محصولات كاني غيرفلزي",
+      "code": "54",
+      "instruments": [
+        {
+          "refId": "IRO1SHMD0001",
+          "name": "كهمدا",
+          "detailName": "شيشه‌ همدان‌",
+          "tradeSummary": {
+            "closePrice": 11300,
+            "lastPrice": 11200,
+            "totalCount": 197,
+            "totalVolume": 782815,
+            "totalValue": 8799777200,
+            "priceChange": -190,
+            "lastClosePrice": 11390
+          }
+        },
+        {
+          "refId": "IRO1SISH0001",
+          "name": "كساپا",
+          "detailName": "سايپاشيشه‌",
+          "tradeSummary": {
+            "closePrice": 29660,
+            "lastPrice": 29740,
+            "totalCount": 191,
+            "totalVolume": 453860,
+            "totalValue": 13463992900,
+            "priceChange": 110,
+            "lastClosePrice": 29630
+          }
+        },
+        {
+          "refId": "IRO1NASI0001",
+          "name": "كفرا",
+          "detailName": "فراورده‌ هاي‌ نسوزايران‌",
+          "tradeSummary": {
+            "closePrice": 7650,
+            "lastPrice": 7590,
+            "totalCount": 323,
+            "totalVolume": 1348921,
+            "totalValue": 10249182960,
+            "priceChange": -180,
+            "lastClosePrice": 7770
+          }
+        },
+        {
+          "refId": "IRO1KCHI0001",
+          "name": "كخاك",
+          "detailName": "صنايع‌خاك‌چيني‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 12910,
+            "lastPrice": 12930,
+            "totalCount": 72,
+            "totalVolume": 215651,
+            "totalValue": 2801737410,
+            "priceChange": 30,
+            "lastClosePrice": 12900
+          }
+        },
+        {
+          "refId": "IRO1PSER0001",
+          "name": "كسرام",
+          "detailName": "پارس‌ سرام‌",
+          "tradeSummary": {
+            "closePrice": 6140,
+            "lastPrice": 6120,
+            "totalCount": 146,
+            "totalVolume": 1224071,
+            "totalValue": 7498179370,
+            "priceChange": -30,
+            "lastClosePrice": 6150
+          }
+        },
+        {
+          "refId": "IRO1ARDK0001",
+          "name": "كسرا",
+          "detailName": "سراميك‌هاي‌صنعتي‌اردكان‌",
+          "tradeSummary": {
+            "closePrice": 6420,
+            "lastPrice": 6450,
+            "totalCount": 580,
+            "totalVolume": 6457831,
+            "totalValue": 41438638100,
+            "priceChange": -190,
+            "lastClosePrice": 6640
+          }
+        },
+        {
+          "refId": "IRO1PSIR0001",
+          "name": "كپشير",
+          "detailName": "پشم‌شيشه‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 14340,
+            "lastPrice": 14200,
+            "totalCount": 911,
+            "totalVolume": 3538868,
+            "totalValue": 50748902700,
+            "priceChange": 320,
+            "lastClosePrice": 13880
+          }
+        },
+        {
+          "refId": "IRO1TSRZ0001",
+          "name": "كرازي",
+          "detailName": "كارخانجات‌توليدي‌شيشه‌رازي‌",
+          "tradeSummary": {
+            "closePrice": 1539,
+            "lastPrice": 1520,
+            "totalCount": 366,
+            "totalVolume": 6573130,
+            "totalValue": 10046397728,
+            "priceChange": -44,
+            "lastClosePrice": 1564
+          }
+        },
+        {
+          "refId": "IRO1NSPS0001",
+          "name": "كفپارس",
+          "detailName": "فرآورده‌هاي‌ نسوز پارس‌",
+          "tradeSummary": {
+            "closePrice": 3687,
+            "lastPrice": 3750,
+            "totalCount": 443,
+            "totalVolume": 5186514,
+            "totalValue": 19120118103,
+            "priceChange": -4,
+            "lastClosePrice": 3754
+          }
+        }
+      ]
+    },
+    {
+      "name": "سرمايه گذاريها",
+      "code": "56",
+      "instruments": [
+        {
+          "refId": "IRO1GBEH0001",
+          "name": "وصنا",
+          "detailName": "گروه‌صنايع‌بهشهرايران‌",
+          "tradeSummary": {
+            "closePrice": 2522,
+            "lastPrice": 2524,
+            "totalCount": 288,
+            "totalVolume": 5005265,
+            "totalValue": 12620771311,
+            "priceChange": -2,
+            "lastClosePrice": 2526
+          }
+        },
+        {
+          "refId": "IRO1VMDR0001",
+          "name": "ومدير",
+          "detailName": "گ.مديريت ارزش سرمايه ص ب كشوري",
+          "tradeSummary": {
+            "closePrice": 3766,
+            "lastPrice": 3745,
+            "totalCount": 563,
+            "totalVolume": 1674847,
+            "totalValue": 6291802491,
+            "priceChange": -28,
+            "lastClosePrice": 3773
+          }
+        },
+        {
+          "refId": "IRO1TOSA0001",
+          "name": "وتوصا",
+          "detailName": "گروه س توسعه صنعتي ايران",
+          "tradeSummary": {
+            "closePrice": 7780,
+            "lastPrice": 7820,
+            "totalCount": 307,
+            "totalVolume": 1727515,
+            "totalValue": 13421467150,
+            "priceChange": -70,
+            "lastClosePrice": 7890
+          }
+        },
+        {
+          "refId": "IRO1ATDM0001",
+          "name": "واتي",
+          "detailName": "سرمايه‌ گذاري‌ آتيه‌ دماوند",
+          "tradeSummary": {
+            "closePrice": 8810,
+            "lastPrice": 8610,
+            "totalCount": 142,
+            "totalVolume": 874702,
+            "totalValue": 7621468590,
+            "priceChange": -300,
+            "lastClosePrice": 8910
+          }
+        },
+        {
+          "refId": "IRO1BALI0001",
+          "name": "وبوعلي",
+          "detailName": "سرمايه‌گذاري‌بوعلي‌",
+          "tradeSummary": {
+            "closePrice": 4203,
+            "lastPrice": 4180,
+            "totalCount": 236,
+            "totalVolume": 1250362,
+            "totalValue": 5236580133,
+            "priceChange": -31,
+            "lastClosePrice": 4211
+          }
+        },
+        {
+          "refId": "IRO1IDOC0001",
+          "name": "واعتبار",
+          "detailName": "سرمايه گذاري اعتبار ايران",
+          "tradeSummary": {
+            "closePrice": 2595,
+            "lastPrice": 2552,
+            "totalCount": 73,
+            "totalVolume": 640044,
+            "totalValue": 1616544779,
+            "priceChange": -52,
+            "lastClosePrice": 2604
+          }
+        },
+        {
+          "refId": "IRO1IKHR0001",
+          "name": "وخارزم",
+          "detailName": "سرمايه گذاري خوارزمي",
+          "tradeSummary": {
+            "closePrice": 3970,
+            "lastPrice": 3975,
+            "totalCount": 1701,
+            "totalVolume": 24480340,
+            "totalValue": 97197348907,
+            "priceChange": -79,
+            "lastClosePrice": 4054
+          }
+        },
+        {
+          "refId": "IRO1TMEL0001",
+          "name": "وتوسم",
+          "detailName": "سرمايه‌گذاري‌توسعه‌ملي‌",
+          "tradeSummary": {
+            "closePrice": 4204,
+            "lastPrice": 4203,
+            "totalCount": 160,
+            "totalVolume": 1512731,
+            "totalValue": 6362959964,
+            "priceChange": 1,
+            "lastClosePrice": 4202
+          }
+        },
+        {
+          "refId": "IRR1AYEG0101",
+          "name": "پرديسح",
+          "detailName": "ح .  سرمايه گذاري پرديس",
+          "tradeSummary": {
+            "closePrice": 1463,
+            "lastPrice": 1474,
+            "totalCount": 255,
+            "totalVolume": 2278450,
+            "totalValue": 3334207013,
+            "priceChange": -8,
+            "lastClosePrice": 1482
+          }
+        },
+        {
+          "refId": "IRO1SPAH0001",
+          "name": "وسپه",
+          "detailName": "سرمايه‌گذاري‌ سپه‌",
+          "tradeSummary": {
+            "closePrice": 4052,
+            "lastPrice": 4079,
+            "totalCount": 287,
+            "totalVolume": 6230761,
+            "totalValue": 25249336656,
+            "priceChange": 27,
+            "lastClosePrice": 4052
+          }
+        },
+        {
+          "refId": "IRO1BIME0001",
+          "name": "وبيمه",
+          "detailName": "سرمايه‌ گذاري‌ صنعت‌ بيمه‌",
+          "tradeSummary": {
+            "closePrice": 1520,
+            "lastPrice": 1523,
+            "totalCount": 139,
+            "totalVolume": 3197716,
+            "totalValue": 4861838582,
+            "priceChange": 3,
+            "lastClosePrice": 1520
+          }
+        },
+        {
+          "refId": "IRO1AYEG0001",
+          "name": "پرديس",
+          "detailName": "سرمايه گذاري پرديس",
+          "tradeSummary": {
+            "closePrice": 2635,
+            "lastPrice": 2638,
+            "totalCount": 330,
+            "totalVolume": 5119420,
+            "totalValue": 13486178182,
+            "priceChange": -5,
+            "lastClosePrice": 2643
+          }
+        },
+        {
+          "refId": "IRO1SBAH0001",
+          "name": "وبهمن",
+          "detailName": "سرمايه‌گذاري‌بهمن‌",
+          "tradeSummary": {
+            "closePrice": 15560,
+            "lastPrice": 15560,
+            "totalCount": 686,
+            "totalVolume": 8405328,
+            "totalValue": 130749135610,
+            "priceChange": 880,
+            "lastClosePrice": 14680
+          }
+        },
+        {
+          "refId": "IRO1SSAP0001",
+          "name": "وساپا",
+          "detailName": "سرمايه‌گذاري‌ سايپا",
+          "tradeSummary": {
+            "closePrice": 5270,
+            "lastPrice": 5210,
+            "totalCount": 3171,
+            "totalVolume": 76759293,
+            "totalValue": 404355941090,
+            "priceChange": 40,
+            "lastClosePrice": 5170
+          }
+        },
+        {
+          "refId": "IRO1SNMA0001",
+          "name": "وصنعت",
+          "detailName": "سرمايه گذاري توسعه صنعت وتجارت",
+          "tradeSummary": {
+            "closePrice": 1851,
+            "lastPrice": 1844,
+            "totalCount": 377,
+            "totalVolume": 8026011,
+            "totalValue": 14858092728,
+            "priceChange": -28,
+            "lastClosePrice": 1872
+          }
+        },
+        {
+          "refId": "IRO1SKBV0001",
+          "name": "وسكاب",
+          "detailName": "س.ص.بازنشستگي كاركنان بانكها",
+          "tradeSummary": {
+            "closePrice": 2602,
+            "lastPrice": 2615,
+            "totalCount": 175,
+            "totalVolume": 2968689,
+            "totalValue": 7713675570,
+            "priceChange": 9,
+            "lastClosePrice": 2606
+          }
+        }
+      ]
+    },
+    {
+      "name": "بانكها و موسسات اعتباري",
+      "code": "57",
+      "instruments": [
+        {
+          "refId": "IRO1BPAR0001",
+          "name": "وپارس",
+          "detailName": "بانك‌پارسيان‌",
+          "tradeSummary": {
+            "closePrice": 1818,
+            "lastPrice": 1775,
+            "totalCount": 772,
+            "totalVolume": 20055954,
+            "totalValue": 35880237910,
+            "priceChange": -56,
+            "lastClosePrice": 1831
+          }
+        },
+        {
+          "refId": "IRO1BKHZ0001",
+          "name": "وخاور",
+          "detailName": "بانك خاورميانه",
+          "tradeSummary": {
+            "closePrice": 4133,
+            "lastPrice": 4132,
+            "totalCount": 136,
+            "totalVolume": 1473601,
+            "totalValue": 6083202596,
+            "priceChange": -2,
+            "lastClosePrice": 4134
+          }
+        },
+        {
+          "refId": "IRO1NOVN0001",
+          "name": "ونوين",
+          "detailName": "بانك‌اقتصادنوين‌",
+          "tradeSummary": {
+            "closePrice": 3655,
+            "lastPrice": 3667,
+            "totalCount": 722,
+            "totalVolume": 13833159,
+            "totalValue": 50557097335,
+            "priceChange": -120,
+            "lastClosePrice": 3787
+          }
+        },
+        {
+          "refId": "IRO1BTEJ0001",
+          "name": "وتجارت",
+          "detailName": "بانك تجارت",
+          "tradeSummary": {
+            "closePrice": 1660,
+            "lastPrice": 1643,
+            "totalCount": 5630,
+            "totalVolume": 182956856,
+            "totalValue": 303625792113,
+            "priceChange": -90,
+            "lastClosePrice": 1733
+          }
+        },
+        {
+          "refId": "IRO1BMLT0001",
+          "name": "وبملت",
+          "detailName": "بانك ملت",
+          "tradeSummary": {
+            "closePrice": 3069,
+            "lastPrice": 3046,
+            "totalCount": 3789,
+            "totalVolume": 103377254,
+            "totalValue": 317227543620,
+            "priceChange": -72,
+            "lastClosePrice": 3118
+          }
+        },
+        {
+          "refId": "IRO1BPAS0001",
+          "name": "وپاسار",
+          "detailName": "بانك  پاسارگاد",
+          "tradeSummary": {
+            "closePrice": 8610,
+            "lastPrice": 8610,
+            "totalCount": 684,
+            "totalVolume": 26748775,
+            "totalValue": 230307226700,
+            "priceChange": 0,
+            "lastClosePrice": 8610
+          }
+        },
+        {
+          "refId": "IRO1BSDR0001",
+          "name": "وبصادر",
+          "detailName": "بانك صادرات ايران",
+          "tradeSummary": {
+            "closePrice": 1646,
+            "lastPrice": 1639,
+            "totalCount": 3630,
+            "totalVolume": 160260214,
+            "totalValue": 263817270271,
+            "priceChange": -83,
+            "lastClosePrice": 1722
+          }
+        },
+        {
+          "refId": "IRO1BPST0001",
+          "name": "وپست",
+          "detailName": "پست بانك ايران",
+          "tradeSummary": {
+            "closePrice": 4260,
+            "lastPrice": 4230,
+            "totalCount": 195,
+            "totalVolume": 6023484,
+            "totalValue": 25627464277,
+            "priceChange": -89,
+            "lastClosePrice": 4319
+          }
+        },
+        {
+          "refId": "IRO1VSIN0001",
+          "name": "وسينا",
+          "detailName": "بانك سينا",
+          "tradeSummary": {
+            "closePrice": 2234,
+            "lastPrice": 2223,
+            "totalCount": 179,
+            "totalVolume": 5647282,
+            "totalValue": 12496915045,
+            "priceChange": -37,
+            "lastClosePrice": 2260
+          }
+        },
+        {
+          "refId": "IRO1KRAF0001",
+          "name": "وكار",
+          "detailName": "بانك‌ كارآفرين‌",
+          "tradeSummary": {
+            "closePrice": 3199,
+            "lastPrice": 3222,
+            "totalCount": 56,
+            "totalVolume": 710167,
+            "totalValue": 2302178862,
+            "priceChange": 25,
+            "lastClosePrice": 3197
+          }
+        },
+        {
+          "refId": "IRO1BKHZ0002",
+          "name": "وخاور2",
+          "detailName": "بانك خاورميانه",
+          "tradeSummary": {
+            "closePrice": 4140,
+            "lastPrice": 4140,
+            "totalCount": 1,
+            "totalVolume": 10000000,
+            "totalValue": 41400000000,
+            "priceChange": 6,
+            "lastClosePrice": 4134
+          }
+        },
+        {
+          "refId": "IRO1BPAS0002",
+          "name": "وپاسار2",
+          "detailName": "بانك  پاسارگاد",
+          "tradeSummary": {
+            "closePrice": 8610,
+            "lastPrice": 8610,
+            "totalCount": 1,
+            "totalVolume": 12000000,
+            "totalValue": 103320000000,
+            "priceChange": 0,
+            "lastClosePrice": 8610
+          }
+        }
+      ]
+    },
+    {
+      "name": "ساير واسطه گريهاي مالي",
+      "code": "58",
+      "instruments": [
+        {
+          "refId": "IRO1LIRZ0001",
+          "name": "وايران",
+          "detailName": "ليزينگ ايرانيان",
+          "tradeSummary": {
+            "closePrice": 3123,
+            "lastPrice": 3149,
+            "totalCount": 911,
+            "totalVolume": 15919524,
+            "totalValue": 49714130986,
+            "priceChange": 178,
+            "lastClosePrice": 2971
+          }
+        },
+        {
+          "refId": "IRO1RSAP0001",
+          "name": "ولساپا",
+          "detailName": "ليزينگ رايان‌ سايپا",
+          "tradeSummary": {
+            "closePrice": 1487,
+            "lastPrice": 1473,
+            "totalCount": 2023,
+            "totalVolume": 85984020,
+            "totalValue": 127832980434,
+            "priceChange": -93,
+            "lastClosePrice": 1566
+          }
+        },
+        {
+          "refId": "IRO1LPRS0001",
+          "name": "ولپارس",
+          "detailName": "ليزينگ پارسيان",
+          "tradeSummary": {
+            "closePrice": 3162,
+            "lastPrice": 3170,
+            "totalCount": 704,
+            "totalVolume": 1150617,
+            "totalValue": 3639476040,
+            "priceChange": 8,
+            "lastClosePrice": 3162
+          }
+        },
+        {
+          "refId": "IRO1LKAR0001",
+          "name": "ولكار",
+          "detailName": "ليزينگ كارآفرين",
+          "tradeSummary": {
+            "closePrice": 6960,
+            "lastPrice": 7030,
+            "totalCount": 471,
+            "totalVolume": 296973,
+            "totalValue": 2086661290,
+            "priceChange": 80,
+            "lastClosePrice": 6950
+          }
+        },
+        {
+          "refId": "IRO1LSMD0001",
+          "name": "ولصنم",
+          "detailName": "ليزينگ‌صنعت‌ومعدن‌",
+          "tradeSummary": {
+            "closePrice": 3029,
+            "lastPrice": 3043,
+            "totalCount": 338,
+            "totalVolume": 2692759,
+            "totalValue": 8155653665,
+            "priceChange": 13,
+            "lastClosePrice": 3030
+          }
+        },
+        {
+          "refId": "IRO1VLMT0001",
+          "name": "ولملت",
+          "detailName": "واسپاري ملت",
+          "tradeSummary": {
+            "closePrice": 3575,
+            "lastPrice": 3451,
+            "totalCount": 110,
+            "totalVolume": 540355,
+            "totalValue": 1873428111,
+            "priceChange": -140,
+            "lastClosePrice": 3591
+          }
+        }
+      ]
+    },
+    {
+      "name": "حمل ونقل، انبارداري و ارتباطات",
+      "code": "60",
+      "instruments": [
+        {
+          "refId": "IRO1KSHJ0001",
+          "name": "حكشتي",
+          "detailName": "كشتيراني جمهوري اسلامي ايران",
+          "tradeSummary": {
+            "closePrice": 24730,
+            "lastPrice": 24660,
+            "totalCount": 3944,
+            "totalVolume": 21822610,
+            "totalValue": 539739076070,
+            "priceChange": -1110,
+            "lastClosePrice": 25770
+          }
+        },
+        {
+          "refId": "IRO1HFRS0001",
+          "name": "حفارس",
+          "detailName": "حمل و نقل بين المللي خليج فارس",
+          "tradeSummary": {
+            "closePrice": 11480,
+            "lastPrice": 11420,
+            "totalCount": 849,
+            "totalVolume": 5099269,
+            "totalValue": 58531277370,
+            "priceChange": -340,
+            "lastClosePrice": 11760
+          }
+        },
+        {
+          "refId": "IRO1HTOK0001",
+          "name": "حتوكا",
+          "detailName": "حمل‌ونقل‌توكا",
+          "tradeSummary": {
+            "closePrice": 19370,
+            "lastPrice": 19540,
+            "totalCount": 491,
+            "totalVolume": 1727144,
+            "totalValue": 33461671330,
+            "priceChange": 890,
+            "lastClosePrice": 18650
+          }
+        },
+        {
+          "refId": "IRO1TAYD0001",
+          "name": "حتايد",
+          "detailName": "تايدواترخاورميانه",
+          "tradeSummary": {
+            "closePrice": 5960,
+            "lastPrice": 5860,
+            "totalCount": 1043,
+            "totalVolume": 14619790,
+            "totalValue": 87131787930,
+            "priceChange": -30,
+            "lastClosePrice": 5890
+          }
+        }
+      ]
+    },
+    {
+      "name": "مخابرات",
+      "code": "64",
+      "instruments": [
+        {
+          "refId": "IRO1MKBT0001",
+          "name": "اخابر",
+          "detailName": "مخابرات ايران",
+          "tradeSummary": {
+            "closePrice": 6880,
+            "lastPrice": 6740,
+            "totalCount": 918,
+            "totalVolume": 7702788,
+            "totalValue": 52238511680,
+            "priceChange": -220,
+            "lastClosePrice": 6960
+          }
+        },
+        {
+          "refId": "IRO1HMRZ0001",
+          "name": "همراه",
+          "detailName": "شركت ارتباطات سيار ايران",
+          "tradeSummary": {
+            "closePrice": 7840,
+            "lastPrice": 7850,
+            "totalCount": 601,
+            "totalVolume": 4941464,
+            "totalValue": 38791006370,
+            "priceChange": 10,
+            "lastClosePrice": 7840
+          }
+        }
+      ]
+    },
+    {
+      "name": "بيمه وصندوق بازنشستگي به جزتامين اجتماعي",
+      "code": "66",
+      "instruments": [
+        {
+          "refId": "IRO1ASIA0001",
+          "name": "آسيا",
+          "detailName": "بيمه آسيا",
+          "tradeSummary": {
+            "closePrice": 1603,
+            "lastPrice": 1618,
+            "totalCount": 239,
+            "totalVolume": 7391262,
+            "totalValue": 11809082045,
+            "priceChange": -1,
+            "lastClosePrice": 1619
+          }
+        },
+        {
+          "refId": "IRO1BVMA0001",
+          "name": "ما",
+          "detailName": "بيمه  ما",
+          "tradeSummary": {
+            "closePrice": 4250,
+            "lastPrice": 4228,
+            "totalCount": 100,
+            "totalVolume": 832713,
+            "totalValue": 3509683095,
+            "priceChange": -33,
+            "lastClosePrice": 4261
+          }
+        },
+        {
+          "refId": "IRO1BDAN0001",
+          "name": "دانا",
+          "detailName": "بيمه دانا",
+          "tradeSummary": {
+            "closePrice": 1234,
+            "lastPrice": 1242,
+            "totalCount": 2556,
+            "totalVolume": 205081199,
+            "totalValue": 253101330852,
+            "priceChange": 70,
+            "lastClosePrice": 1172
+          }
+        },
+        {
+          "refId": "IRO1IPAR0001",
+          "name": "پارسيان",
+          "detailName": "بيمه پارسيان",
+          "tradeSummary": {
+            "closePrice": 3420,
+            "lastPrice": 3399,
+            "totalCount": 172,
+            "totalVolume": 1392793,
+            "totalValue": 4743921260,
+            "priceChange": -26,
+            "lastClosePrice": 3425
+          }
+        },
+        {
+          "refId": "IRR1ETKA0101",
+          "name": "اتكامح",
+          "detailName": "ح . بيمه اتكايي امين",
+          "tradeSummary": {
+            "closePrice": 1797,
+            "lastPrice": 1812,
+            "totalCount": 190,
+            "totalVolume": 1570830,
+            "totalValue": 2822767769,
+            "priceChange": -54,
+            "lastClosePrice": 1866
+          }
+        },
+        {
+          "refId": "IRO1ETKA0001",
+          "name": "اتكام",
+          "detailName": "بيمه اتكايي امين",
+          "tradeSummary": {
+            "closePrice": 2973,
+            "lastPrice": 2965,
+            "totalCount": 113,
+            "totalVolume": 1193426,
+            "totalValue": 3566900882,
+            "priceChange": -3,
+            "lastClosePrice": 2968
+          }
+        },
+        {
+          "refId": "IRO1BALB0001",
+          "name": "البرز",
+          "detailName": "بيمه البرز",
+          "tradeSummary": {
+            "closePrice": 2063,
+            "lastPrice": 2025,
+            "totalCount": 170,
+            "totalVolume": 2689682,
+            "totalValue": 5467490237,
+            "priceChange": -47,
+            "lastClosePrice": 2072
+          }
+        },
+        {
+          "refId": "IRO1BMEL0001",
+          "name": "ملت",
+          "detailName": "بيمه ملت",
+          "tradeSummary": {
+            "closePrice": 1174,
+            "lastPrice": 1171,
+            "totalCount": 545,
+            "totalVolume": 13250602,
+            "totalValue": 15551254635,
+            "priceChange": -31,
+            "lastClosePrice": 1202
+          }
+        }
+      ]
+    },
+    {
+      "name": "فعاليتهاي كمكي به نهادهاي مالي واسط",
+      "code": "67",
+      "instruments": [
+        {
+          "refId": "IRO1KALA0001",
+          "name": "كالا",
+          "detailName": "بورس كالاي ايران",
+          "tradeSummary": {
+            "closePrice": 17040,
+            "lastPrice": 17060,
+            "totalCount": 6363,
+            "totalVolume": 28714062,
+            "totalValue": 489255332510,
+            "priceChange": -20,
+            "lastClosePrice": 17080
+          }
+        },
+        {
+          "refId": "IRO1OMID0001",
+          "name": "اميد",
+          "detailName": "تامين سرمايه اميد",
+          "tradeSummary": {
+            "closePrice": 5760,
+            "lastPrice": 5620,
+            "totalCount": 48,
+            "totalVolume": 179214,
+            "totalValue": 1003442310,
+            "priceChange": -140,
+            "lastClosePrice": 5760
+          }
+        },
+        {
+          "refId": "IRO1TSAN0001",
+          "name": "امين",
+          "detailName": "تامين سرمايه امين",
+          "tradeSummary": {
+            "closePrice": 11770,
+            "lastPrice": 11760,
+            "totalCount": 1068,
+            "totalVolume": 4613547,
+            "totalValue": 54279578800,
+            "priceChange": 330,
+            "lastClosePrice": 11430
+          }
+        },
+        {
+          "refId": "IRO1LTOS0001",
+          "name": "لوتوس",
+          "detailName": "تامين سرمايه لوتوس پارسيان",
+          "tradeSummary": {
+            "closePrice": 6900,
+            "lastPrice": 7000,
+            "totalCount": 120,
+            "totalVolume": 956354,
+            "totalValue": 6645605220,
+            "priceChange": 110,
+            "lastClosePrice": 6890
+          }
+        },
+        {
+          "refId": "IRO1TNOV0001",
+          "name": "تنوين",
+          "detailName": "تامين سرمايه نوين",
+          "tradeSummary": {
+            "closePrice": 4948,
+            "lastPrice": 4948,
+            "totalCount": 372,
+            "totalVolume": 3001709,
+            "totalValue": 14854100234,
+            "priceChange": 1,
+            "lastClosePrice": 4947
+          }
+        },
+        {
+          "refId": "IRO1BENC0001",
+          "name": "انرژي3",
+          "detailName": "سايراشخاص بورس انرژي",
+          "tradeSummary": {
+            "closePrice": 38380,
+            "lastPrice": 38140,
+            "totalCount": 3269,
+            "totalVolume": 4617554,
+            "totalValue": 177243011010,
+            "priceChange": -1860,
+            "lastClosePrice": 40000
+          }
+        },
+        {
+          "refId": "IRO1BORS0001",
+          "name": "بورس",
+          "detailName": "بورس اوراق بهادار تهران",
+          "tradeSummary": {
+            "closePrice": 6240,
+            "lastPrice": 6200,
+            "totalCount": 5351,
+            "totalVolume": 59202696,
+            "totalValue": 369648906560,
+            "priceChange": -320,
+            "lastClosePrice": 6520
+          }
+        },
+        {
+          "refId": "IRO1TMLT0001",
+          "name": "تملت",
+          "detailName": "تامين سرمايه بانك ملت",
+          "tradeSummary": {
+            "closePrice": 2510,
+            "lastPrice": 2560,
+            "totalCount": 430,
+            "totalVolume": 5400404,
+            "totalValue": 13672372677,
+            "priceChange": 85,
+            "lastClosePrice": 2475
+          }
+        }
+      ]
+    },
+    {
+      "name": "صندوق سرمايه گذاري قابل معامله",
+      "code": "68",
+      "instruments": [
+        {
+          "refId": "IRT1DORF0001",
+          "name": "درسا",
+          "detailName": "صندوق سرمايه گذاري درسا - سهام",
+          "tradeSummary": {
+            "closePrice": 10360,
+            "lastPrice": 10400,
+            "totalCount": 27,
+            "totalVolume": 67494,
+            "totalValue": 698996020,
+            "priceChange": 40,
+            "lastClosePrice": 10360
+          }
+        },
+        {
+          "refId": "IRT1KMND0002",
+          "name": "كمند2",
+          "detailName": "صندوق س. با درآمد ثابت كمند",
+          "tradeSummary": {
+            "closePrice": 1,
+            "lastPrice": 1,
+            "totalCount": 1,
+            "totalVolume": 233300000,
+            "totalValue": 233300000,
+            "priceChange": -10117,
+            "lastClosePrice": 10118
+          }
+        },
+        {
+          "refId": "IRT1MANI0001",
+          "name": "ماني",
+          "detailName": "صندوق س. با درآمد ثابت ماني",
+          "tradeSummary": {
+            "closePrice": 12404,
+            "lastPrice": 12405,
+            "totalCount": 325,
+            "totalVolume": 4627298,
+            "totalValue": 57399212455,
+            "priceChange": 8,
+            "lastClosePrice": 12397
+          }
+        },
+        {
+          "refId": "IRT1YGHT0001",
+          "name": "ياقوت",
+          "detailName": "صندوق س ياقوت آگاه-ثابت",
+          "tradeSummary": {
+            "closePrice": 15578,
+            "lastPrice": 15579,
+            "totalCount": 309,
+            "totalVolume": 4449876,
+            "totalValue": 69320309059,
+            "priceChange": 9,
+            "lastClosePrice": 15570
+          }
+        },
+        {
+          "refId": "IRT1DARA0001",
+          "name": "دارا يكم",
+          "detailName": "صندوق واسطه گري مالي يكم-سهام",
+          "tradeSummary": {
+            "closePrice": 102830,
+            "lastPrice": 102400,
+            "totalCount": 8089,
+            "totalVolume": 7189962,
+            "totalValue": 739314123590,
+            "priceChange": -1780,
+            "lastClosePrice": 104180
+          }
+        },
+        {
+          "refId": "IRT1SEPR0001",
+          "name": "سپر",
+          "detailName": "صندوق س سپر سرمايه بيدار- ثابت",
+          "tradeSummary": {
+            "closePrice": 15299,
+            "lastPrice": 15301,
+            "totalCount": 363,
+            "totalVolume": 14063725,
+            "totalValue": 215166781845,
+            "priceChange": 10,
+            "lastClosePrice": 15291
+          }
+        },
+        {
+          "refId": "IRT1PLSH0001",
+          "name": "پالايش",
+          "detailName": "صندوق پالايشي يكم-سهام",
+          "tradeSummary": {
+            "closePrice": 79150,
+            "lastPrice": 79050,
+            "totalCount": 11956,
+            "totalVolume": 13719565,
+            "totalValue": 1085856531650,
+            "priceChange": -1090,
+            "lastClosePrice": 80140
+          }
+        },
+        {
+          "refId": "IRT1CNGF0001",
+          "name": "نگين",
+          "detailName": "ص.س. زمين و ساختمان نگين شهرري",
+          "tradeSummary": {
+            "closePrice": 64300,
+            "lastPrice": 64300,
+            "totalCount": 1,
+            "totalVolume": 200,
+            "totalValue": 12860000,
+            "priceChange": 120,
+            "lastClosePrice": 64180
+          }
+        },
+        {
+          "refId": "IRT1AFAG0001",
+          "name": "آفاق",
+          "detailName": "صندوق س نوع دوم افق آتي-ثابت",
+          "tradeSummary": {
+            "closePrice": 10035,
+            "lastPrice": 10035,
+            "totalCount": 266,
+            "totalVolume": 12582420,
+            "totalValue": 126264284699,
+            "priceChange": 7,
+            "lastClosePrice": 10028
+          }
+        },
+        {
+          "refId": "IRT1AFRN0001",
+          "name": "افران",
+          "detailName": "صندوق س افرا نماد پايدار-ثابت",
+          "tradeSummary": {
+            "closePrice": 17338,
+            "lastPrice": 17338,
+            "totalCount": 3698,
+            "totalVolume": 94532614,
+            "totalValue": 1638978021522,
+            "priceChange": 11,
+            "lastClosePrice": 17327
+          }
+        },
+        {
+          "refId": "IRT1HOMA0002",
+          "name": "هماي2",
+          "detailName": "صندوق س هماي آگاه-ثابت",
+          "tradeSummary": {
+            "closePrice": 1,
+            "lastPrice": 1,
+            "totalCount": 2,
+            "totalVolume": 79500000,
+            "totalValue": 79500000,
+            "priceChange": -10028,
+            "lastClosePrice": 10029
+          }
+        },
+        {
+          "refId": "IRT1FKNF0004",
+          "name": "كيان4",
+          "detailName": "صندوق س. با درآمد ثابت كيان",
+          "tradeSummary": {
+            "closePrice": 36880,
+            "lastPrice": 36880,
+            "totalCount": 1,
+            "totalVolume": 13500000,
+            "totalValue": 497880000000,
+            "priceChange": -48,
+            "lastClosePrice": 36928
+          }
+        },
+        {
+          "refId": "IRT1ARAM0001",
+          "name": "آرام",
+          "detailName": "صندوق س شاخصي آرام مفيد",
+          "tradeSummary": {
+            "closePrice": 10090,
+            "lastPrice": 10090,
+            "totalCount": 359,
+            "totalVolume": 3265710,
+            "totalValue": 32941720600,
+            "priceChange": -50,
+            "lastClosePrice": 10140
+          }
+        },
+        {
+          "refId": "IRT1FAYF0001",
+          "name": "امين يكم",
+          "detailName": "صندوق درآمد ثابت امين يكم فردا",
+          "tradeSummary": {
+            "closePrice": 10021,
+            "lastPrice": 10022,
+            "totalCount": 1784,
+            "totalVolume": 51341516,
+            "totalValue": 514491664095,
+            "priceChange": 8,
+            "lastClosePrice": 10014
+          }
+        },
+        {
+          "refId": "IRT1FRDA0001",
+          "name": "فردا",
+          "detailName": "صندوق س آواي فرداي زاگرس-ثابت",
+          "tradeSummary": {
+            "closePrice": 13852,
+            "lastPrice": 13854,
+            "totalCount": 874,
+            "totalVolume": 64046497,
+            "totalValue": 887189553282,
+            "priceChange": 8,
+            "lastClosePrice": 13846
+          }
+        },
+        {
+          "refId": "IRT1ZITN0001",
+          "name": "زيتون",
+          "detailName": "صندوق س زيتون نماد پايا- مختلط",
+          "tradeSummary": {
+            "closePrice": 12480,
+            "lastPrice": 12490,
+            "totalCount": 129,
+            "totalVolume": 1617326,
+            "totalValue": 20185026920,
+            "priceChange": -20,
+            "lastClosePrice": 12510
+          }
+        },
+        {
+          "refId": "IRT1SDVI0001",
+          "name": "تصميم",
+          "detailName": "صندوق س با درآمد ثابت تصميم",
+          "tradeSummary": {
+            "closePrice": 20953,
+            "lastPrice": 20953,
+            "totalCount": 210,
+            "totalVolume": 2544257,
+            "totalValue": 53308985213,
+            "priceChange": 11,
+            "lastClosePrice": 20942
+          }
+        },
+        {
+          "refId": "IRT1SSPF0001",
+          "name": "سپاس",
+          "detailName": "صندوق س. پاداش سهامداري-ثابت",
+          "tradeSummary": {
+            "closePrice": 10121,
+            "lastPrice": 10121,
+            "totalCount": 28,
+            "totalVolume": 267773,
+            "totalValue": 2710082939,
+            "priceChange": 7,
+            "lastClosePrice": 10114
+          }
+        },
+        {
+          "refId": "IRT1AFAG0002",
+          "name": "آفاق2",
+          "detailName": "صندوق س نوع دوم افق آتي-ثابت",
+          "tradeSummary": {
+            "closePrice": 1,
+            "lastPrice": 1,
+            "totalCount": 184,
+            "totalVolume": 18400000,
+            "totalValue": 18400000,
+            "priceChange": -10027,
+            "lastClosePrice": 10028
+          }
+        },
+        {
+          "refId": "IRT1FPAF0002",
+          "name": "پارند2",
+          "detailName": "صندوق س. پارند پايدار سپهر",
+          "tradeSummary": {
+            "closePrice": 1,
+            "lastPrice": 1,
+            "totalCount": 882,
+            "totalVolume": 88200000,
+            "totalValue": 88200000,
+            "priceChange": -10114,
+            "lastClosePrice": 10115
+          }
+        },
+        {
+          "refId": "IRT1AGHI0002",
+          "name": "عقيق2",
+          "detailName": "صندوق سرمايه گذاري عقيق-سهام",
+          "tradeSummary": {
+            "closePrice": 1,
+            "lastPrice": 1,
+            "totalCount": 1,
+            "totalVolume": 340000,
+            "totalValue": 340000,
+            "priceChange": -47269,
+            "lastClosePrice": 47270
+          }
+        },
+        {
+          "refId": "IRT1SEPR0004",
+          "name": "سپر4",
+          "detailName": "صندوق س سپر سرمايه بيدار- ثابت",
+          "tradeSummary": {
+            "closePrice": 15296,
+            "lastPrice": 15291,
+            "totalCount": 2,
+            "totalVolume": 27264730,
+            "totalValue": 417042233540,
+            "priceChange": 0,
+            "lastClosePrice": 15291
+          }
+        },
+        {
+          "refId": "IRT1VBAZ0001",
+          "name": "وبازار",
+          "detailName": "صندوق س شاخصي بازارآشنا",
+          "tradeSummary": {
+            "closePrice": 12230,
+            "lastPrice": 12220,
+            "totalCount": 18,
+            "totalVolume": 7499,
+            "totalValue": 91731650,
+            "priceChange": -130,
+            "lastClosePrice": 12350
+          }
+        },
+        {
+          "refId": "IRT1KMND0001",
+          "name": "كمند",
+          "detailName": "صندوق س. با درآمد ثابت كمند",
+          "tradeSummary": {
+            "closePrice": 11124,
+            "lastPrice": 11125,
+            "totalCount": 7399,
+            "totalVolume": 192796279,
+            "totalValue": 2964377281919,
+            "priceChange": 7,
+            "lastClosePrice": 11318
+          }
+        },
+        {
+          "refId": "IRT1ARGH0001",
+          "name": "ارمغان",
+          "detailName": "ص سرمايه گذاري ارمغان ايرانيان",
+          "tradeSummary": {
+            "closePrice": 10108,
+            "lastPrice": 10105,
+            "totalCount": 12,
+            "totalVolume": 120464,
+            "totalValue": 1217639243,
+            "priceChange": 4,
+            "lastClosePrice": 10101
+          }
+        },
+        {
+          "refId": "IRT1AGHI0001",
+          "name": "عقيق",
+          "detailName": "صندوق سرمايه گذاري عقيق-سهام",
+          "tradeSummary": {
+            "closePrice": 47070,
+            "lastPrice": 46850,
+            "totalCount": 25,
+            "totalVolume": 340031,
+            "totalValue": 16006463800,
+            "priceChange": -420,
+            "lastClosePrice": 47270
+          }
+        },
+        {
+          "refId": "IRT1FKNF0001",
+          "name": "كيان",
+          "detailName": "صندوق س. با درآمد ثابت كيان",
+          "tradeSummary": {
+            "closePrice": 36948,
+            "lastPrice": 36949,
+            "totalCount": 2685,
+            "totalVolume": 20964208,
+            "totalValue": 774588724995,
+            "priceChange": 21,
+            "lastClosePrice": 36928
+          }
+        },
+        {
+          "refId": "IRT1SARV0001",
+          "name": "سرو",
+          "detailName": "صندوق س سروسودمند مدبران-سهام",
+          "tradeSummary": {
+            "closePrice": 75360,
+            "lastPrice": 75340,
+            "totalCount": 306,
+            "totalVolume": 963149,
+            "totalValue": 72578290590,
+            "priceChange": -680,
+            "lastClosePrice": 76020
+          }
+        },
+        {
+          "refId": "IRT1CSNF0001",
+          "name": "صنوين",
+          "detailName": "صندوق سرمايه‌گذاري صنوين-مختلط",
+          "tradeSummary": {
+            "closePrice": 121780,
+            "lastPrice": 122890,
+            "totalCount": 7,
+            "totalVolume": 602,
+            "totalValue": 73311300,
+            "priceChange": 1230,
+            "lastClosePrice": 121660
+          }
+        },
+        {
+          "refId": "IRT1ANAR0001",
+          "name": "انار",
+          "detailName": "صندوق س.انارنماد ارزش-درسهام",
+          "tradeSummary": {
+            "closePrice": 10860,
+            "lastPrice": 10850,
+            "totalCount": 52,
+            "totalVolume": 142286,
+            "totalValue": 1545930950,
+            "priceChange": -90,
+            "lastClosePrice": 10940
+          }
+        },
+        {
+          "refId": "IRT1BZRO0001",
+          "name": "بذر",
+          "detailName": "صندوق س بذر اميد آفرين-سهام",
+          "tradeSummary": {
+            "closePrice": 104390,
+            "lastPrice": 106300,
+            "totalCount": 8,
+            "totalVolume": 3576,
+            "totalValue": 373299200,
+            "priceChange": 200,
+            "lastClosePrice": 106100
+          }
+        },
+        {
+          "refId": "IRT1TRAZ0001",
+          "name": "تاراز",
+          "detailName": "صندوق س آواي تاراز زاگرس-سهام",
+          "tradeSummary": {
+            "closePrice": 11380,
+            "lastPrice": 11380,
+            "totalCount": 1,
+            "totalVolume": 1,
+            "totalValue": 11380,
+            "priceChange": -130,
+            "lastClosePrice": 11510
+          }
+        },
+        {
+          "refId": "IRT1HOMA0001",
+          "name": "هماي",
+          "detailName": "صندوق س هماي آگاه-ثابت",
+          "tradeSummary": {
+            "closePrice": 10035,
+            "lastPrice": 10036,
+            "totalCount": 4747,
+            "totalVolume": 130989820,
+            "totalValue": 1314523625913,
+            "priceChange": 7,
+            "lastClosePrice": 10029
+          }
+        },
+        {
+          "refId": "IRT1CFIF0001",
+          "name": "فيروزه",
+          "detailName": "صندوق شاخص30 شركت فيروزه- سهام",
+          "tradeSummary": {
+            "closePrice": 181870,
+            "lastPrice": 181070,
+            "totalCount": 38,
+            "totalVolume": 38589,
+            "totalValue": 7018214150,
+            "priceChange": -2550,
+            "lastClosePrice": 183620
+          }
+        },
+        {
+          "refId": "IRT1AFRN0002",
+          "name": "افران2",
+          "detailName": "صندوق س افرا نماد پايدار-ثابت",
+          "tradeSummary": {
+            "closePrice": 1,
+            "lastPrice": 1,
+            "totalCount": 4,
+            "totalVolume": 44200000,
+            "totalValue": 44200000,
+            "priceChange": -17326,
+            "lastClosePrice": 17327
+          }
+        },
+        {
+          "refId": "IRT1FASA0001",
+          "name": "سلام",
+          "detailName": "صندوق س سلام فارابي-سهام",
+          "tradeSummary": {
+            "closePrice": 9170,
+            "lastPrice": 9170,
+            "totalCount": 56,
+            "totalVolume": 273946,
+            "totalValue": 2512568090,
+            "priceChange": -140,
+            "lastClosePrice": 9310
+          }
+        },
+        {
+          "refId": "IRT1SARV0002",
+          "name": "سرو2",
+          "detailName": "صندوق س سروسودمند مدبران-سهام",
+          "tradeSummary": {
+            "closePrice": 1,
+            "lastPrice": 1,
+            "totalCount": 1,
+            "totalVolume": 300000,
+            "totalValue": 300000,
+            "priceChange": -76019,
+            "lastClosePrice": 76020
+          }
+        },
+        {
+          "refId": "IRT1ARZS0001",
+          "name": "ارزش",
+          "detailName": "صندوق س ارزش آفرين بيدار-سهام",
+          "tradeSummary": {
+            "closePrice": 11030,
+            "lastPrice": 11040,
+            "totalCount": 142,
+            "totalVolume": 968254,
+            "totalValue": 10681147820,
+            "priceChange": -120,
+            "lastClosePrice": 11160
+          }
+        },
+        {
+          "refId": "IRT1KRIN0001",
+          "name": "كارين",
+          "detailName": "صندوق س نگين سامان-ثابت",
+          "tradeSummary": {
+            "closePrice": 10036,
+            "lastPrice": 10037,
+            "totalCount": 364,
+            "totalVolume": 9851377,
+            "totalValue": 98865330780,
+            "priceChange": 7,
+            "lastClosePrice": 10030
+          }
+        },
+        {
+          "refId": "IRT1ETHM0001",
+          "name": "هامرز",
+          "detailName": "صندوق س اعتماد هامرز-ثابت",
+          "tradeSummary": {
+            "closePrice": 10124,
+            "lastPrice": 10125,
+            "totalCount": 1062,
+            "totalVolume": 60173385,
+            "totalValue": 609205775282,
+            "priceChange": 7,
+            "lastClosePrice": 10118
+          }
+        },
+        {
+          "refId": "IRT1KATM0001",
+          "name": "خاتم",
+          "detailName": "صندوق س خاتم ايساتيس پويا-ثابت",
+          "tradeSummary": {
+            "closePrice": 14221,
+            "lastPrice": 14221,
+            "totalCount": 101,
+            "totalVolume": 1599669,
+            "totalValue": 22749314704,
+            "priceChange": 8,
+            "lastClosePrice": 14213
+          }
+        },
+        {
+          "refId": "IRT1AHRM0001",
+          "name": "اهرم",
+          "detailName": "صندوق س سهامي كاريزما- اهرمي",
+          "tradeSummary": {
+            "closePrice": 10820,
+            "lastPrice": 10750,
+            "totalCount": 1053,
+            "totalVolume": 7310742,
+            "totalValue": 79111055040,
+            "priceChange": -420,
+            "lastClosePrice": 11170
+          }
+        },
+        {
+          "refId": "IRT1FPAF0001",
+          "name": "پارند",
+          "detailName": "صندوق س. پارند پايدار سپهر",
+          "tradeSummary": {
+            "closePrice": 10121,
+            "lastPrice": 10122,
+            "totalCount": 1956,
+            "totalVolume": 121040909,
+            "totalValue": 1225073811946,
+            "priceChange": 7,
+            "lastClosePrice": 10115
+          }
+        },
+        {
+          "refId": "IRT1SKDF0001",
+          "name": "كاردان",
+          "detailName": "صندوق س تجارت شاخصي كاردان",
+          "tradeSummary": {
+            "closePrice": 208060,
+            "lastPrice": 207610,
+            "totalCount": 57,
+            "totalVolume": 12945,
+            "totalValue": 2693305300,
+            "priceChange": -2180,
+            "lastClosePrice": 209790
+          }
+        },
+        {
+          "refId": "IRT1FKNF0002",
+          "name": "كيان2",
+          "detailName": "صندوق س. با درآمد ثابت كيان",
+          "tradeSummary": {
+            "closePrice": 1,
+            "lastPrice": 1,
+            "totalCount": 156,
+            "totalVolume": 15600000,
+            "totalValue": 15600000,
+            "priceChange": -36927,
+            "lastClosePrice": 36928
+          }
+        },
+        {
+          "refId": "IRT1FAYF0004",
+          "name": "امين يكم4",
+          "detailName": "صندوق درآمد ثابت امين يكم فردا",
+          "tradeSummary": {
+            "closePrice": 10020,
+            "lastPrice": 10020,
+            "totalCount": 1,
+            "totalVolume": 98794705,
+            "totalValue": 989922944100,
+            "priceChange": 6,
+            "lastClosePrice": 10014
+          }
+        },
+        {
+          "refId": "IRT1SEPR0002",
+          "name": "سپر2",
+          "detailName": "صندوق س سپر سرمايه بيدار- ثابت",
+          "tradeSummary": {
+            "closePrice": 1,
+            "lastPrice": 1,
+            "totalCount": 1,
+            "totalVolume": 20000000,
+            "totalValue": 20000000,
+            "priceChange": -15290,
+            "lastClosePrice": 15291
+          }
+        },
+        {
+          "refId": "IRT1FIRO0001",
+          "name": "فيروزا",
+          "detailName": "صندوق ارمغان فيروزه آسيا-ثابت",
+          "tradeSummary": {
+            "closePrice": 29728,
+            "lastPrice": 29728,
+            "totalCount": 205,
+            "totalVolume": 5131686,
+            "totalValue": 152554339240,
+            "priceChange": 18,
+            "lastClosePrice": 29710
+          }
+        },
+        {
+          "refId": "IRT1FRDA0002",
+          "name": "فردا2",
+          "detailName": "صندوق س آواي فرداي زاگرس-ثابت",
+          "tradeSummary": {
+            "closePrice": 1,
+            "lastPrice": 1,
+            "totalCount": 31,
+            "totalVolume": 31000000,
+            "totalValue": 31000000,
+            "priceChange": -13845,
+            "lastClosePrice": 13846
+          }
+        }
+      ]
+    },
+    {
+      "name": "انبوه سازي، املاك و مستغلات",
+      "code": "70",
+      "instruments": [
+        {
+          "refId": "IRO1TGOS0001",
+          "name": "وتوس",
+          "detailName": "توسعه‌شهري‌توس‌گستر",
+          "tradeSummary": {
+            "closePrice": 6550,
+            "lastPrice": 6430,
+            "totalCount": 163,
+            "totalVolume": 943368,
+            "totalValue": 6075718510,
+            "priceChange": -190,
+            "lastClosePrice": 6620
+          }
+        },
+        {
+          "refId": "IRO1BEKA0001",
+          "name": "ثبهساز",
+          "detailName": "بهساز كاشانه تهران",
+          "tradeSummary": {
+            "closePrice": 1438,
+            "lastPrice": 1434,
+            "totalCount": 962,
+            "totalVolume": 5626279,
+            "totalValue": 8029033463,
+            "priceChange": -18,
+            "lastClosePrice": 1452
+          }
+        },
+        {
+          "refId": "IRO1PMSZ0001",
+          "name": "ثشرق",
+          "detailName": "سرمايه گذاري مسكن شمال شرق",
+          "tradeSummary": {
+            "closePrice": 3402,
+            "lastPrice": 3380,
+            "totalCount": 95,
+            "totalVolume": 1017587,
+            "totalValue": 3458950668,
+            "priceChange": -23,
+            "lastClosePrice": 3403
+          }
+        },
+        {
+          "refId": "IRO1TAZB0001",
+          "name": "وآذر",
+          "detailName": "سرمايه‌گذاري‌توسعه‌آذربايجان‌",
+          "tradeSummary": {
+            "closePrice": 121230,
+            "lastPrice": 120900,
+            "totalCount": 1268,
+            "totalVolume": 890022,
+            "totalValue": 107895832350,
+            "priceChange": -1590,
+            "lastClosePrice": 122490
+          }
+        },
+        {
+          "refId": "IRO1ABAD0001",
+          "name": "ثاباد",
+          "detailName": "توريستي ورفاهي آبادگران ايران",
+          "tradeSummary": {
+            "closePrice": 28610,
+            "lastPrice": 29000,
+            "totalCount": 352,
+            "totalVolume": 413182,
+            "totalValue": 11849073450,
+            "priceChange": 620,
+            "lastClosePrice": 28380
+          }
+        },
+        {
+          "refId": "IRO1OFRS0001",
+          "name": "ثفارس",
+          "detailName": "عمران‌وتوسعه‌فارس‌",
+          "tradeSummary": {
+            "closePrice": 10050,
+            "lastPrice": 10150,
+            "totalCount": 3093,
+            "totalVolume": 32071634,
+            "totalValue": 322276513160,
+            "priceChange": 320,
+            "lastClosePrice": 9830
+          }
+        },
+        {
+          "refId": "IRO1MSKN0001",
+          "name": "ثمسكن",
+          "detailName": "سرمايه‌گذاري‌ مسكن‌",
+          "tradeSummary": {
+            "closePrice": 2795,
+            "lastPrice": 2767,
+            "totalCount": 165,
+            "totalVolume": 3791659,
+            "totalValue": 10510800324,
+            "priceChange": -87,
+            "lastClosePrice": 2854
+          }
+        },
+        {
+          "refId": "IRO1BSTE0001",
+          "name": "ثاخت",
+          "detailName": "بين‌المللي‌توسعه‌ساختمان",
+          "tradeSummary": {
+            "closePrice": 2250,
+            "lastPrice": 2258,
+            "totalCount": 776,
+            "totalVolume": 18057992,
+            "totalValue": 40623014621,
+            "priceChange": -47,
+            "lastClosePrice": 2305
+          }
+        },
+        {
+          "refId": "IRO1TOOM0001",
+          "name": "ثاميد",
+          "detailName": "توسعه و عمران اميد",
+          "tradeSummary": {
+            "closePrice": 1426,
+            "lastPrice": 1437,
+            "totalCount": 1355,
+            "totalVolume": 16564763,
+            "totalValue": 23629005642,
+            "priceChange": -10,
+            "lastClosePrice": 1447
+          }
+        },
+        {
+          "refId": "IRO1SGOS0001",
+          "name": "ثامان",
+          "detailName": "سامان‌ گستراصفهان‌",
+          "tradeSummary": {
+            "closePrice": 12470,
+            "lastPrice": 12240,
+            "totalCount": 155,
+            "totalVolume": 292849,
+            "totalValue": 3600131620,
+            "priceChange": -280,
+            "lastClosePrice": 12520
+          }
+        },
+        {
+          "refId": "IRO1SAHD0001",
+          "name": "ثشاهد",
+          "detailName": "سرمايه‌ گذاري‌ شاهد",
+          "tradeSummary": {
+            "closePrice": 7380,
+            "lastPrice": 7370,
+            "totalCount": 751,
+            "totalVolume": 4447024,
+            "totalValue": 32821057820,
+            "priceChange": -260,
+            "lastClosePrice": 7630
+          }
+        },
+        {
+          "refId": "IRO1SAKH0001",
+          "name": "وساخت",
+          "detailName": "سرمايه‌ گذاري‌ ساختمان‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 991,
+            "lastPrice": 996,
+            "totalCount": 1586,
+            "totalVolume": 84582846,
+            "totalValue": 83862618732,
+            "priceChange": 39,
+            "lastClosePrice": 957
+          }
+        },
+        {
+          "refId": "IRO1NSTH0001",
+          "name": "ثنوسا",
+          "detailName": "نوسازي‌وساختمان‌تهران‌",
+          "tradeSummary": {
+            "closePrice": 3398,
+            "lastPrice": 3369,
+            "totalCount": 406,
+            "totalVolume": 4265437,
+            "totalValue": 14495375447,
+            "priceChange": -160,
+            "lastClosePrice": 3529
+          }
+        }
+      ]
+    },
+    {
+      "name": "رايانه و فعاليت‌هاي وابسته به آن",
+      "code": "72",
+      "instruments": [
+        {
+          "refId": "IRO1PRKT0001",
+          "name": "پرداخت",
+          "detailName": "به پرداخت ملت",
+          "tradeSummary": {
+            "closePrice": 23540,
+            "lastPrice": 23200,
+            "totalCount": 107,
+            "totalVolume": 290256,
+            "totalValue": 6870005740,
+            "priceChange": -300,
+            "lastClosePrice": 23500
+          }
+        },
+        {
+          "refId": "IRO1DADE0001",
+          "name": "مداران",
+          "detailName": "داده‌پردازي‌ايران‌",
+          "tradeSummary": {
+            "closePrice": 20870,
+            "lastPrice": 20810,
+            "totalCount": 1593,
+            "totalVolume": 3309715,
+            "totalValue": 69080161830,
+            "priceChange": -730,
+            "lastClosePrice": 21540
+          }
+        },
+        {
+          "refId": "IRO1IAGM0001",
+          "name": "مرقام",
+          "detailName": "ايران‌ارقام‌",
+          "tradeSummary": {
+            "closePrice": 9410,
+            "lastPrice": 9220,
+            "totalCount": 195,
+            "totalVolume": 788215,
+            "totalValue": 7383330810,
+            "priceChange": -240,
+            "lastClosePrice": 9460
+          }
+        },
+        {
+          "refId": "IRO1EPRS0001",
+          "name": "رتاپ",
+          "detailName": "تجارت الكترونيك  پارسيان",
+          "tradeSummary": {
+            "closePrice": 4296,
+            "lastPrice": 4298,
+            "totalCount": 444,
+            "totalVolume": 2041449,
+            "totalValue": 8806732574,
+            "priceChange": 26,
+            "lastClosePrice": 4272
+          }
+        },
+        {
+          "refId": "IRO1INFO0001",
+          "name": "رانفور",
+          "detailName": "خدمات‌انفورماتيك‌",
+          "tradeSummary": {
+            "closePrice": 4109,
+            "lastPrice": 4070,
+            "totalCount": 241,
+            "totalVolume": 2842101,
+            "totalValue": 11529184941,
+            "priceChange": -52,
+            "lastClosePrice": 4122
+          }
+        },
+        {
+          "refId": "IRO1APPE0001",
+          "name": "آپ",
+          "detailName": "آسان پرداخت پرشين",
+          "tradeSummary": {
+            "closePrice": 6510,
+            "lastPrice": 6460,
+            "totalCount": 355,
+            "totalVolume": 2255943,
+            "totalValue": 14671699620,
+            "priceChange": -260,
+            "lastClosePrice": 6720
+          }
+        },
+        {
+          "refId": "IRO1RKSH0001",
+          "name": "ركيش",
+          "detailName": "كارت اعتباري ايران كيش",
+          "tradeSummary": {
+            "closePrice": 3044,
+            "lastPrice": 3000,
+            "totalCount": 363,
+            "totalVolume": 3526347,
+            "totalValue": 10661745524,
+            "priceChange": -99,
+            "lastClosePrice": 3099
+          }
+        },
+        {
+          "refId": "IRO1SEPK0001",
+          "name": "سپ",
+          "detailName": "پرداخت الكترونيك سامان كيش",
+          "tradeSummary": {
+            "closePrice": 25700,
+            "lastPrice": 26000,
+            "totalCount": 92,
+            "totalVolume": 348296,
+            "totalValue": 8960900360,
+            "priceChange": 300,
+            "lastClosePrice": 25700
+          }
+        },
+        {
+          "refId": "IRO1SYSM0001",
+          "name": "سيستم",
+          "detailName": "همكاران سيستم",
+          "tradeSummary": {
+            "closePrice": 6000,
+            "lastPrice": 5920,
+            "totalCount": 56,
+            "totalVolume": 252089,
+            "totalValue": 1494887520,
+            "priceChange": -80,
+            "lastClosePrice": 6000
+          }
+        }
+      ]
+    },
+    {
+      "name": "اطلاعات و ارتباطات",
+      "code": "73",
+      "instruments": [
+        {
+          "refId": "IRO1ASTC0001",
+          "name": "اسياتك",
+          "detailName": "انتقال داده هاي آسياتك",
+          "tradeSummary": {
+            "closePrice": 19420,
+            "lastPrice": 19500,
+            "totalCount": 2563,
+            "totalVolume": 5731113,
+            "totalValue": 111319564640,
+            "priceChange": -130,
+            "lastClosePrice": 19630
+          }
+        },
+        {
+          "refId": "IRO1HWEB0001",
+          "name": "هاي وب",
+          "detailName": "داده گسترعصرنوين-هاي وب",
+          "tradeSummary": {
+            "closePrice": 2947,
+            "lastPrice": 2932,
+            "totalCount": 5316,
+            "totalVolume": 161359668,
+            "totalValue": 475527428499,
+            "priceChange": -163,
+            "lastClosePrice": 3095
+          }
+        }
+      ]
+    },
+    {
+      "name": "خدمات فني و مهندسي",
+      "code": "74",
+      "instruments": [
+        {
+          "refId": "IRO1MAPN0001",
+          "name": "رمپنا",
+          "detailName": "گروه مپنا (سهامي عام)",
+          "tradeSummary": {
+            "closePrice": 15420,
+            "lastPrice": 15060,
+            "totalCount": 215,
+            "totalVolume": 676086,
+            "totalValue": 10247016490,
+            "priceChange": -390,
+            "lastClosePrice": 15450
+          }
+        }
+      ]
+    }
+  ]
+}

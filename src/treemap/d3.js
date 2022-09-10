@@ -46,7 +46,6 @@ export function getSize(d) {
   const bbox = { width: self.x1 - self.x0, height: self.y1 - self.y0 };
   const cbbox = { width: parent.x1 - parent.x0, height: parent.y1 - parent.y0 };
   const scale = Math.min(cbbox.width / bbox.width, cbbox.height / bbox.height);
-  console.log(cbbox.width / bbox.width, cbbox.height / bbox.height);
   d.scale = scale;
   return d;
 }
@@ -70,6 +69,7 @@ export function isElementInViewport(window, leaf, transfrom) {
 class TreeMap {
   constructor({
     ref,
+    canvasRef,
     data,
     sortKey,
     width,
@@ -79,6 +79,7 @@ class TreeMap {
     transform,
   }) {
     this.ref = ref;
+    this.canvasRef = canvasRef;
     this.sortKey = sortKey;
     this.height = height;
     this.width = width;
@@ -95,61 +96,51 @@ class TreeMap {
         [width, height],
       ]);
 
-    d3.zoomIdentity.translate(transform.x, transform.y).scale(transform.k);
-
     this.colorScale = d3
       .scaleOrdinal()
       .domain([-3, -2, -1, 0, 1, 2, 3])
       .range(colorRange);
 
-    // begining of everything
-    if (data) {
-      this.createHierarchy(data);
-    }
-
     // get elements
+
     this.map = d3.select(this.ref).call(this.mainZoom);
-    this.canvas = this.map
-      .select("canvas.canvas")
+    this.canvas = d3
+      .select(this.canvasRef)
       .attr("width", this.width)
       .attr("height", this.height);
     this.context = this.canvas.node().getContext("2d");
 
     // set zoom
     this.mainZoom.on("zoom", ({ transform }) => {
+      if (onZoom) onZoom(transform);
       this.transform = transform;
       this.map.attr("data-zoom", transform.k);
       this.updateCanvas(transform);
       d3.select("div.textLayer").attr(
         "style",
-        `${textLayerStyle(
-          true,
-          window.innerWidth,
-          window.innerHeight,
-          transform
-        )}`
+        `${textLayerStyle(true, this.width, this.height, transform)}`
       );
-      if (onZoom) onZoom(transform);
     });
 
     this.mainZoom.on("end", ({ transform }) => {
       if (onZoomEnd) onZoomEnd(transform);
       d3.select("div.textLayer").attr(
         "style",
-        `${textLayerStyle(
-          false,
-          window.innerWidth,
-          window.innerHeight,
-          transform
-        )}`
+        `${textLayerStyle(false, this.width, this.height, transform)}`
       );
     });
 
-    this.drewCanvas();
-  }
-
-  setDefaultZoom() {
-    this.map.call(this.mainZoom.transform, d3.zoomIdentity);
+    // begining of everything
+    if (data) {
+      console.log("data", data);
+      this.createHierarchy(data);
+      this.drewCanvas();
+      // set default zoom from last where we leave the zoom
+      if (transform.k !== 1) {
+        d3.zoomIdentity.translate(transform.x, transform.y).scale(transform.k);
+        this.updateCanvas(transform);
+      }
+    }
   }
 
   createHierarchy(data) {
@@ -167,6 +158,7 @@ class TreeMap {
     // .nodeSize([10, 10]);
 
     this.root = treemap(this.root);
+    console.log("this.root ====> ", this.root);
     return this.root;
   }
 

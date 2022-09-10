@@ -40,7 +40,7 @@ export const TextLayer = styled.div`
   height: 100%;
   overflow: hidden;
   position: absolute;
-  ${({ transform, width, height }) => {
+  ${({ transform }) => {
     return `transform: translate(${transform.x}px, ${transform.y}px) scale(${transform.k})`;
   }}
 `;
