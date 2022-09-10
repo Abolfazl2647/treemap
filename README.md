@@ -1,3 +1,45 @@
+# Treemap (a heatmap like coin360) 
+
+this project is for developers whom trying to integrate d3 treemaps with react into real project.
+this is just an example, code is not mature but works fine.
+
+# Developers Talk
+
+in the first look it is easy to create such a map with d3 and SVG, and yea it is.
+but when you add 2000 leaves to the tree everything changes. you dont have a map you just have lag which moveing around.
+
+basically you have the follwing problems:
+
+1- huge lag in zooming
+
+2- update the dom when new data comes.
+
+3- how to calculate the font size in zooming
+
+4- zoom breaking after dom update
+
+5- combining d3 and react
+
+to get rid of the lag i spent 2 weeks and try 3-4 ideas to finaly get this to work.
+
+# what is done
+
+1- creating treemap Canvas with d3
+
+2- creating a textlyaer for showing symbols on tiles on top of the canvas
+
+3- only load the amount of data which is in the viewport and at leaset in an amount of size
+
+4- when ever a new data came from the API, render waits until zooming finished
+
+5- rendering tiles with canvas and rendering texts with react
+
+
+# help
+
+for sure this project needs to be better it is work great in Chrome but for other bowsers i have some issues like text rendering and frame rate.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
