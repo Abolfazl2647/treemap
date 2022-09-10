@@ -82,6 +82,7 @@ class TreeMap {
     this.map = null;
     this.canvas = null;
     this.context = null;
+    this.transform = transform;
 
     this.mainZoom = d3
       .zoom()
@@ -191,6 +192,22 @@ class TreeMap {
     this.drewCanvas();
     this.context.restore();
   }
+
+  updateSectorColor = (leaf, color) => {
+    this.context.save();
+    this.context.clearRect(0, 0, this.width, this.height);
+    this.context.translate(this.transform.x, this.transform.y);
+    this.context.scale(this.transform.k, this.transform.k);
+    this.context.fillStyle = color;
+    this.context.fillRect(
+      leaf.x0, // x
+      leaf.y0, // y
+      leaf.x1 - leaf.x0, // width
+      leaf.y1 - leaf.y0
+    ); // height
+    this.drewCanvas();
+    this.context.restore();
+  };
 }
 
 export default TreeMap;

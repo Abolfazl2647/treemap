@@ -19,6 +19,7 @@ export default styled.div`
     transform-origin: 0 0 0;
     text-rendering: optimizeLegibility;
     backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: none;
   }
 
@@ -70,6 +71,8 @@ export const Sector = memo(styled.div`
     background-color: black;
     justify-content: flex-start;
     white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 
     ${({ transform, d }) => {
       const fontSize = Math.min(d * 10) / transform.k;
@@ -106,6 +109,9 @@ export const Tile = memo(styled.div`
 
   .tile-name {
     color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
     ${({ tile }) => {
       const nodeWidth = tile.x1 - tile.x0;
       const nodeHeight = tile.y1 - tile.y0;

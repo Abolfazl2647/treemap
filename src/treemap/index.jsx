@@ -27,6 +27,8 @@ class Treemap extends React.PureComponent {
   componentDidMount() {
     const { sortValue, data } = this.props;
     this.renderTreemap(sortValue, data);
+
+    this.resize = window.addEventListener("resize", this.handleResize);
   }
 
   componentDidUpdate(prevProps) {
@@ -43,7 +45,16 @@ class Treemap extends React.PureComponent {
     }
   }
 
-  watingForZoomFinished() {
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleResize);
+  }
+
+  handleResize = () => {
+    const { sortValue, data } = this.props;
+    this.renderTreemap(sortValue, data);
+  };
+
+  watingForZoomFinished = () => {
     // how many times update occurs dose not matter
     // becuase we need the least update (so we dont use placeHolderRender as array)
     const { sortValue, data } = this.props;
@@ -51,7 +62,7 @@ class Treemap extends React.PureComponent {
       sort: sortValue,
       data,
     };
-  }
+  };
 
   proccessPlaceHolder = () => {
     const { sort, data } = this.placeHolderRender;
@@ -59,11 +70,17 @@ class Treemap extends React.PureComponent {
     this.placeHolderRender = null;
   };
 
+  handleMouseOver = (sector) => {
+    if (!this.zoomingFlag) {
+      this.treemap.updateSectorColor(sector, "#ffd84c");
+    }
+  };
+
   renderTreemap(sortValue, data) {
     const self = this;
     const { transform } = this.state;
 
-    const treemap = new TreeMap({
+    this.treemap = new TreeMap({
       data,
       transform,
       canvasRef: this.canvasRef.current,
@@ -85,12 +102,12 @@ class Treemap extends React.PureComponent {
     });
 
     this.setState({
-      root: treemap.getRoot(),
+      root: this.treemap.getRoot(),
     });
   }
 
   render() {
-    const { onClick } = this.props;
+    const { onChange, onClick } = this.props;
     const { root, transform } = this.state;
 
     return (
@@ -122,6 +139,8 @@ class Treemap extends React.PureComponent {
                       sector={rest}
                       d={d}
                       transform={transform}
+                      onClick={onClick}
+                      onMouseOver={() => this.handleMouseOver(sector)}
                     >
                       <span className="category-name">{data.name}</span>
                       {children
@@ -143,8 +162,7 @@ class Treemap extends React.PureComponent {
                               tile={restTile}
                               sector={rest}
                               name={data.name}
-                              onClick={onClick}
-                              // onMouseOver={(e, info) => onChange(e, info)}
+                              onMouseOver={(e, info) => onChange(e, info)}
                             >
                               <span className="tile-name">
                                 {data.name}

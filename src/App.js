@@ -51,7 +51,7 @@ function App() {
   };
 
   const handleClick = () => {
-    setSortValue("priceChange");
+    setSortValue("totalVolume");
   };
 
   useEffect(() => {
