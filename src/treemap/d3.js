@@ -39,15 +39,10 @@ export function textLayerStyle(blur, width, height, transform) {
   }
   return `width:${width}px; height:${height}px;`;
 }
-
 export function getSize(d) {
-  const self = d;
-  const parent = d.parent;
-  const bbox = { width: self.x1 - self.x0, height: self.y1 - self.y0 };
-  const cbbox = { width: parent.x1 - parent.x0, height: parent.y1 - parent.y0 };
-  const scale = Math.min(cbbox.width / bbox.width, cbbox.height / bbox.height);
-  d.scale = scale;
-  return d;
+  const width = d.x1 - d.x0;
+  const scale = (width + 4) / width;
+  return scale;
 }
 
 export function isElementInViewport(window, leaf, transfrom) {

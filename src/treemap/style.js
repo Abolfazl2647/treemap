@@ -52,15 +52,40 @@ export const Sector = memo(styled.div`
   width: ${({ sector }) => sector.x1 - sector.x0}px;
   height: ${({ sector }) => sector.y1 - sector.y0}px;
   transform: ${({ sector }) => `translate(${sector.x0}px, ${sector.y0}px)`};
+  border: 2px solid black;
+  box-sizing: border-box;
 
   .category-name {
+    text-align: right;
+    direction: rtl;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    display: flex;
+    color: white;
+    max-width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: black;
+    justify-content: flex-start;
+    white-space: nowrap;
+
     ${({ transform, d }) => {
-      const fontSize = Math.min(d.scale) / transform.k;
-      return `font-size: ${Math.max(fontSize, 3)}px;line-height:${Math.max(
+      const fontSize = Math.min(d * 10) / transform.k;
+      return `font-size: ${Math.max(fontSize, 2)}px;line-height:${Math.max(
         fontSize,
         3
       )}px`;
     }}
+  }
+
+  &:hover {
+    border: 2px solid #ffd84c;
+    .category-name {
+      color: black;
+      background-color: #ffd84c;
+    }
   }
 `);
 
