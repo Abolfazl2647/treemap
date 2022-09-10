@@ -1,7 +1,10 @@
-# Treemap (a heatmap like coin360) 
+# Treemap (a heatmap like coin360) - D3,React
 
 this project is for developers whom trying to integrate d3 treemaps with react into real project.
 this is just an example, code is not mature but works fine.
+
+### Final Image:
+![Treemap like Coin360](https://raw.githubusercontent.com/Abolfazl2647/treemap/master/public/treemap.png)
 
 # Developers Talk
 
